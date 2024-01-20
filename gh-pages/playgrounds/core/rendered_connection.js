@@ -306,7 +306,7 @@ Blockly.RenderedConnection.prototype.hideAll = function() {
  */
 Blockly.RenderedConnection.prototype.isConnectionAllowed = function(candidate,
     maxRadius) {
-  if (this.distanceFrom(candidate) > maxRadius) {
+  if (this.distanceFrom(candidate) > maxRadius*1.1) {
     return false;
   }
 
