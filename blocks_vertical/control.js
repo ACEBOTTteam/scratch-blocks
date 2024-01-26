@@ -27,6 +27,59 @@ goog.require('Blockly.Colours');
 goog.require('Blockly.ScratchBlocks.VerticalExtensions');
 
 
+Blockly.Blocks['math_speed_number'] = {
+  init: function () {
+    this.jsonInit({
+      "message0": "%1",
+      "args0": [
+        {
+          "type": "field_slider",
+          "name": "NUM",
+          "value": 0,
+          "precision": 1,
+          "min": "-255",
+          "max": "255"
+        }
+      ],
+      "output": "Number",
+      "outputShape": Blockly.OUTPUT_SHAPE_ROUND,
+      "colour": Blockly.Colours.textField,
+      "colourSecondary": Blockly.Colours.textField,
+      "colourTertiary": Blockly.Colours.textField
+    });
+  }
+};
+
+let pin = [
+  ['1','1'],['2','2']
+]
+
+Blockly.Blocks['130_DC_Motor_Module'] = {
+  init: function () {
+    this.jsonInit({
+      "message0": "130直流电机IN+%1IN-%2速度为%3",
+      "args0": [
+        {
+          "type": "field_dropdown",
+          "name": "PIN_LIST_1",
+          "options": pin
+        },
+        {
+          "type": "field_dropdown",
+          "name": "PIN_LIST_2",
+          "options": pin
+        },
+        {
+          "type": "input_value",
+          "name": "SPEED"
+        }
+      ],
+      "category": Blockly.Categories.control,
+      "extensions": ["colours_control", "shape_statement"]
+    })
+  }
+}
+
 Blockly.Blocks['event_whenarduinobegin'] = {
   /**
    * Block for when arduino begin.

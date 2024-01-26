@@ -23,6 +23,18 @@ goog.provide('Blockly.Arduino.arduino');
 goog.require('Blockly.Arduino');
 
 
+Blockly.Arduino['130_DC_Motor_Module'] = (block) => {
+  let PIN_LIST_1 = block.getFieldValue('PIN_LIST_1')
+  let PIN_LIST_2 = block.getFieldValue('PIN_LIST_2')
+  let SPEED = Blockly.Arduino.valueToCode(block, 'SPEED', Blockly.Arduino.ORDER_UNARY_POSTFIX) || 0;
+  let variable = 'dc_' + PIN_LIST_1 + PIN_LIST_2
+  // Blockly.Arduino.includes_['include_ACB_130Motor'] = '#include <ACB_130Motor.h>';
+  // Blockly.Arduino.definitions_['definitions_ACB_130Motor' + variable] = `ACB_130Motor ${variable}(${PIN_LIST_1},${PIN_LIST_1},${SPEED});`;
+
+  const code = `${variable}.run()`
+  return [code, Blockly.Arduino.ORDER_NONE]
+}
+
 Blockly.Arduino['arduino_pin_setPinMode'] = function(block) {
   var arg0 = block.getFieldValue('PIN') || '0';
   var arg1 = block.getFieldValue('MODE') || 'INPUT';

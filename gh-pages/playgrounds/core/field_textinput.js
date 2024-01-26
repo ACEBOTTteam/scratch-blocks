@@ -504,8 +504,8 @@ Blockly.FieldTextInput.prototype.resizeEditor_ = function() {
   width = Math.max(width, Blockly.BlockSvg.FIELD_WIDTH_MIN_EDIT * scale);
   width = Math.min(width, Blockly.BlockSvg.FIELD_WIDTH_MAX_EDIT * scale);
   // Add 1px to width and height to account for border (pre-scale)
-  div.style.width = (width / scale + 1) + 'px';
-  div.style.height = (Blockly.BlockSvg.FIELD_HEIGHT_MAX_EDIT + 1) + 'px';
+  div.style.width = (width / scale + 1)*1.1 + 'px';
+  div.style.height = (Blockly.BlockSvg.FIELD_HEIGHT_MAX_EDIT + 1)*1.1 + 'px';
   div.style.transform = 'scale(' + scale + ')';
 
   // Use margin-left to animate repositioning of the box (value is unscaled).

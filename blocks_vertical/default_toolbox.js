@@ -276,6 +276,14 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
     '</block>' +
   '</category>' +
   '<category name="%{BKY_CATEGORY_CONTROL}" id="control" colour="#FFAB19" secondaryColour="#CF8B17">' +
+    '<block type="event_whenarduinobegin"/>'+
+    '<block type="130_DC_Motor_Module">'+
+      '<value name="SPEED">'+
+        '<shadow type="math_speed_number">'+
+          '<field name="NUM"></field>'+
+        '</shadow>'+
+      '</value>'+
+    '</block>'+
     '<block type="control_wait" id="control_wait">' +
       '<value name="DURATION">' +
         '<shadow type="math_positive_number">' +

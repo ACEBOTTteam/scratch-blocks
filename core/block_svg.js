@@ -390,7 +390,7 @@ Blockly.BlockSvg.prototype.moveBy = function(dx, dy) {
  */
 Blockly.BlockSvg.prototype.translate = function(x, y) {
   this.getSvgRoot().setAttribute('transform',
-      'translate(' + x + ',' + y + ') scale(1.1,1.1)');
+      'translate(' + x + ',' + y + ')');
 };
 
 /**
@@ -411,7 +411,6 @@ Blockly.BlockSvg.prototype.moveToDragSurface_ = function() {
   this.clearTransformAttributes_();
   this.workspace.blockDragSurface_.translateSurface(xy.x, xy.y);
   // Execute the move on the top-level SVG component
-  this.getSvgRoot().setAttribute('transform','scale(1.1,1.1)');
   this.workspace.blockDragSurface_.setBlocksAndShow(this.getSvgRoot());
 };
 
@@ -444,7 +443,7 @@ Blockly.BlockSvg.prototype.moveDuringDrag = function(newLoc) {
   if (this.useDragSurface_) {
     this.workspace.blockDragSurface_.translateSurface(newLoc.x, newLoc.y);
   } else {
-    this.svgGroup_.translate_ = 'translate(' + newLoc.x + ',' + newLoc.y + ') scale(1.1,1.1)';
+    this.svgGroup_.translate_ = 'translate(' + newLoc.x + ',' + newLoc.y + ')';
     this.svgGroup_.setAttribute('transform',
         this.svgGroup_.translate_ + this.svgGroup_.skew_);
   }
