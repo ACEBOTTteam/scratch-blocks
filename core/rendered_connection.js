@@ -152,7 +152,7 @@ Blockly.RenderedConnection.prototype.moveToOffset = function(blockTL) {
  */
 Blockly.RenderedConnection.prototype.setOffsetInBlock = function(x, y) {
   this.offsetInBlock_.x = x;
-  this.offsetInBlock_.y = y;
+  this.offsetInBlock_.y = y*1.1;
 };
 
 /**
