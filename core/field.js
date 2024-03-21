@@ -762,6 +762,18 @@ Blockly.Field.prototype.setTooltip = function(_newTip) {
 };
 
 /**
+ * Update the display color
+ */
+Blockly.Field.prototype.updateColour = function() {
+  if (this.box_) {
+    this.box_.setAttribute('stroke', this.sourceBlock_.getColourTertiary());
+    this.box_.setAttribute('fill', this.sourceBlock_.getColour());
+    this.box_.setAttribute('fill-opacity', this.sourceBlock_.getOpacity());
+  }
+  this.updateEditable();
+};
+
+/**
  * Select the element to bind the click handler to. When this element is
  * clicked on an editable field, the editor will open.
  *

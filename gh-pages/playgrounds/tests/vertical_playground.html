@@ -309,6 +309,38 @@
         Blockly.Xml.clearWorkspaceAndLoadFromXml(xml, workspace);
         workspace.getFlyout().setRecyclingEnabled(true);
       }
+
+      Blockly.Blocks['homochromyLED'] = {
+        init: function () {
+            this.jsonInit({
+                "message0": "单色LED%1%2",
+                "args0": [
+                    {
+                        "type": "field_dropdown",
+                        "name": "PIN_LIST",
+                        "options": [
+                          ["1","1"]
+                        ]
+                    },
+                    {
+                        "type": "field_dropdown",
+                        "name": "PIN_TYPE",
+                        "options": [
+                            ["打开", "open"],
+                            ["关闭", "close"]
+                        ]
+                    }
+                ],
+                "category": Blockly.Categories.control,
+                "extensions": ["colours_control", "shape_statement"]
+            })
+        }
+    }
+
+    // let timer = setTimeout(()=>{
+    //   console.log(workspace.getFlyout().getFlyoutItems())
+    // },3000)
+
     </script>
 
     <style>

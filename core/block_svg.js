@@ -62,6 +62,7 @@ Blockly.BlockSvg = function(workspace, prototypeName, opt_id) {
    * @type {SVGElement}
    * @private
    */
+  this.svgLItile = Blockly.utils.createSvgElement('g', {'class': 'svgLitile'}, null);
   this.svgGroup_ = Blockly.utils.createSvgElement('g', {}, null);
   /** @type {SVGElement} */
   this.svgPath_ = Blockly.utils.createSvgElement('path',
@@ -235,11 +236,19 @@ Blockly.BlockSvg.prototype.setGlowStack = function(isGlowingStack) {
   this.isGlowingStack_ = isGlowingStack;
   // Update the applied SVG filter if the property has changed
   var svg = this.getSvgRoot();
-  if (this.isGlowingStack_ && !svg.hasAttribute('filter')) {
+  var parentNode = svg.parentNode
+  if (this.isGlowingStack_ && !parentNode.hasAttribute('filter')) {
+    var dom = Blockly.utils.createSvgElement('g', {'class': 'litileSvg'}, null);
+    dom.appendChild(svg)
+    parentNode.appendChild(dom)
+    
     var stackGlowFilterId = this.workspace.options.stackGlowFilterId || 'blocklyStackGlowFilter';
-    svg.setAttribute('filter', 'url(#' + stackGlowFilterId + ')');
-  } else if (!this.isGlowingStack_ && svg.hasAttribute('filter')) {
-    svg.removeAttribute('filter');
+    dom.setAttribute('filter', 'url(#' + stackGlowFilterId + ')');
+  } else if (!this.isGlowingStack_ && parentNode.hasAttribute('filter')) {
+    var dom = parentNode.parentNode
+    dom.removeChild(parentNode);
+    dom.appendChild(svg)
+    // svg.removeAttribute('filter');
   }
 };
 
@@ -532,7 +541,7 @@ Blockly.BlockSvg.prototype.setOpacity = function(opacity) {
  * @return {number} Intended opacity, betweeen 0 and 1
  */
 Blockly.BlockSvg.prototype.getOpacity = function() {
-  return this.opacity_;
+  return this.isEnabled() ? this.opacity_ : 0.5;
 };
 
 /**
@@ -856,9 +865,11 @@ Blockly.BlockSvg.prototype.dispose = function(healStack, animate) {
   Blockly.BlockSvg.superClass_.dispose.call(this, healStack);
 
   goog.dom.removeNode(this.svgGroup_);
+  goog.dom.removeNode(this.svgLItile);
   blockWorkspace.resizeContents();
   // Sever JavaScript to DOM connections.
   this.svgGroup_ = null;
+  this.svgLItile = null;
   this.svgPath_ = null;
   Blockly.Field.stopCache();
 };

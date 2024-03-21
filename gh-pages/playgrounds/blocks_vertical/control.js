@@ -56,8 +56,9 @@ let pin = [
 
 Blockly.Blocks['130_DC_Motor_Module'] = {
   init: function () {
+    console.log(Blockly.Msg.ROBOT_DC_MOTOR,'Blockly.Msg.ROBOT_DC_MOTOR')
     this.jsonInit({
-      "message0": "130直流电机IN+%1IN-%2速度为%3",
+      "message0": Blockly.Msg.ROBOT_DC_MOTOR,
       "args0": [
         {
           "type": "field_dropdown",

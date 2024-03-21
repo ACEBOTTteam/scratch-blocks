@@ -555,6 +555,7 @@ Blockly.BlockSvg.prototype.updateColour = function() {
   for (var x = 0, input; input = this.inputList[x]; x++) {
     for (var y = 0, field; field = input.fieldRow[y]; y++) {
       field.setText(null);
+      field.updateColour();
     }
   }
 };

@@ -786,7 +786,7 @@ Blockly.Block.prototype.setTooltip = function (newTip) {
  * @return {string} #RRGGBB string.
  */
 Blockly.Block.prototype.getColour = function () {
-  return this.colour_;
+  return this.isEnabled() ? this.colour_ : 'url(#' + this.workspace.options.disabledPatternId + ')';
 };
 
 /**
@@ -794,7 +794,7 @@ Blockly.Block.prototype.getColour = function () {
  * @return {string} #RRGGBB string.
  */
 Blockly.Block.prototype.getColourSecondary = function () {
-  return this.colourSecondary_;
+  return this.isEnabled() ? this.colourSecondary_ : 'url(#' + this.workspace.options.disabledPatternId + ')';
 };
 
 /**
@@ -802,7 +802,7 @@ Blockly.Block.prototype.getColourSecondary = function () {
  * @return {string} #RRGGBB string.
  */
 Blockly.Block.prototype.getColourTertiary = function () {
-  return this.colourTertiary_;
+  return this.isEnabled() ? this.colourTertiary_ : 'url(#' + this.workspace.options.disabledPatternId + ')';
 };
 
 /**
@@ -1152,11 +1152,49 @@ Blockly.Block.prototype.getInputsInline = function () {
  * Set whether the block is disabled or not.
  * @param {boolean} disabled True if disabled.
  */
-Blockly.Block.prototype.setDisabled = function (disabled) {
-  if (this.disabled != disabled) {
+Blockly.Block.prototype.setDisabled = function(disabled) {
+  this.setEnabled(!disabled);
+};
+
+/**
+ * Get whether this block is enabled or not.
+ * @return {boolean} True if enabled.
+ */
+Blockly.Block.prototype.isEnabled = function() {
+  // if this block is surrounded and has no previous block, means it is
+  // inside a block. If it's parent is disabled, disabled it self too.
+  if (this.getSurroundParent() && !this.getPreviousBlock()) {
+    if (!this.getSurroundParent().isEnabled()) {
+      return false;
+    }
+    return !this.disabled;
+  } else {
+    return !this.disabled;
+  }
+};
+
+/**
+ * Set whether the block is enabled or not.
+ * @param {boolean} enabled True if enabled.
+ */
+Blockly.Block.prototype.setEnabled = function(enabled) {
+  this.setEditable(enabled);
+  if (this.isEnabled() != enabled) {
     Blockly.Events.fire(new Blockly.Events.BlockChange(
-      this, 'disabled', null, this.disabled, disabled));
-    this.disabled = disabled;
+        this, 'disabled', null, this.disabled, !enabled));
+    this.disabled = !enabled;
+
+    for (var i = 0, input; input = this.inputList[i]; i++) {
+      if (input.name && (input.type === Blockly.INPUT_VALUE)) {
+        var targetBlock = this.getInputTargetBlock(input.name);
+        targetBlock.setEnabled(enabled);
+        targetBlock.updateColour();
+      }
+    }
+
+    if (this.rendered) {
+      this.updateColour();
+    }
   }
 };
 

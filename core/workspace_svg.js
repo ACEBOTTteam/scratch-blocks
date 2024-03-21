@@ -1567,6 +1567,7 @@ Blockly.WorkspaceSvg.prototype.updateToolbox = function(tree) {
     this.options.languageTree = tree;
     this.toolbox_.populate_(tree);
     this.toolbox_.position();
+    this.updateWorkspaceBlocksDisabledState();
   } else {
     if (!this.flyout_) {
       throw 'Existing toolbox has categories.  Can\'t change mode.';
@@ -1574,6 +1575,33 @@ Blockly.WorkspaceSvg.prototype.updateToolbox = function(tree) {
     this.options.languageTree = tree;
     this.flyout_.show(tree.childNodes);
   }
+};
+
+/**
+ * Modify the blocks in the workspace by attribute of disabled.
+ */
+Blockly.WorkspaceSvg.prototype.updateWorkspaceBlocksDisabledState = function() {
+  var allBlock = this.getAllBlocks();
+  var flyoutItems = this.getFlyout().getFlyoutItems();
+
+  allBlock.forEach(function(block) {
+    // Try to find the same type block in flyout.
+    var matchedBlock = flyoutItems.find(function(item) {
+      if("procedures_definition"===block.type){
+        return true
+      }
+      return item.type === block.type;
+    });
+
+    // if a block in workspace can not find the same type block in flyout.
+    // And it's not include in ignore list, and it's not a shadow block, disable it.
+    if (!matchedBlock && !block.isShadow()) {
+        block.setEnabled(false);
+    } else {
+      // else recovery this block.
+      block.setEnabled(true);
+    }
+  });
 };
 
 /**

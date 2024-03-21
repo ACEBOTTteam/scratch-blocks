@@ -49,6 +49,12 @@ Blockly.Colours = {
     "tertiary": "#CF8B17",
     "quaternary": "#CF8B17"
   },
+  "robot": {
+    "primary": "#2766d5",
+    "secondary": "#2766d5",
+    "tertiary": "#194faf",
+    "quaternary": "#194faf"
+  },
   "event": {
     "primary": "#FFBF00",
     "secondary": "#E6AC00",
