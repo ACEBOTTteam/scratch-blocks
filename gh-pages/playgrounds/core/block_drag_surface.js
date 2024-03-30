@@ -179,14 +179,14 @@ Blockly.BlockDragSurfaceSvg.prototype.createDropShadowDom_ = function(defs) {
  * surface.
  */
 Blockly.BlockDragSurfaceSvg.prototype.setBlocksAndShow = function(blocks) {
-  if(blocks.parentNode&&blocks.parentNode.hasAttribute('filter')){
-    var stackGlowFilterId = Blockly.mainWorkspace.options.stackGlowFilterId || 'blocklyStackGlowFilter';
-    var filterId = blocks.parentNode.getAttribute('filter')
-    filterId = filterId.substring(5,filterId.length-1)
-    if(stackGlowFilterId===filterId){
-      blocks = blocks.parentNode
-    }
-  }
+  // if(blocks.parentNode&&blocks.parentNode.hasAttribute('filter')){
+  //   var stackGlowFilterId = Blockly.mainWorkspace.options.stackGlowFilterId || 'blocklyStackGlowFilter';
+  //   var filterId = blocks.parentNode.getAttribute('filter')
+  //   filterId = filterId.substring(5,filterId.length-1)
+  //   if(stackGlowFilterId===filterId){
+  //     blocks = blocks.parentNode
+  //   }
+  // }
   goog.asserts.assert(
       this.dragGroup_.childNodes.length == 0, 'Already dragging a block.');
   // appendChild removes the blocks from the previous parent

@@ -236,19 +236,11 @@ Blockly.BlockSvg.prototype.setGlowStack = function(isGlowingStack) {
   this.isGlowingStack_ = isGlowingStack;
   // Update the applied SVG filter if the property has changed
   var svg = this.getSvgRoot();
-  var parentNode = svg.parentNode
-  if (this.isGlowingStack_ && !parentNode.hasAttribute('filter')) {
-    var dom = Blockly.utils.createSvgElement('g', {'class': 'litileSvg'}, null);
-    dom.appendChild(svg)
-    parentNode.appendChild(dom)
-    
+  if (this.isGlowingStack_ && !svg.hasAttribute('filter')) {
     var stackGlowFilterId = this.workspace.options.stackGlowFilterId || 'blocklyStackGlowFilter';
-    dom.setAttribute('filter', 'url(#' + stackGlowFilterId + ')');
-  } else if (!this.isGlowingStack_ && parentNode.hasAttribute('filter')) {
-    var dom = parentNode.parentNode
-    dom.removeChild(parentNode);
-    dom.appendChild(svg)
-    // svg.removeAttribute('filter');
+    svg.setAttribute('filter', 'url(#' + stackGlowFilterId + ')');
+  } else if (!this.isGlowingStack_ && svg.hasAttribute('filter')) {
+    svg.removeAttribute('filter');
   }
 };
 
