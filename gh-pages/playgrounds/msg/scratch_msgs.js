@@ -22801,6 +22801,8 @@ Blockly.ScratchMsgs.locales["zh-cn"] =
     "ROBOT_WATER_SENSOR": "水位传感器%1",
     "ROBOT_DIGIT_TUBE_DISPLAY_NUMBER": "四位数码管模块显示数字%1",
     "ROBOT_DIGIT_TUBE_DISPLAY_STRING": "四位数码管模块显示字符串%1",
+    "ROBOT_DIGIT_TUBE_DISPLAY_NUMBER_PIN": "四位数码管模块CLK%1DIO%2显示数字%3",
+    "ROBOT_DIGIT_TUBE_DISPLAY_STRING_PIN": "四位数码管模块CLK%1DIO%2显示字符串%3",
     "ROBOT_COLOR_SENSOR_LIGHT": "颜色传感器%1灯%2",
     "ROBOT_COLOR_SENSOR_COLORS": "颜色传感器%1",
     "ROBOT_BEIGHTNESS": "亮度",
