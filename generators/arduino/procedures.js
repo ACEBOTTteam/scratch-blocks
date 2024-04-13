@@ -107,7 +107,7 @@ Blockly.Arduino['argument_reporter_number'] = function(block) {
   return [safeArgName, Blockly.Arduino.ORDER_ATOMIC];
 };
 
-Blockly.Arduino['argument_reporter_string'] = function(block) {
+Blockly.Arduino['argument_reporter_string_number'] = function(block) {
   var argName = block.getFieldValue('VALUE');
   var safeArgName = Blockly.Arduino.customFunctionsArgName_[argName];
   return [safeArgName, Blockly.Arduino.ORDER_ATOMIC];

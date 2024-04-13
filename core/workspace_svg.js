@@ -1587,7 +1587,11 @@ Blockly.WorkspaceSvg.prototype.updateWorkspaceBlocksDisabledState = function() {
   allBlock.forEach(function(block) {
     // Try to find the same type block in flyout.
     var matchedBlock = flyoutItems.find(function(item) {
-      if("procedures_definition"===block.type){
+      if("procedures_definition"===block.type||
+        "argument_reporter_boolean"===block.type||
+        "argument_reporter_string_number"===block.type||
+        "argument_reporter_number"===block.type
+      ){
         return true
       }
       return item.type === block.type;
