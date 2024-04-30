@@ -59,6 +59,7 @@ Blockly.DataCategory = function(workspace) {
     Blockly.DataCategory.addChangeVariableBy(xmlList, firstVariable);
     Blockly.DataCategory.addShowVariable(xmlList, firstVariable);
     Blockly.DataCategory.addHideVariable(xmlList, firstVariable);
+    Blockly.DataCategory.addSettype(xmlList, firstVariable);
   }
 
   // Now add list variables to the flyout
@@ -173,6 +174,16 @@ Blockly.DataCategory.addHideVariable = function(xmlList, variable) {
   //   </value>
   // </block>
   Blockly.DataCategory.addBlock(xmlList, variable, 'data_hidevariable',
+      'VARIABLE');
+};
+
+Blockly.DataCategory.addSettype = function(xmlList, variable) {
+  // <block type="data_settype">
+  //   <value name="VARIABLE">
+  //     <shadow type="data_variablemenu"></shadow>
+  //   </value>
+  // </block>
+  Blockly.DataCategory.addBlock(xmlList, variable, 'data_settype',
       'VARIABLE');
 };
 

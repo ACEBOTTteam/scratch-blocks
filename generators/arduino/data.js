@@ -65,6 +65,28 @@ Blockly.Arduino['data_hidevariable'] = function() {
   return '';
 };
 
+Blockly.Arduino['data_settype'] = function(block) {
+  var varName = Blockly.Arduino.variableDB_.getName(block.getFieldValue('VARIABLE'),
+      Blockly.Variables.NAME_TYPE);
+  if (varName === 'unnamed') {
+    return '';
+  }
+
+  var arg0 = block.getFieldValue('TYPE') || '0';
+  var data = Blockly.Arduino.definitions_['variables']
+  var index = 0
+  data=data.split('\n');
+  data.forEach((item,key)=>{
+    var itemArr = item.split(' ')
+    if(varName+';'===itemArr[1]){
+      index = key
+    }
+  })
+  data[index] = arg0+' '+varName+';'
+  Blockly.Arduino.definitions_['variables'] = data.join('\n')
+  return '';
+};
+
 Blockly.Arduino['data_listcontents'] = function(block) {
   var varName = Blockly.Arduino.variableDB_.getName(block.getFieldValue('LIST'),
       Blockly.Variables.NAME_TYPE);

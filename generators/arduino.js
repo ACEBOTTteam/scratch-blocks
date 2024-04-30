@@ -143,7 +143,7 @@ Blockly.Arduino.init = function(workspace) {
       defvars[x] = 'SimpleList<String> ' +
         Blockly.Arduino.variableDB_.getName(variables[x].name, Blockly.Variables.NAME_TYPE) + ';';
     } else {
-      defvars[x] = 'float ' + Blockly.Arduino.variableDB_.getName(variables[x].name, Blockly.Variables.NAME_TYPE) + ';';
+      defvars[x] = 'double ' + Blockly.Arduino.variableDB_.getName(variables[x].name, Blockly.Variables.NAME_TYPE) + ';';
     }
   }
   if (variables.length > 0) {

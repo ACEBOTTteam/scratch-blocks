@@ -69,7 +69,7 @@ Blockly.Arduino['operator_compare'] = function(block) {
     arg0 = '0';
   } else if (arg0.charAt(0) === '"' && arg0.charAt(arg0.length - 1) === '"') {
     if (arg0.length === 3) { // Arg is a single character
-      arg0 = arg0.replace(/"/g, '\'');
+      // arg0 = arg0.replace(/"/g, '\'');
     } else { // Arg is a string
       arg0 = 'String(' + arg0 + ')';
     }
@@ -80,7 +80,7 @@ Blockly.Arduino['operator_compare'] = function(block) {
     arg1 = '0';
   } else if (arg1.charAt(0) === '"' && arg1.charAt(arg1.length - 1) === '"') {
     if (arg1.length === 3) {
-      arg1 = arg1.replace(/"/g, '\'');
+      // arg1 = arg1.replace(/"/g, '\'');
     } else {
       arg1 = 'String(' + arg1 + ')';
     }

@@ -145,6 +145,39 @@ Blockly.Blocks['data_hidevariable'] = {
   }
 };
 
+Blockly.Blocks['data_settype'] = {
+  /**
+   * Block to hide a variable
+   * @this Blockly.Block
+   */
+  init: function() {
+    this.jsonInit({
+      "message0": Blockly.Msg.SET_DATA_TYPE,
+      "args0": [
+        {
+          "type": "field_variable",
+          "name": "VARIABLE"
+        },
+        {
+          "type": "field_dropdown",
+          "name": "TYPE",
+          "options": [
+            [Blockly.Msg.ROBOT_FLOAT,"float"],
+            [Blockly.Msg.ROBOT_INT,"int"],
+            ["char*","char*"],
+            ["char","char"],
+            ["String","String"],
+          ]
+        }
+      ],
+      "previousStatement": null,
+      "nextStatement": null,
+      "category": Blockly.Categories.data,
+      "extensions": ["colours_data"]
+    });
+  }
+};
+
 Blockly.Blocks['data_listcontents'] = {
   /**
    * List reporter.
