@@ -155,7 +155,7 @@ Blockly.Arduino['operator_contains'] = function(block) {
   var order = Blockly.Arduino.ORDER_UNARY_PREFIX;
   var arg0 = Blockly.Arduino.valueToCode(block, 'STRING1', order) || '\'\'';
   var arg1 = Blockly.Arduino.valueToCode(block, 'STRING2', order) || '0';
-  var code = 'String(' + arg0 + ').indexOf(String(' + arg1 + '))';
+  var code = 'String(' + arg0 + ').indexOf(String(' + arg1 + '))!=-1';
   return [code, Blockly.Arduino.ORDER_NONE];
 };
 

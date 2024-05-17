@@ -309,6 +309,15 @@
         Blockly.Xml.clearWorkspaceAndLoadFromXml(xml, workspace);
         workspace.getFlyout().setRecyclingEnabled(true);
       }
+      let timer = setTimeout(()=>{
+        workspace.addChangeListener(generatPythonCode);
+        console.log('完成')
+      },3000)
+      const generatPythonCode = () => {
+        //当前为上传模式时转换代码
+        let code = Blockly['Arduino'].workspaceToCode(workspace)
+        console.log(code)
+      }
 
       Blockly.Blocks['homochromyLED'] = {
         init: function () {

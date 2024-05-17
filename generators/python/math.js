@@ -48,3 +48,5 @@ Blockly.Python['math_uint10_number'] = Blockly.Python['math_number'];
 Blockly.Python['math_int11_number'] = Blockly.Python['math_number'];
 Blockly.Python['math_0to100_number'] = Blockly.Python['math_number'];
 Blockly.Python['math_half_angle'] = Blockly.Python['math_number'];
+Blockly.Python['rgb_number'] = Blockly.Python['math_number'];
+Blockly.Python['ws_number'] = Blockly.Python['math_number'];

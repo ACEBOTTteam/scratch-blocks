@@ -36,6 +36,17 @@ Blockly.Arduino['procedures_definition'] = function(block) {
   return null;
 };
 
+Blockly.Arduino['procedures_callback'] = function(block) {
+  var funcName = block.getProcCode();
+  funcName = funcName.replace(/ /g, '_');
+  funcName = funcName.replace(/%n/g, 'N');
+  funcName = funcName.replace(/%s/g, 'S');
+  funcName = funcName.replace(/%b/g, 'B');
+  funcName = Blockly.Arduino.variableDB_.getName(funcName, Blockly.Procedures.NAME_TYPE);
+
+  return [funcName, Blockly.Arduino.ORDER_NONE];
+};
+
 Blockly.Arduino['procedures_call'] = function(block) {
   // Generators can not automatic handle indefinite parameters. We should get
   // block.inputList and handle

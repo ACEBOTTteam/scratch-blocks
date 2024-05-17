@@ -316,7 +316,7 @@ Blockly.ScratchMsgs.locales["ar"] = {
     "ROBOT_TRACE_SENSOR_SET": "تعيين أقطاب مستشعر تتبع الخط (R: %1, M: %2, L: %3)",
     "ROBOT_TRACE_SENSOR_GET": "قيمة مستشعر التتبع الثلاثي %1",
     "ROBOT_POTENTIOMETER": "مقياس الجهد %1",
-    "ROBOT_TOUCH_SENSOR": "مستشعر اللمس %1",
+    "ROBOT_TOUCH_SENSOR": "تم لمس مستشعر التلمس %1",
     "ROBOT_FLAME_SENSOR": "مستشعر اللهب %1",
     "ROBOT_RGB_MODULE": "مصباح RGB %1 أحمر %2 %3 أخضر %4 %5 أزرق %6",
     "ROBOT_SET_TAPE_LIGHTS": "إضاءة الشريط %1 %2 %3",
@@ -406,7 +406,9 @@ Blockly.ScratchMsgs.locales["ar"] = {
     "OPERATOR_LOCATION": "احصل على موقع %1 في %2",
     "OPERATOR_CR": "عودة العربة",
     "OPERATOR_BR": "انتقال إلى السطر التالي",
-    "OPERATOR_CR&BR": "عودة العربة & انتقال إلى السطر التالي",
+    "OPERATOR_CR_BR": "عودة العربة & انتقال إلى السطر التالي",
+    "ROBOT_VOICE_RECOGNITION_INIT": "بدء تهيئة وحدة التعرف على الصوت RX%1TX%2",
+    "ROBOT_GET_TIME": "الحصول على الوقت",
 }
 Blockly.ScratchMsgs.locales["cs"] = {
     "CONTROL_FOREVER": "opakuj stále",
@@ -721,7 +723,7 @@ Blockly.ScratchMsgs.locales["cs"] = {
     "ROBOT_TRACE_SENSOR_SET": "Nastavit piny senzoru pro sledování čáry (R: %1, M: %2, L: %3)",
     "ROBOT_TRACE_SENSOR_GET": "Získat hodnotu senzoru stopy %1",
     "ROBOT_POTENTIOMETER": "Potenciometr %1",
-    "ROBOT_TOUCH_SENSOR": "Dotykový senzor %1",
+    "ROBOT_TOUCH_SENSOR": "Dotykový senzor %1 byl dotčen",
     "ROBOT_FLAME_SENSOR": "Senzor plamene %1",
     "ROBOT_RGB_MODULE": "RGB světlo %1 Červená %2 %3 Zelená %4 %5 Modrá %6",
     "ROBOT_SET_TAPE_LIGHTS": "Světla pásky %1 %2 %3",
@@ -811,7 +813,9 @@ Blockly.ScratchMsgs.locales["cs"] = {
     "OPERATOR_LOCATION": "Získat pozici %1 v %2",
     "OPERATOR_CR": "Závod vozíku",
     "OPERATOR_BR": "Přerušení řádku",
-    "OPERATOR_CR&BR": "Závod vozíku a přerušení řádku",
+    "OPERATOR_CR_BR": "Závod vozíku a přerušení řádku",
+    "ROBOT_VOICE_RECOGNITION_INIT": "Inicializace modulu rozpoznávání hlasu RX%1TX%2",
+    "ROBOT_GET_TIME": "Získat čas",
 }
 Blockly.ScratchMsgs.locales["de"] = {
     "CONTROL_FOREVER": "wiederhole fortlaufend",
@@ -1126,7 +1130,7 @@ Blockly.ScratchMsgs.locales["de"] = {
     "ROBOT_TRACE_SENSOR_SET": "Setze Linienverfolgungssensorpins (R: %1, M: %2, L: %3)",
     "ROBOT_TRACE_SENSOR_GET": "Wert von Linienverfolgungssensor %1 abrufen",
     "ROBOT_POTENTIOMETER": "Potentiometer %1",
-    "ROBOT_TOUCH_SENSOR": "Berührungssensor %1",
+    "ROBOT_TOUCH_SENSOR": "Berührungssensor %1 wurde berührt",
     "ROBOT_FLAME_SENSOR": "Flammensensor %1",
     "ROBOT_RGB_MODULE": "RGB-Licht %1 Rot %2 %3 Grün %4 %5 Blau %6",
     "ROBOT_SET_TAPE_LIGHTS": "Bandlicht %1 %2 %3",
@@ -1216,7 +1220,9 @@ Blockly.ScratchMsgs.locales["de"] = {
     "OPERATOR_LOCATION": "Position von %1 in %2 abrufen",
     "OPERATOR_CR": "Wagenrücklauf",
     "OPERATOR_BR": "Zeilenumbruch",
-    "OPERATOR_CR&BR": "Wagenrücklauf und Zeilenumbruch",
+    "OPERATOR_CR_BR": "Wagenrücklauf und Zeilenumbruch",
+    "ROBOT_VOICE_RECOGNITION_INIT": "Spracherkennungmodul initialisieren RX%1TX%2",
+    "ROBOT_GET_TIME": "Zeit abrufen",
 }
 Blockly.ScratchMsgs.locales["en"] = {
     "CONTROL_FOREVER": "forever",
@@ -1532,7 +1538,7 @@ Blockly.ScratchMsgs.locales["en"] = {
     "ROBOT_TRACE_SENSOR_SET": "Set line tracing sensor pins (R: %1, M: %2, L: %3)",
     "ROBOT_TRACE_SENSOR_GET": "trace sensor %1 value",
     "ROBOT_POTENTIOMETER": "potentiometer %1",
-    "ROBOT_TOUCH_SENSOR": "touch sensor %1",
+    "ROBOT_TOUCH_SENSOR": "Touch sensor %1 is touched",
     "ROBOT_FLAME_SENSOR": "flame sensor %1",
     "ROBOT_RGB_MODULE": "RGB %1 R %2 %3 G %4 %5 B %6",
     "ROBOT_SET_TAPE_LIGHTS": "rgb strip %1 %2 %3",
@@ -1621,7 +1627,9 @@ Blockly.ScratchMsgs.locales["en"] = {
     "OPERATOR_LOCATION": "Get the position of %1 in %2",
     "OPERATOR_CR": "Carriage Return",
     "OPERATOR_BR": "Line Break",
-    "OPERATOR_CR&BR": "Carriage Return & Line Break",
+    "OPERATOR_CR_BR": "Carriage Return & Line Break",
+    "ROBOT_VOICE_RECOGNITION_INIT": "Initializing Voice Recognition Module RX%1TX%2",
+    "ROBOT_GET_TIME": "Get Time",
 }
 Blockly.ScratchMsgs.locales["es"] = {
     "CONTROL_FOREVER": "por siempre",
@@ -1936,7 +1944,7 @@ Blockly.ScratchMsgs.locales["es"] = {
     "ROBOT_TRACE_SENSOR_SET": "Configurar pines del sensor de rastreo de línea (R: %1, M: %2, L: %3)",
     "ROBOT_TRACE_SENSOR_GET": "Obtener valor del sensor de rastreo %1",
     "ROBOT_POTENTIOMETER": "Potenciómetro %1",
-    "ROBOT_TOUCH_SENSOR": "Sensor táctil %1",
+    "ROBOT_TOUCH_SENSOR": "El sensor táctil %1 ha sido tocado",
     "ROBOT_FLAME_SENSOR": "Sensor de llama %1",
     "ROBOT_RGB_MODULE": "Luz RGB %1 Rojo %2 %3 Verde %4 %5 Azul %6",
     "ROBOT_SET_TAPE_LIGHTS": "Luces de cinta %1 %2 %3",
@@ -2026,7 +2034,9 @@ Blockly.ScratchMsgs.locales["es"] = {
     "OPERATOR_LOCATION": "Obtener la posición de %1 en %2",
     "OPERATOR_CR": "Retorno de carro",
     "OPERATOR_BR": "Salto de línea",
-    "OPERATOR_CR&BR": "Retorno de carro y salto de línea",
+    "OPERATOR_CR_BR": "Retorno de carro y salto de línea",
+    "ROBOT_VOICE_RECOGNITION_INIT": "Inicializando el módulo de reconocimiento de voz RX%1TX%2",
+    "ROBOT_GET_TIME": "Obtener hora",
 }
 Blockly.ScratchMsgs.locales["fr"] = {
     "CONTROL_FOREVER": "répéter indéfiniment",
@@ -2341,7 +2351,7 @@ Blockly.ScratchMsgs.locales["fr"] = {
     "ROBOT_TRACE_SENSOR_SET": "Définir les broches du capteur de suivi de ligne (R : %1, M : %2, L : %3)",
     "ROBOT_TRACE_SENSOR_GET": "obtenir la valeur de la piste à trois voies %1",
     "ROBOT_POTENTIOMETER": "potentiomètre %1",
-    "ROBOT_TOUCH_SENSOR": "capteur tactile %1",
+    "ROBOT_TOUCH_SENSOR": "Le capteur tactile %1 est touché",
     "ROBOT_FLAME_SENSOR": "capteur de flamme %1",
     "ROBOT_RGB_MODULE": "LED RGB %1 rouge %2 %3 vert %4 %5 bleu %6",
     "ROBOT_SET_TAPE_LIGHTS": "bande lumineuse %1 %2 %3",
@@ -2431,7 +2441,9 @@ Blockly.ScratchMsgs.locales["fr"] = {
     "OPERATOR_LOCATION": "Obtenir la position de %1 dans %2",
     "OPERATOR_CR": "Retour chariot",
     "OPERATOR_BR": "Saut de ligne",
-    "OPERATOR_CR&BR": "Retour chariot et saut de ligne",
+    "OPERATOR_CR_BR": "Retour chariot et saut de ligne",
+    "ROBOT_VOICE_RECOGNITION_INIT": "Initialisation du module de reconnaissance de voix RX%1TX%2",
+    "ROBOT_GET_TIME": "Obtenir l'heure",
 }
 Blockly.ScratchMsgs.locales["ko"] = {
     "CONTROL_FOREVER": "무한 반복하기",
@@ -2746,7 +2758,7 @@ Blockly.ScratchMsgs.locales["ko"] = {
     "ROBOT_TRACE_SENSOR_SET": "선 추적 센서 핀 설정 (R: %1, M: %2, L: %3)",
     "ROBOT_TRACE_SENSOR_GET": "트레이스 센서 %1 값 얻기",
     "ROBOT_POTENTIOMETER": "가변 저항기 %1",
-    "ROBOT_TOUCH_SENSOR": "터치 센서 %1",
+    "ROBOT_TOUCH_SENSOR": "터치 센서 %1가 터치됐습니다",
     "ROBOT_FLAME_SENSOR": "화염 센서 %1",
     "ROBOT_RGB_MODULE": "RGB 램프 %1 빨강 %2 %3 녹색 %4 %5 파랑 %6",
     "ROBOT_SET_TAPE_LIGHTS": "테이프 라이트 %1 %2 %3",
@@ -2836,7 +2848,9 @@ Blockly.ScratchMsgs.locales["ko"] = {
     "OPERATOR_LOCATION": "%1의 %2의 위치 얻기",
     "OPERATOR_CR": "캐리지 리턴",
     "OPERATOR_BR": "줄 바꿈",
-    "OPERATOR_CR&BR": "캐리지 리턴과 줄 바꿈",
+    "OPERATOR_CR_BR": "캐리지 리턴과 줄 바꿈",
+    "ROBOT_VOICE_RECOGNITION_INIT": "음성 인식 모듈 초기화 RX%1TX%2",
+    "ROBOT_GET_TIME": "시간 얻기",
 }
 Blockly.ScratchMsgs.locales["hr"] = {
     "CONTROL_FOREVER": "ponavljaj",
@@ -3151,7 +3165,7 @@ Blockly.ScratchMsgs.locales["hr"] = {
     "ROBOT_TRACE_SENSOR_SET": "Postavi pinove senzora za praćenje linije (R: %1, M: %2, L: %3)",
     "ROBOT_TRACE_SENSOR_GET": "Dohvati vrijednost senzora tragača %1",
     "ROBOT_POTENTIOMETER": "Potenciometar %1",
-    "ROBOT_TOUCH_SENSOR": "Senzor dodira %1",
+    "ROBOT_TOUCH_SENSOR": "Dotikni senzor %1 je dodirnut",
     "ROBOT_FLAME_SENSOR": "Senzor plamena %1",
     "ROBOT_RGB_MODULE": "RGB svjetlo %1 Crvena %2 %3 Zelena %4 %5 Plava %6",
     "ROBOT_SET_TAPE_LIGHTS": "Svjetla trake %1 %2 %3",
@@ -3241,7 +3255,9 @@ Blockly.ScratchMsgs.locales["hr"] = {
     "OPERATOR_LOCATION": "Preuzmi položaj %1 u %2",
     "OPERATOR_CR": "Povratak kolica",
     "OPERATOR_BR": "Prekid reda",
-    "OPERATOR_CR&BR": "Povratak kolica i prekid reda",
+    "OPERATOR_CR_BR": "Povratak kolica i prekid reda",
+    "ROBOT_VOICE_RECOGNITION_INIT": "Inicijalizacija modula prepoznavanja glasa RX%1TX%2",
+    "ROBOT_GET_TIME": "Uzmi vrijeme",
 }
 Blockly.ScratchMsgs.locales["it"] = {
     "CONTROL_FOREVER": "per sempre",
@@ -3556,7 +3572,7 @@ Blockly.ScratchMsgs.locales["it"] = {
     "ROBOT_TRACE_SENSOR_SET": "Imposta i pin del sensore di tracciamento linea (R: %1, M: %2, L: %3)",
     "ROBOT_TRACE_SENSOR_GET": "Ottenere valore sensore di tracciamento %1",
     "ROBOT_POTENTIOMETER": "Potenziometro %1",
-    "ROBOT_TOUCH_SENSOR": "Sensore tattile %1",
+    "ROBOT_TOUCH_SENSOR": "Il sensore tattile %1 è stato toccato",
     "ROBOT_FLAME_SENSOR": "Sensore di fiamma %1",
     "ROBOT_RGB_MODULE": "Luce RGB %1 Rosso %2 %3 Verde %4 %5 Blu %6",
     "ROBOT_SET_TAPE_LIGHTS": "Luci a nastro %1 %2 %3",
@@ -3645,7 +3661,9 @@ Blockly.ScratchMsgs.locales["it"] = {
     "OPERATOR_LOCATION": "Ottieni la posizione di %1 in %2",
     "OPERATOR_CR": "Carriage Return",
     "OPERATOR_BR": "Interruzione di riga",
-    "OPERATOR_CR&BR": "Carriage Return e interruzione di riga",
+    "OPERATOR_CR_BR": "Carriage Return e interruzione di riga",
+    "ROBOT_VOICE_RECOGNITION_INIT": "Inizializzazione modulo riconoscimento vocale RX%1TX%2",
+    "ROBOT_GET_TIME": "Ottieni ora",
 }
 Blockly.ScratchMsgs.locales["nl"] = {
     "CONTROL_FOREVER": "herhaal",
@@ -3960,7 +3978,7 @@ Blockly.ScratchMsgs.locales["nl"] = {
     "ROBOT_TRACE_SENSOR_SET": "Stel pinnen van lijnvolgsensor in (R: %1, M: %2, L: %3)",
     "ROBOT_TRACE_SENSOR_GET": "Waarde van traceersensor %1 krijgen",
     "ROBOT_POTENTIOMETER": "Potentiometer %1",
-    "ROBOT_TOUCH_SENSOR": "Touchsensor %1",
+    "ROBOT_TOUCH_SENSOR": "Aanraaksensor %1 is geraakt",
     "ROBOT_FLAME_SENSOR": "Vlam sensor %1",
     "ROBOT_RGB_MODULE": "RGB-lamp %1 rood %2 %3 groen %4 %5 blauw %6",
     "ROBOT_SET_TAPE_LIGHTS": "Tapeverlichting %1 %2 %3",
@@ -4050,7 +4068,9 @@ Blockly.ScratchMsgs.locales["nl"] = {
     "OPERATOR_LOCATION": "Krijg de positie van %1 in %2",
     "OPERATOR_CR": "Carriage Return",
     "OPERATOR_BR": "Regelafbreking",
-    "OPERATOR_CR&BR": "Carriage Return en Regelafbreking",
+    "OPERATOR_CR_BR": "Carriage Return en Regelafbreking",
+    "ROBOT_VOICE_RECOGNITION_INIT": "Spraakherkenningmodule initialiseren RX%1TX%2",
+    "ROBOT_GET_TIME": "Tijd ophalen",
 }
 Blockly.ScratchMsgs.locales["ja"] = {
     "CONTROL_FOREVER": "ずっと",
@@ -4365,7 +4385,7 @@ Blockly.ScratchMsgs.locales["ja"] = {
     "ROBOT_TRACE_SENSOR_SET": "ライン追跡センサーピンを設定（R：%1、M：%2、L：%3）",
     "ROBOT_TRACE_SENSOR_GET": "トレースセンサー%1の値を取得",
     "ROBOT_POTENTIOMETER": "ポテンショメーター%1",
-    "ROBOT_TOUCH_SENSOR": "タッチセンサー%1",
+    "ROBOT_TOUCH_SENSOR": "タッチセンサー%1が触れられました",
     "ROBOT_FLAME_SENSOR": "火災センサー%1",
     "ROBOT_RGB_MODULE": "RGBライト%1赤%2%3緑%4%5青%6",
     "ROBOT_SET_TAPE_LIGHTS": "テープライト%1%2%3",
@@ -4455,7 +4475,9 @@ Blockly.ScratchMsgs.locales["ja"] = {
     "OPERATOR_LOCATION": "%1が%2中の位置を取得",
     "OPERATOR_CR": "キャリッジリターン",
     "OPERATOR_BR": "改行",
-    "OPERATOR_CR&BR": "キャリッジリターンと改行",
+    "OPERATOR_CR_BR": "キャリッジリターンと改行",
+    "ROBOT_VOICE_RECOGNITION_INIT": "音声認識モジュール初期化 RX%1TX%2",
+    "ROBOT_GET_TIME": "時間を取得",
 }
 Blockly.ScratchMsgs.locales["th"] = {
     "CONTROL_FOREVER": "วนซ้ำตลอด",
@@ -4770,7 +4792,7 @@ Blockly.ScratchMsgs.locales["th"] = {
     "ROBOT_TRACE_SENSOR_SET": "ตั้งค่าพินเซ็นเซอร์ติดตามเส้น (R: %1, M: %2, L: %3)",
     "ROBOT_TRACE_SENSOR_GET": "เซ็นเซอร์ติดตามทางสามทาง %1 ค่า",
     "ROBOT_POTENTIOMETER": "โพเท็นติอะเตอร์ %1",
-    "ROBOT_TOUCH_SENSOR": "เซ็นเซอร์สัมผัส %1",
+    "ROBOT_TOUCH_SENSOR": "เซนเซอร์สัมผัส %1 ຖືກสัมผัส",
     "ROBOT_FLAME_SENSOR": "เซ็นเซอร์เปลวไฟ %1",
     "ROBOT_RGB_MODULE": "ไฟ RGB %1 สีแดง %2 %3 สีเขียว %4 %5 สีฟ้า %6",
     "ROBOT_SET_TAPE_LIGHTS": "ไฟแถบ %1 %2 %3",
@@ -4860,7 +4882,9 @@ Blockly.ScratchMsgs.locales["th"] = {
     "OPERATOR_LOCATION": "รับตำแหน່ງ %1 ໃນ %2",
     "OPERATOR_CR": "Return Carriage",
     "OPERATOR_BR": "Break Line",
-    "OPERATOR_CR&BR": "Return Carriage และ Break Line",
+    "OPERATOR_CR_BR": "Return Carriage และ Break Line",
+    "ROBOT_VOICE_RECOGNITION_INIT": "เริ่มต้นโมดูลการรับรู้เสียง RX%1TX%2",
+    "ROBOT_GET_TIME": "รับเวลา",
 }
 Blockly.ScratchMsgs.locales["pl"] = {
     "CONTROL_FOREVER": "zawsze",
@@ -5175,7 +5199,7 @@ Blockly.ScratchMsgs.locales["pl"] = {
     "ROBOT_TRACE_SENSOR_SET": "Ustaw piny czujnika śledzenia linii (P: %1, Ś: %2, L: %3)",
     "ROBOT_TRACE_SENSOR_GET": "Pobierz wartość czujnika śledzenia %1",
     "ROBOT_POTENTIOMETER": "Potencjometr %1",
-    "ROBOT_TOUCH_SENSOR": "Czujnik dotykowy %1",
+    "ROBOT_TOUCH_SENSOR": "Czujnik dotykowy %1 został dotknięty",
     "ROBOT_FLAME_SENSOR": "Czujnik płomienia %1",
     "ROBOT_RGB_MODULE": "Światło RGB %1 Czerwony %2 %3 Zielony %4 %5 Niebieski %6",
     "ROBOT_SET_TAPE_LIGHTS": "Światła taśmy %1 %2 %3",
@@ -5265,7 +5289,9 @@ Blockly.ScratchMsgs.locales["pl"] = {
     "OPERATOR_LOCATION": "Pobierz pozycję %1 w %2",
     "OPERATOR_CR": "Powrót karetki",
     "OPERATOR_BR": "Przerwanie linii",
-    "OPERATOR_CR&BR": "Powrót karetki i przerwanie linii",
+    "OPERATOR_CR_BR": "Powrót karetki i przerwanie linii",
+    "ROBOT_VOICE_RECOGNITION_INIT": "Inicjalizacja modułu rozpoznawania głosu RX%1TX%2",
+    "ROBOT_GET_TIME": "Pobierz czas",
 }
 Blockly.ScratchMsgs.locales["pt"] = {
     "CONTROL_FOREVER": "repete para sempre",
@@ -5580,7 +5606,7 @@ Blockly.ScratchMsgs.locales["pt"] = {
     "ROBOT_TRACE_SENSOR_SET": "Configurar pinos do sensor de rastreamento de linha (R: %1, M: %2, L: %3)",
     "ROBOT_TRACE_SENSOR_GET": "Obter valor do sensor de rastreamento %1",
     "ROBOT_POTENTIOMETER": "Potenciômetro %1",
-    "ROBOT_TOUCH_SENSOR": "Sensor de toque %1",
+    "ROBOT_TOUCH_SENSOR": "Sensor táctil %1 foi tocado",
     "ROBOT_FLAME_SENSOR": "Sensor de chama %1",
     "ROBOT_RGB_MODULE": "Luz RGB %1 Vermelho %2 %3 Verde %4 %5 Azul %6",
     "ROBOT_SET_TAPE_LIGHTS": "Luzes de fita %1 %2 %3",
@@ -5670,7 +5696,9 @@ Blockly.ScratchMsgs.locales["pt"] = {
     "OPERATOR_LOCATION": "Obter a posição de %1 em %2",
     "OPERATOR_CR": "Retorno de Carro",
     "OPERATOR_BR": "Quebra de Linha",
-    "OPERATOR_CR&BR": "Retorno de Carro e Quebra de Linha",
+    "OPERATOR_CR_BR": "Retorno de Carro e Quebra de Linha",
+    "ROBOT_VOICE_RECOGNITION_INIT": "Inicializando o módulo de reconhecimento de voz RX%1TX%2",
+    "ROBOT_GET_TIME": "Obter hora",
 }
 Blockly.ScratchMsgs.locales["ru"] = {
     "CONTROL_FOREVER": "повторять всегда",
@@ -5985,7 +6013,7 @@ Blockly.ScratchMsgs.locales["ru"] = {
     "ROBOT_TRACE_SENSOR_SET": "Установить пины датчика трассировки линии (R: %1, M: %2, L: %3)",
     "ROBOT_TRACE_SENSOR_GET": "Получить значение датчика трассировки %1",
     "ROBOT_POTENTIOMETER": "Потенциометр %1",
-    "ROBOT_TOUCH_SENSOR": "Сенсорный датчик %1",
+    "ROBOT_TOUCH_SENSOR": "Сенсор касания %1 был прикосновен",
     "ROBOT_FLAME_SENSOR": "Датчик пламени %1",
     "ROBOT_RGB_MODULE": "RGB-свет %1 Красный %2 %3 Зеленый %4 %5 Синий %6",
     "ROBOT_SET_TAPE_LIGHTS": "Ленточные огни %1 %2 %3",
@@ -6075,7 +6103,9 @@ Blockly.ScratchMsgs.locales["ru"] = {
     "OPERATOR_LOCATION": "Получить позицию %1 в %2",
     "OPERATOR_CR": "Возврат каретки",
     "OPERATOR_BR": "Перенос строки",
-    "OPERATOR_CR&BR": "Возврат каретки и перенос строки",
+    "OPERATOR_CR_BR": "Возврат каретки и перенос строки",
+    "ROBOT_VOICE_RECOGNITION_INIT": "Инициализация модуля распознавания голоса RX%1TX%2",
+    "ROBOT_GET_TIME": "Получить время",
 }
 Blockly.ScratchMsgs.locales["tr"] = {
     "CONTROL_FOREVER": "sürekli tekrarla",
@@ -6390,7 +6420,7 @@ Blockly.ScratchMsgs.locales["tr"] = {
     "ROBOT_TRACE_SENSOR_SET": "Çizgi izleme sensörü pinlerini ayarla (R: %1, M: %2, L: %3)",
     "ROBOT_TRACE_SENSOR_GET": "Iz Sensörü %1 değerini al",
     "ROBOT_POTENTIOMETER": "Potansiyometre %1",
-    "ROBOT_TOUCH_SENSOR": "Dokunmatik Sensör %1",
+    "ROBOT_TOUCH_SENSOR": "Dokunmatik sensör %1 dokunuldu",
     "ROBOT_FLAME_SENSOR": "Alev Sensörü %1",
     "ROBOT_RGB_MODULE": "RGB Lamba %1 Kırmızı %2 %3 Yeşil %4 %5 Mavi %6",
     "ROBOT_SET_TAPE_LIGHTS": "Bant Işıkları %1 %2 %3",
@@ -6480,7 +6510,9 @@ Blockly.ScratchMsgs.locales["tr"] = {
     "OPERATOR_LOCATION": "%1'in %2'deki konumunu al",
     "OPERATOR_CR": "Karet Dönüş",
     "OPERATOR_BR": "Satır Sonu",
-    "OPERATOR_CR&BR": "Karet Dönüş ve Satır Sonu",
+    "OPERATOR_CR_BR": "Karet Dönüş ve Satır Sonu",
+    "ROBOT_VOICE_RECOGNITION_INIT": "Ses Tanıma Modülü Başlat RX%1TX%2",
+    "ROBOT_GET_TIME": "Zaman Al",
 }
 Blockly.ScratchMsgs.locales["zh-cn"] = {
     "CONTROL_FOREVER": "重复执行",
@@ -6796,7 +6828,7 @@ Blockly.ScratchMsgs.locales["zh-cn"] = {
     "ROBOT_TRACE_SENSOR_SET": "巡线传感器设置管脚 (R：%1,M：%2,L：%3)",
     "ROBOT_TRACE_SENSOR_GET": "三路巡线%1的取值",
     "ROBOT_POTENTIOMETER": "电位器%1",
-    "ROBOT_TOUCH_SENSOR": "触摸传感器%1",
+    "ROBOT_TOUCH_SENSOR": "触摸传感器%1被触摸",
     "ROBOT_FLAME_SENSOR": "火焰传感器%1",
     "ROBOT_RGB_MODULE": "RGB灯%1红色%2%3绿色%4%5蓝色%6",
     "ROBOT_SET_TAPE_LIGHTS": "灯带%1%2%3",
@@ -6883,7 +6915,9 @@ Blockly.ScratchMsgs.locales["zh-cn"] = {
     "OPERATOR_LOCATION": "获取%1在%2的位置",
     "OPERATOR_CR": "回车",
     "OPERATOR_BR": "换行",
-    "OPERATOR_CR&BR": "回车&换行",
+    "OPERATOR_CR_BR": "回车&换行",
+    "ROBOT_VOICE_RECOGNITION_INIT": "语音识别模块初始化 RX%1TX%2",
+    "ROBOT_GET_TIME": "获取时间",
 }
 Blockly.ScratchMsgs.locales["zh-tw"] = {
     "CONTROL_FOREVER": "重複無限次",
@@ -7198,7 +7232,7 @@ Blockly.ScratchMsgs.locales["zh-tw"] = {
     "ROBOT_TRACE_SENSOR_SET": "巡線感應器設置管腳 (R：%1,M：%2,L：%3)",
     "ROBOT_TRACE_SENSOR_GET": "三路巡線%1的取值",
     "ROBOT_POTENTIOMETER": "電位器%1",
-    "ROBOT_TOUCH_SENSOR": "觸摸傳感器%1",
+    "ROBOT_TOUCH_SENSOR": "觸摸傳感器%1被觸摸",
     "ROBOT_FLAME_SENSOR": "火焰傳感器%1",
     "ROBOT_RGB_MODULE": "RGB燈%1紅色%2%3綠色%4%5藍色%6",
     "ROBOT_SET_TAPE_LIGHTS": "燈帶%1%2%3",
@@ -7288,5 +7322,7 @@ Blockly.ScratchMsgs.locales["zh-tw"] = {
     "OPERATOR_LOCATION": "取得%1在%2的位置",
     "OPERATOR_CR": "回車",
     "OPERATOR_BR": "換行",
-    "OPERATOR_CR&BR": "回車&換行",
+    "OPERATOR_CR_BR": "回車&換行",
+    "ROBOT_VOICE_RECOGNITION_INIT": "語音識別模組初始化 RX%1TX%2",
+    "ROBOT_GET_TIME": "取得時間",
 }

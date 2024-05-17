@@ -228,14 +228,22 @@ Blockly.Procedures.flyoutCategory = function(workspace) {
   mutations = Blockly.Procedures.sortProcedureMutations_(mutations);
   for (var i = 0; i < mutations.length; i++) {
     var mutation = mutations[i];
+    var callbackMutation = mutations[i].cloneNode(true);
     // <block type="procedures_call">
     //   <mutation ...></mutation>
     // </block>
+    //调用块
     var block = goog.dom.createDom('block');
     block.setAttribute('type', 'procedures_call');
     block.setAttribute('gap', 16);
     block.appendChild(mutation);
     xmlList.push(block);
+    //回调块
+    var callbackBlock = goog.dom.createDom('block');
+    callbackBlock.setAttribute('type', 'procedures_callback');
+    callbackBlock.setAttribute('gap', 16);
+    callbackBlock.appendChild(callbackMutation);
+    xmlList.push(callbackBlock);
   }
   return xmlList;
 };

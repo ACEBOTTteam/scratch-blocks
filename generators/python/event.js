@@ -23,9 +23,7 @@ goog.provide('Blockly.Python.event');
 goog.require('Blockly.Python');
 
 
-Blockly.Python['event_whenmicrobitbegin'] = function(block) {
-  Blockly.Python.imports_["microbit"] = "from microbit import *";
-
+Blockly.Python['event_whenarduinobegin'] = function(block) {
   var code = "";
   var nextBlock = block.nextConnection && block.nextConnection.targetBlock();
   if (!nextBlock) {
