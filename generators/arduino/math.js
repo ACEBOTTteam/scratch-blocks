@@ -51,5 +51,4 @@ Blockly.Arduino['math_half_angle'] = Blockly.Arduino['math_number'];
 Blockly.Arduino['math_speed_number'] = Blockly.Arduino['math_number'];
 Blockly.Arduino['rgb_number'] = Blockly.Arduino['math_number'];
 Blockly.Arduino['ws_number'] = Blockly.Arduino['math_number'];
-Blockly.Arduino['math_half_angle'] = Blockly.Arduino['math_number'];
 

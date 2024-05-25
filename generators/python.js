@@ -282,7 +282,7 @@ Blockly.Python.scrub_ = function(block, code) {
     // Add indent at start except custom function
     if (block.type !== 'procedures_definition'
       && block.type !== 'procedures_prototype') {
-      codeWithIndent = Blockly.Arduino.INDENT + codeWithIndent;
+      // codeWithIndent = Blockly.Arduino.INDENT + codeWithIndent;
       if (commentCode !== '') {
         commentCode = Blockly.Arduino.INDENT + commentCode;
       }
