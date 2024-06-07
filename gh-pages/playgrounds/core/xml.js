@@ -775,13 +775,17 @@ Blockly.Xml.domToBlockHeadless_ = function(xmlBlock, workspace) {
           goog.asserts.assert(block.nextConnection,
               'Next statement does not exist.');
           // If there is more than one XML 'next' tag.
-          goog.asserts.assert(!block.nextConnection.isConnected(),
-              'Next statement is already connected.');
-          blockChild = Blockly.Xml.domToBlockHeadless_(childBlockElement,
+          if(block.nextConnection){
+            goog.asserts.assert(!block.nextConnection.isConnected(),
+            'Next statement is already connected.');
+            blockChild = Blockly.Xml.domToBlockHeadless_(childBlockElement,
               workspace);
-          goog.asserts.assert(blockChild.previousConnection,
-              'Next block does not have previous statement.');
-          block.nextConnection.connect(blockChild.previousConnection);
+            goog.asserts.assert(blockChild.previousConnection,
+                'Next block does not have previous statement.');
+            block.nextConnection.connect(blockChild.previousConnection);
+          }else{
+            console.log(block.type,'block type')
+          }
         }
         break;
       default:

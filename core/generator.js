@@ -171,6 +171,10 @@ Blockly.Generator.prototype.blockToCode = function(block) {
     // Skip past this block if it is disabled.
     return this.blockToCode(block.getNextBlock());
   }
+  
+  if(!this[block.type]){
+    return ''
+  }
 
   var func = this[block.type];
   goog.asserts.assertFunction(func,

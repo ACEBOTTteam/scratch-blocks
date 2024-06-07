@@ -143,7 +143,7 @@ Blockly.Arduino.init = function(workspace) {
       defvars[x] = 'SimpleList<String> ' +
         Blockly.Arduino.variableDB_.getName(variables[x].name, Blockly.Variables.NAME_TYPE) + ';';
     } else {
-      defvars[x] = 'double ' + Blockly.Arduino.variableDB_.getName(variables[x].name, Blockly.Variables.NAME_TYPE) + ';';
+      defvars[x] = 'int ' + Blockly.Arduino.variableDB_.getName(variables[x].name, Blockly.Variables.NAME_TYPE) + ';';
     }
   }
   if (variables.length > 0) {
@@ -281,7 +281,8 @@ Blockly.Arduino.scrub_ = function(block, code) {
     && (block.type !== 'control_forever' || block.getRootBlock().type !== 'event_whenarduinobegin')) {
     // Add indent at start except custom function
     if (block.type !== 'procedures_definition'
-      && block.type !== 'procedures_prototype') {
+      && block.type !== 'procedures_prototype'
+      && block.type !== 'spider_callback') {
       codeWithIndent = Blockly.Arduino.INDENT + codeWithIndent;
       if (commentCode !== '') {
         commentCode = Blockly.Arduino.INDENT + commentCode;
