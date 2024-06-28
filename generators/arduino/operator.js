@@ -56,7 +56,9 @@ Blockly.Arduino['operator_compare'] = function(block) {
   var oplist = {
     "operator_gt": " > ",
     "operator_equals": " == ",
-    "operator_lt": " < "
+    "operator_lt": " < ",
+    "operator_gte": " >= ",
+    "operator_le": " <= ",
   };
   var order = (block.type == "operator_equals") ?
     Blockly.Arduino.ORDER_EQUALITY : Blockly.Arduino.ORDER_RELATIONAL;
@@ -94,6 +96,8 @@ Blockly.Arduino['operator_compare'] = function(block) {
 Blockly.Arduino['operator_gt'] = Blockly.Arduino['operator_compare'];
 Blockly.Arduino['operator_equals'] = Blockly.Arduino['operator_compare'];
 Blockly.Arduino['operator_lt'] = Blockly.Arduino['operator_compare'];
+Blockly.Arduino['operator_gte'] = Blockly.Arduino['operator_compare'];
+Blockly.Arduino['operator_le'] = Blockly.Arduino['operator_compare'];
 
 Blockly.Arduino['operator_operation'] = function(block) {
   var oplist = {

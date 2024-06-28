@@ -102,7 +102,7 @@ Blockly.Arduino['data_addtolist'] = function(block) {
     return '';
   }
 
-  return varName + '.add(' + item + ');\n';
+  return varName + '.push_back(' + item + ');\n';
 };
 
 Blockly.Arduino['data_deleteoflist'] = function(block) {
@@ -114,7 +114,7 @@ Blockly.Arduino['data_deleteoflist'] = function(block) {
     return '';
   }
 
-  return varName + '.remove(' + index + ');\n';
+  return varName + '.remove(' + index + '-1);\n';
 };
 
 Blockly.Arduino['data_deletealloflist'] = function(block) {
@@ -138,7 +138,7 @@ Blockly.Arduino['data_insertatlist'] = function(block) {
     return '';
   }
 
-  return varName + '.add(' + index + ' - 1, ' + item + ');\n';
+  return varName + '.insert(' + index + ' - 1, ' + item + ');\n';
 };
 
 Blockly.Arduino['data_replaceitemoflist'] = function(block) {
@@ -155,12 +155,32 @@ Blockly.Arduino['data_replaceitemoflist'] = function(block) {
   return varName + '.replace(' + index + ' - 1, ' + item + ');\n';
 };
 
+Blockly.Arduino['data_setlisttype'] = function(block) {
+  var varName = Blockly.Arduino.variableDB_.getName(block.getFieldValue('LIST'),
+      Blockly.Variables.NAME_TYPE);
+  var item = block.getFieldValue('TYPE') || '0';
+  var data = Blockly.Arduino.definitions_['variables']
+  var index = 0
+  data=data.split('\n');
+ 
+  data.forEach((item,key)=>{
+    var itemArr = item.split(' ')
+    if(varName+';'===itemArr[1]){
+      index = key
+    }
+  })
+
+  data[index] = `SimpleList<${item}> ${varName};`;
+  Blockly.Arduino.definitions_['variables'] = data.join('\n')
+  return ''
+};
+
 Blockly.Arduino['data_itemoflist'] = function(block) {
   var index = Blockly.Arduino.valueToCode(block, 'INDEX',
       Blockly.Arduino.ORDER_ADDITIVE) || '0';
   var varName = Blockly.Arduino.variableDB_.getName(block.getFieldValue('LIST'),
       Blockly.Variables.NAME_TYPE);
-  return [varName + '.get(' + index + ' - 1)', Blockly.Arduino.ORDER_ATOMIC];
+  return [varName + '[' + index + ' - 1]', Blockly.Arduino.ORDER_ATOMIC];
 };
 
 Blockly.Arduino['data_itemnumoflist'] = function(block) {
@@ -168,7 +188,7 @@ Blockly.Arduino['data_itemnumoflist'] = function(block) {
       Blockly.Arduino.ORDER_ADDITIVE) || '0';
   var varName = Blockly.Arduino.variableDB_.getName(block.getFieldValue('LIST'),
       Blockly.Variables.NAME_TYPE);
-  return [varName + '.search(' + item + ') + 1', Blockly.Arduino.ORDER_UNARY_SIGN];
+  return [varName + '.indexOf(' + item + ')', Blockly.Arduino.ORDER_UNARY_SIGN];
 };
 
 Blockly.Arduino['data_lengthoflist'] = function(block) {
@@ -182,7 +202,7 @@ Blockly.Arduino['data_listcontainsitem'] = function(block) {
       Blockly.Arduino.ORDER_ADDITIVE) || '0';
   var varName = Blockly.Arduino.variableDB_.getName(block.getFieldValue('LIST'),
       Blockly.Variables.NAME_TYPE);
-  return [varName + '.has(' + item + ') != -1', Blockly.Arduino.ORDER_UNARY_SIGN];
+  return [varName + '.contains(' + item + ')', Blockly.Arduino.ORDER_UNARY_SIGN];
 };
 
 Blockly.Arduino['data_showlist'] = function() {

@@ -444,6 +444,14 @@ Blockly.ScratchMsgs.locales["ar"] = {
     "CATEGORY_ROBOTS_BLUETOOTH": "وحدة Bluetooth",
     "CATEGORY_ROBOTS_WRATHER": "وحدة الطقس",
     "CATEGORY_ROBOTS_ITS": "نظام النقل الذكي",
+    "ROBOT_INIT_WEB_SERVER": "تهيئة منفذ خادم الويب %1",
+    "ROBOT_WEB_DISPOSE_DATA": "يعالج خادم الويب الطلب %1",
+    "ROBOT_SEND_DATA_TO_WEB": "يُرسل خادم الويب البيانات %1 إلى العميل %2",
+    "ROBOT_TEXT": "نص",
+    "ROBOT_WEBPAGE": "صفحة ويب",
+    "ROBOT_GET_WEB_DATA": "استلام البيانات من خادم الويب %1",
+    "ROBOT_STRING": "سلسلة %1",
+    "ROBOT_BREAK": "كسر الحلقة الحالية",
 }
 Blockly.ScratchMsgs.locales["cs"] = {
     "CONTROL_FOREVER": "opakuj stále",
@@ -886,6 +894,14 @@ Blockly.ScratchMsgs.locales["cs"] = {
     "CATEGORY_ROBOTS_BLUETOOTH": "Bluetooth modul",
     "CATEGORY_ROBOTS_WRATHER": "Počasí modul",
     "CATEGORY_ROBOTS_ITS": "Inteligentní dopravní systém",
+    "ROBOT_INIT_WEB_SERVER": "Inicializovat port webového serveru %1",
+    "ROBOT_WEB_DISPOSE_DATA": "webový server zpracovává požadavek %1",
+    "ROBOT_SEND_DATA_TO_WEB": "webový server odesílá data %1 klientovi %2",
+    "ROBOT_TEXT": "Text",
+    "ROBOT_WEBPAGE": "Webová stránka",
+    "ROBOT_GET_WEB_DATA": "Přijmout data z webového serveru %1",
+    "ROBOT_STRING": "Řetězec %1",
+    "ROBOT_BREAK": "Přerušit aktuální smyčku",
 }
 Blockly.ScratchMsgs.locales["de"] = {
     "CONTROL_FOREVER": "wiederhole fortlaufend",
@@ -1328,6 +1344,14 @@ Blockly.ScratchMsgs.locales["de"] = {
     "CATEGORY_ROBOTS_BLUETOOTH": "Bluetooth-Modul",
     "CATEGORY_ROBOTS_WRATHER": "Wettermodul",
     "CATEGORY_ROBOTS_ITS": "Intelligentes Verkehrssystem",
+    "ROBOT_INIT_WEB_SERVER": "Webserver-Port initialisieren %1",
+    "ROBOT_WEB_DISPOSE_DATA": "Webserver verarbeitet Anfrage %1",
+    "ROBOT_SEND_DATA_TO_WEB": "Webserver sendet %1 Daten an Client %2",
+    "ROBOT_TEXT": "Text",
+    "ROBOT_WEBPAGE": "Webseite",
+    "ROBOT_GET_WEB_DATA": "Daten vom Webserver %1 empfangen",
+    "ROBOT_STRING": "Zeichenfolge %1",
+    "ROBOT_BREAK": "Aktuelle Schleife abbrechen",
 }
 Blockly.ScratchMsgs.locales["en"] = {
     "CONTROL_FOREVER": "forever",
@@ -1770,6 +1794,14 @@ Blockly.ScratchMsgs.locales["en"] = {
     "CATEGORY_ROBOTS_BLUETOOTH": "Bluetooth Module",
     "CATEGORY_ROBOTS_WRATHER": "Weather Module",
     "CATEGORY_ROBOTS_ITS": "Intelligent Transportation System",
+    "ROBOT_INIT_WEB_SERVER": "Initialize web server port %1",
+    "ROBOT_WEB_DISPOSE_DATA": "web server processes request %1",
+    "ROBOT_SEND_DATA_TO_WEB": "web server sends %1 data to client %2",
+    "ROBOT_TEXT": "Text",
+    "ROBOT_WEBPAGE": "Webpage",
+    "ROBOT_GET_WEB_DATA": "Receive data from web server %1",
+    "ROBOT_STRING": "String %1",
+    "ROBOT_BREAK": "Break current loop",
 }
 Blockly.ScratchMsgs.locales["es"] = {
     "CONTROL_FOREVER": "por siempre",
@@ -2212,6 +2244,14 @@ Blockly.ScratchMsgs.locales["es"] = {
     "CATEGORY_ROBOTS_BLUETOOTH": "Módulo Bluetooth",
     "CATEGORY_ROBOTS_WRATHER": "Módulo de clima",
     "CATEGORY_ROBOTS_ITS": "Sistema de transporte inteligente",
+    "ROBOT_INIT_WEB_SERVER": "Inicializar puerto del servidor web %1",
+    "ROBOT_WEB_DISPOSE_DATA": "servidor web procesa la solicitud %1",
+    "ROBOT_SEND_DATA_TO_WEB": "servidor web envía datos %1 al cliente %2",
+    "ROBOT_TEXT": "Texto",
+    "ROBOT_WEBPAGE": "Página web",
+    "ROBOT_GET_WEB_DATA": "Recibir datos del servidor web %1",
+    "ROBOT_STRING": "Cadena %1",
+    "ROBOT_BREAK": "Salir del ciclo actual",
 }
 Blockly.ScratchMsgs.locales["fr"] = {
     "CONTROL_FOREVER": "répéter indéfiniment",
@@ -2654,6 +2694,14 @@ Blockly.ScratchMsgs.locales["fr"] = {
     "CATEGORY_ROBOTS_BLUETOOTH": "Module Bluetooth",
     "CATEGORY_ROBOTS_WRATHER": "Module Météo",
     "CATEGORY_ROBOTS_ITS": "Système de Transport Intelligent",
+    "ROBOT_INIT_WEB_SERVER": "Initialiser le port du serveur web %1",
+    "ROBOT_WEB_DISPOSE_DATA": "le serveur web traite la demande %1",
+    "ROBOT_SEND_DATA_TO_WEB": "le serveur web envoie les données %1 au client %2",
+    "ROBOT_TEXT": "Texte",
+    "ROBOT_WEBPAGE": "Page web",
+    "ROBOT_GET_WEB_DATA": "Recevoir les données du serveur web %1",
+    "ROBOT_STRING": "Chaîne %1",
+    "ROBOT_BREAK": "Quitter la boucle actuelle",
 }
 Blockly.ScratchMsgs.locales["ko"] = {
     "CONTROL_FOREVER": "무한 반복하기",
@@ -3096,6 +3144,14 @@ Blockly.ScratchMsgs.locales["ko"] = {
     "CATEGORY_ROBOTS_BLUETOOTH": "블루투스 모듈",
     "CATEGORY_ROBOTS_WRATHER": "날씨 모듈",
     "CATEGORY_ROBOTS_ITS": "지능형 교통 시스템",
+    "ROBOT_INIT_WEB_SERVER": "웹 서버 포트 %1 초기화",
+    "ROBOT_WEB_DISPOSE_DATA": "웹 서버가 요청 %1을 처리합니다",
+    "ROBOT_SEND_DATA_TO_WEB": "웹 서버가 클라이언트에 %1 데이터를 보냅니다 %2",
+    "ROBOT_TEXT": "텍스트",
+    "ROBOT_WEBPAGE": "웹페이지",
+    "ROBOT_GET_WEB_DATA": "웹 서버 %1의 데이터 수신",
+    "ROBOT_STRING": "문자열 %1",
+    "ROBOT_BREAK": "현재 루프 종료",
 }
 Blockly.ScratchMsgs.locales["hr"] = {
     "CONTROL_FOREVER": "ponavljaj",
@@ -3538,6 +3594,14 @@ Blockly.ScratchMsgs.locales["hr"] = {
     "CATEGORY_ROBOTS_BLUETOOTH": "Bluetooth modul",
     "CATEGORY_ROBOTS_WRATHER": "Vremenski modul",
     "CATEGORY_ROBOTS_ITS": "Inteligentni prometni sustav",
+    "ROBOT_INIT_WEB_SERVER": "Inicijaliziraj port web poslužitelja %1",
+    "ROBOT_WEB_DISPOSE_DATA": "web poslužitelj obrađuje zahtjev %1",
+    "ROBOT_SEND_DATA_TO_WEB": "web poslužitelj šalje %1 podatke klijentu %2",
+    "ROBOT_TEXT": "Tekst",
+    "ROBOT_WEBPAGE": "Web stranica",
+    "ROBOT_GET_WEB_DATA": "Primanje podataka s web poslužitelja %1",
+    "ROBOT_STRING": "Niz %1",
+    "ROBOT_BREAK": "Prekini trenutnu petlju",
 }
 Blockly.ScratchMsgs.locales["it"] = {
     "CONTROL_FOREVER": "per sempre",
@@ -3979,6 +4043,14 @@ Blockly.ScratchMsgs.locales["it"] = {
     "CATEGORY_ROBOTS_BLUETOOTH": "Modulo Bluetooth",
     "CATEGORY_ROBOTS_WRATHER": "Modulo Meteo",
     "CATEGORY_ROBOTS_ITS": "Sistema di trasporto intelligente",
+    "ROBOT_INIT_WEB_SERVER": "Inizializza porta server web %1",
+    "ROBOT_WEB_DISPOSE_DATA": "il server web elabora la richiesta %1",
+    "ROBOT_SEND_DATA_TO_WEB": "il server web invia i dati %1 al client %2",
+    "ROBOT_TEXT": "Testo",
+    "ROBOT_WEBPAGE": "Pagina web",
+    "ROBOT_GET_WEB_DATA": "Ricevi dati dal server web %1",
+    "ROBOT_STRING": "Stringa %1",
+    "ROBOT_BREAK": "Interrompi ciclo corrente",
 }
 Blockly.ScratchMsgs.locales["nl"] = {
     "CONTROL_FOREVER": "herhaal",
@@ -4421,6 +4493,14 @@ Blockly.ScratchMsgs.locales["nl"] = {
     "CATEGORY_ROBOTS_BLUETOOTH": "Bluetooth Module",
     "CATEGORY_ROBOTS_WRATHER": "Weer Module",
     "CATEGORY_ROBOTS_ITS": "Intelligent Transport System",
+    "ROBOT_INIT_WEB_SERVER": "Initialiseer webserver poort %1",
+    "ROBOT_WEB_DISPOSE_DATA": "webserver verwerkt verzoek %1",
+    "ROBOT_SEND_DATA_TO_WEB": "webserver stuurt %1 gegevens naar client %2",
+    "ROBOT_TEXT": "Tekst",
+    "ROBOT_WEBPAGE": "Webpagina",
+    "ROBOT_GET_WEB_DATA": "Ontvang gegevens van webserver %1",
+    "ROBOT_STRING": "Tekenreeks %1",
+    "ROBOT_BREAK": "Huidige lus onderbreken",
 }
 Blockly.ScratchMsgs.locales["ja"] = {
     "CONTROL_FOREVER": "ずっと",
@@ -4863,6 +4943,14 @@ Blockly.ScratchMsgs.locales["ja"] = {
     "CATEGORY_ROBOTS_BLUETOOTH": "Bluetoothモジュール",
     "CATEGORY_ROBOTS_WRATHER": "天気モジュール",
     "CATEGORY_ROBOTS_ITS": "インテリジェントトランスポートシステム",
+    "ROBOT_INIT_WEB_SERVER": "ウェブサーバーポート%1を初期化",
+    "ROBOT_WEB_DISPOSE_DATA": "webサーバーがリクエスト%1を処理",
+    "ROBOT_SEND_DATA_TO_WEB": "webサーバーがクライアントに%1データを送信%2",
+    "ROBOT_TEXT": "テキスト",
+    "ROBOT_WEBPAGE": "ウェブページ",
+    "ROBOT_GET_WEB_DATA": "ウェブサーバーから%1データを受信",
+    "ROBOT_STRING": "文字列%1",
+    "ROBOT_BREAK": "現在のループを終了",
 }
 Blockly.ScratchMsgs.locales["th"] = {
     "CONTROL_FOREVER": "วนซ้ำตลอด",
@@ -5305,6 +5393,14 @@ Blockly.ScratchMsgs.locales["th"] = {
     "CATEGORY_ROBOTS_BLUETOOTH": "Bluetooth โມดูล",
     "CATEGORY_ROBOTS_WRATHER": "โมดูลสภาพอากาศ",
     "CATEGORY_ROBOTS_ITS": "ระบบขนส่งอัจฉริยะ",
+    "ROBOT_INIT_WEB_SERVER": "เริ่มต้นพอร์ตเว็บเซิร์ฟเวอร์ %1",
+    "ROBOT_WEB_DISPOSE_DATA": "เว็บเซิร์ฟเวอร์ประมวลผลคำขอ %1",
+    "ROBOT_SEND_DATA_TO_WEB": "เว็บเซิร์ฟเวอร์ส่งข้อมูล %1 ไปยังไคลเอนต์ %2",
+    "ROBOT_TEXT": "ข้อความ",
+    "ROBOT_WEBPAGE": "เว็บเพจ",
+    "ROBOT_GET_WEB_DATA": "รับข้อมูลจากเว็บเซิร์ฟเวอร์ %1",
+    "ROBOT_STRING": "สตริง %1",
+    "ROBOT_BREAK": "ออกจากลูปปัจจุบัน",
 }
 Blockly.ScratchMsgs.locales["pl"] = {
     "CONTROL_FOREVER": "zawsze",
@@ -5747,6 +5843,14 @@ Blockly.ScratchMsgs.locales["pl"] = {
     "CATEGORY_ROBOTS_BLUETOOTH": "Moduł Bluetooth",
     "CATEGORY_ROBOTS_WRATHER": "Moduł pogodowy",
     "CATEGORY_ROBOTS_ITS": "Inteligentny system transportu",
+    "ROBOT_INIT_WEB_SERVER": "Inicjalizuj port serwera web %1",
+    "ROBOT_WEB_DISPOSE_DATA": "serwer web przetwarza żądanie %1",
+    "ROBOT_SEND_DATA_TO_WEB": "serwer web wysyła dane %1 do klienta %2",
+    "ROBOT_TEXT": "Tekst",
+    "ROBOT_WEBPAGE": "Strona internetowa",
+    "ROBOT_GET_WEB_DATA": "Odbierz dane z serwera web %1",
+    "ROBOT_STRING": "Ciąg znaków %1",
+    "ROBOT_BREAK": "Przerwij bieżącą pętlę",
 }
 Blockly.ScratchMsgs.locales["pt"] = {
     "CONTROL_FOREVER": "repete para sempre",
@@ -6189,6 +6293,14 @@ Blockly.ScratchMsgs.locales["pt"] = {
     "CATEGORY_ROBOTS_BLUETOOTH": "Módulo Bluetooth",
     "CATEGORY_ROBOTS_WRATHER": "Módulo de clima",
     "CATEGORY_ROBOTS_ITS": "Sistema de transporte inteligente",
+    "ROBOT_INIT_WEB_SERVER": "Inicializar porta do servidor web %1",
+    "ROBOT_WEB_DISPOSE_DATA": "servidor web processa o pedido %1",
+    "ROBOT_SEND_DATA_TO_WEB": "servidor web envia dados %1 para o cliente %2",
+    "ROBOT_TEXT": "Texto",
+    "ROBOT_WEBPAGE": "Página web",
+    "ROBOT_GET_WEB_DATA": "Receber dados do servidor web %1",
+    "ROBOT_STRING": "String %1",
+    "ROBOT_BREAK": "Interromper loop atual",
 }
 Blockly.ScratchMsgs.locales["ru"] = {
     "CONTROL_FOREVER": "повторять всегда",
@@ -6631,6 +6743,14 @@ Blockly.ScratchMsgs.locales["ru"] = {
     "CATEGORY_ROBOTS_BLUETOOTH": "Bluetooth-модуль",
     "CATEGORY_ROBOTS_WRATHER": "Модуль погоды",
     "CATEGORY_ROBOTS_ITS": "Интеллектуальная транспортная система",
+    "ROBOT_INIT_WEB_SERVER": "Инициализировать порт веб-сервера %1",
+    "ROBOT_WEB_DISPOSE_DATA": "веб-сервер обрабатывает запрос %1",
+    "ROBOT_SEND_DATA_TO_WEB": "веб-сервер отправляет данные %1 клиенту %2",
+    "ROBOT_TEXT": "Текст",
+    "ROBOT_WEBPAGE": "Веб-страница",
+    "ROBOT_GET_WEB_DATA": "Получить данные от веб-сервера %1",
+    "ROBOT_STRING": "Строка %1",
+    "ROBOT_BREAK": "Прервать текущий цикл",
 }
 Blockly.ScratchMsgs.locales["tr"] = {
     "CONTROL_FOREVER": "sürekli tekrarla",
@@ -7073,6 +7193,14 @@ Blockly.ScratchMsgs.locales["tr"] = {
     "CATEGORY_ROBOTS_BLUETOOTH": "Bluetooth Modülü",
     "CATEGORY_ROBOTS_WRATHER": "Hava Modülü",
     "CATEGORY_ROBOTS_ITS": "Akıllı Ulaşım Sistemi",
+    "ROBOT_INIT_WEB_SERVER": "Web sunucu portunu başlat %1",
+    "ROBOT_WEB_DISPOSE_DATA": "web sunucusu %1 isteğini işliyor",
+    "ROBOT_SEND_DATA_TO_WEB": "web sunucusu %1 verisini istemciye gönderiyor %2",
+    "ROBOT_TEXT": "Metin",
+    "ROBOT_WEBPAGE": "Web sayfası",
+    "ROBOT_GET_WEB_DATA": "Web sunucusundan veri al %1",
+    "ROBOT_STRING": "Dize %1",
+    "ROBOT_BREAK": "Geçerli döngüyü kır",
 }
 Blockly.ScratchMsgs.locales["zh-cn"] = {
     "CONTROL_FOREVER": "重复执行",
@@ -7513,6 +7641,14 @@ Blockly.ScratchMsgs.locales["zh-cn"] = {
     "CATEGORY_ROBOTS_BLUETOOTH": "蓝牙模块",
     "CATEGORY_ROBOTS_WRATHER": "天气模块",
     "CATEGORY_ROBOTS_ITS": "智能交通",
+    "ROBOT_INIT_WEB_SERVER": "初始化web服务器端口%1",
+    "ROBOT_WEB_DISPOSE_DATA": "web服务器处理请求%1",
+    "ROBOT_SEND_DATA_TO_WEB": "web服务器向客户端发送%1数据%2",
+    "ROBOT_TEXT": "文本",
+    "ROBOT_WEBPAGE": "网页",
+    "ROBOT_GET_WEB_DATA": "接收web服务器%1的数据",
+    "ROBOT_STRING": "字符%1",
+    "ROBOT_BREAK": "跳出当前循环",
 }
 Blockly.ScratchMsgs.locales["zh-tw"] = {
     "CONTROL_FOREVER": "重複無限次",
@@ -7955,4 +8091,12 @@ Blockly.ScratchMsgs.locales["zh-tw"] = {
     "CATEGORY_ROBOTS_BLUETOOTH": "藍牙模組",
     "CATEGORY_ROBOTS_WRATHER": "天氣模組",
     "CATEGORY_ROBOTS_ITS": "智慧交通",
+    "ROBOT_INIT_WEB_SERVER": "初始化web伺服器端口%1",
+    "ROBOT_WEB_DISPOSE_DATA": "web伺服器處理請求%1",
+    "ROBOT_SEND_DATA_TO_WEB": "web伺服器向客戶端發送%1數據%2",
+    "ROBOT_TEXT": "文本",
+    "ROBOT_WEBPAGE": "網頁",
+    "ROBOT_GET_WEB_DATA": "接收web伺服器%1的數據",
+    "ROBOT_STRING": "字符%1",
+    "ROBOT_BREAK": "跳出當前循環",
 }

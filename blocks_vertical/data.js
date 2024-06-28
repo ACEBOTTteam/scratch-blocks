@@ -386,6 +386,36 @@ Blockly.Blocks['data_replaceitemoflist'] = {
   }
 };
 
+Blockly.Blocks['data_setlisttype'] = {
+  /**
+   * Block to set type a list.
+   * @this Blockly.Block
+   */
+  init: function() {
+    this.jsonInit({
+      "message0": '设置%1数据类型为%2',
+      "args0": [
+        {
+          "type": "field_variable",
+          "name": "LIST",
+          "variableTypes": [Blockly.LIST_VARIABLE_TYPE]
+        },
+        {
+          "type": "field_dropdown",
+          "name": "TYPE",
+          "options": [
+            [Blockly.Msg.ROBOT_FLOAT,"float"],
+            [Blockly.Msg.ROBOT_INT,"int"],
+            ["String","String"],
+          ]
+        }
+      ],
+      "category": Blockly.Categories.dataLists,
+      "extensions": ["colours_data_lists", "shape_statement"]
+    });
+  }
+};
+
 Blockly.Blocks['data_itemoflist'] = {
   /**
    * Block for reporting item of list.
