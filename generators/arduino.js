@@ -281,6 +281,7 @@ Blockly.Arduino.scrub_ = function(block, code) {
     && (block.type !== 'control_forever' || block.getRootBlock().type !== 'event_whenarduinobegin')) {
     // Add indent at start except custom function
     if (block.type !== 'procedures_definition'
+      && block.type !== 'carMotor_carMode'
       && block.type !== 'procedures_prototype'
       && block.type !== 'spider_callback') {
       codeWithIndent = Blockly.Arduino.INDENT + codeWithIndent;

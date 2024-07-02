@@ -449,9 +449,10 @@ Blockly.ScratchMsgs.locales["ar"] = {
     "ROBOT_SEND_DATA_TO_WEB": "يُرسل خادم الويب البيانات %1 إلى العميل %2",
     "ROBOT_TEXT": "نص",
     "ROBOT_WEBPAGE": "صفحة ويب",
-    "ROBOT_GET_WEB_DATA": "استلام البيانات من خادم الويب %1",
+    "ROBOT_GET_WEB_DATA": "استلام القيمة من العميل %1",
     "ROBOT_STRING": "سلسلة %1",
     "ROBOT_BREAK": "كسر الحلقة الحالية",
+    "ROBOT_ASYNC_DELAY": "تأخير غير متزامن %1",
 }
 Blockly.ScratchMsgs.locales["cs"] = {
     "CONTROL_FOREVER": "opakuj stále",
@@ -899,9 +900,10 @@ Blockly.ScratchMsgs.locales["cs"] = {
     "ROBOT_SEND_DATA_TO_WEB": "webový server odesílá data %1 klientovi %2",
     "ROBOT_TEXT": "Text",
     "ROBOT_WEBPAGE": "Webová stránka",
-    "ROBOT_GET_WEB_DATA": "Přijmout data z webového serveru %1",
+    "ROBOT_GET_WEB_DATA": "přijmout hodnotu od klienta %1",
     "ROBOT_STRING": "Řetězec %1",
     "ROBOT_BREAK": "Přerušit aktuální smyčku",
+    "ROBOT_ASYNC_DELAY": "asynchronní zpoždění %1",
 }
 Blockly.ScratchMsgs.locales["de"] = {
     "CONTROL_FOREVER": "wiederhole fortlaufend",
@@ -1349,9 +1351,10 @@ Blockly.ScratchMsgs.locales["de"] = {
     "ROBOT_SEND_DATA_TO_WEB": "Webserver sendet %1 Daten an Client %2",
     "ROBOT_TEXT": "Text",
     "ROBOT_WEBPAGE": "Webseite",
-    "ROBOT_GET_WEB_DATA": "Daten vom Webserver %1 empfangen",
+    "ROBOT_GET_WEB_DATA": "Wert vom Client %1 empfangen",
     "ROBOT_STRING": "Zeichenfolge %1",
     "ROBOT_BREAK": "Aktuelle Schleife abbrechen",
+    "ROBOT_ASYNC_DELAY": "asynchrone Verzögerung %1",
 }
 Blockly.ScratchMsgs.locales["en"] = {
     "CONTROL_FOREVER": "forever",
@@ -1799,9 +1802,10 @@ Blockly.ScratchMsgs.locales["en"] = {
     "ROBOT_SEND_DATA_TO_WEB": "web server sends %1 data to client %2",
     "ROBOT_TEXT": "Text",
     "ROBOT_WEBPAGE": "Webpage",
-    "ROBOT_GET_WEB_DATA": "Receive data from web server %1",
+    "ROBOT_GET_WEB_DATA": "receive value from client %1",
     "ROBOT_STRING": "String %1",
     "ROBOT_BREAK": "Break current loop",
+    "ROBOT_ASYNC_DELAY": "asynchronous delay %1",
 }
 Blockly.ScratchMsgs.locales["es"] = {
     "CONTROL_FOREVER": "por siempre",
@@ -2249,9 +2253,10 @@ Blockly.ScratchMsgs.locales["es"] = {
     "ROBOT_SEND_DATA_TO_WEB": "servidor web envía datos %1 al cliente %2",
     "ROBOT_TEXT": "Texto",
     "ROBOT_WEBPAGE": "Página web",
-    "ROBOT_GET_WEB_DATA": "Recibir datos del servidor web %1",
+    "ROBOT_GET_WEB_DATA": "recibir valor del cliente %1",
     "ROBOT_STRING": "Cadena %1",
     "ROBOT_BREAK": "Salir del ciclo actual",
+    "ROBOT_ASYNC_DELAY": "retraso asíncrono %1",
 }
 Blockly.ScratchMsgs.locales["fr"] = {
     "CONTROL_FOREVER": "répéter indéfiniment",
@@ -2699,9 +2704,10 @@ Blockly.ScratchMsgs.locales["fr"] = {
     "ROBOT_SEND_DATA_TO_WEB": "le serveur web envoie les données %1 au client %2",
     "ROBOT_TEXT": "Texte",
     "ROBOT_WEBPAGE": "Page web",
-    "ROBOT_GET_WEB_DATA": "Recevoir les données du serveur web %1",
+    "ROBOT_GET_WEB_DATA": "recevoir la valeur du client %1",
     "ROBOT_STRING": "Chaîne %1",
     "ROBOT_BREAK": "Quitter la boucle actuelle",
+    "ROBOT_ASYNC_DELAY": "délai asynchrone %1",
 }
 Blockly.ScratchMsgs.locales["ko"] = {
     "CONTROL_FOREVER": "무한 반복하기",
@@ -3149,9 +3155,10 @@ Blockly.ScratchMsgs.locales["ko"] = {
     "ROBOT_SEND_DATA_TO_WEB": "웹 서버가 클라이언트에 %1 데이터를 보냅니다 %2",
     "ROBOT_TEXT": "텍스트",
     "ROBOT_WEBPAGE": "웹페이지",
-    "ROBOT_GET_WEB_DATA": "웹 서버 %1의 데이터 수신",
+    "ROBOT_GET_WEB_DATA": "클라이언트 %1의 값을 받기",
     "ROBOT_STRING": "문자열 %1",
     "ROBOT_BREAK": "현재 루프 종료",
+    "ROBOT_ASYNC_DELAY": "비동기 지연 %1",
 }
 Blockly.ScratchMsgs.locales["hr"] = {
     "CONTROL_FOREVER": "ponavljaj",
@@ -3599,9 +3606,10 @@ Blockly.ScratchMsgs.locales["hr"] = {
     "ROBOT_SEND_DATA_TO_WEB": "web poslužitelj šalje %1 podatke klijentu %2",
     "ROBOT_TEXT": "Tekst",
     "ROBOT_WEBPAGE": "Web stranica",
-    "ROBOT_GET_WEB_DATA": "Primanje podataka s web poslužitelja %1",
+    "ROBOT_GET_WEB_DATA": "primanje vrijednosti od klijenta %1",
     "ROBOT_STRING": "Niz %1",
     "ROBOT_BREAK": "Prekini trenutnu petlju",
+    "ROBOT_ASYNC_DELAY": "asinkrona odgoda %1",
 }
 Blockly.ScratchMsgs.locales["it"] = {
     "CONTROL_FOREVER": "per sempre",
@@ -4048,9 +4056,10 @@ Blockly.ScratchMsgs.locales["it"] = {
     "ROBOT_SEND_DATA_TO_WEB": "il server web invia i dati %1 al client %2",
     "ROBOT_TEXT": "Testo",
     "ROBOT_WEBPAGE": "Pagina web",
-    "ROBOT_GET_WEB_DATA": "Ricevi dati dal server web %1",
+    "ROBOT_GET_WEB_DATA": "ricevere valore dal client %1",
     "ROBOT_STRING": "Stringa %1",
     "ROBOT_BREAK": "Interrompi ciclo corrente",
+    "ROBOT_ASYNC_DELAY": "ritardo asincrono %1",
 }
 Blockly.ScratchMsgs.locales["nl"] = {
     "CONTROL_FOREVER": "herhaal",
@@ -4498,9 +4507,10 @@ Blockly.ScratchMsgs.locales["nl"] = {
     "ROBOT_SEND_DATA_TO_WEB": "webserver stuurt %1 gegevens naar client %2",
     "ROBOT_TEXT": "Tekst",
     "ROBOT_WEBPAGE": "Webpagina",
-    "ROBOT_GET_WEB_DATA": "Ontvang gegevens van webserver %1",
+    "ROBOT_GET_WEB_DATA": "waarde ontvangen van client %1",
     "ROBOT_STRING": "Tekenreeks %1",
     "ROBOT_BREAK": "Huidige lus onderbreken",
+    "ROBOT_ASYNC_DELAY": "asynchrone vertraging %1",
 }
 Blockly.ScratchMsgs.locales["ja"] = {
     "CONTROL_FOREVER": "ずっと",
@@ -4948,9 +4958,10 @@ Blockly.ScratchMsgs.locales["ja"] = {
     "ROBOT_SEND_DATA_TO_WEB": "webサーバーがクライアントに%1データを送信%2",
     "ROBOT_TEXT": "テキスト",
     "ROBOT_WEBPAGE": "ウェブページ",
-    "ROBOT_GET_WEB_DATA": "ウェブサーバーから%1データを受信",
+    "ROBOT_GET_WEB_DATA": "クライアント %1 から値を受け取る",
     "ROBOT_STRING": "文字列%1",
     "ROBOT_BREAK": "現在のループを終了",
+    "ROBOT_ASYNC_DELAY": "非同期遅延 %1",
 }
 Blockly.ScratchMsgs.locales["th"] = {
     "CONTROL_FOREVER": "วนซ้ำตลอด",
@@ -5398,9 +5409,10 @@ Blockly.ScratchMsgs.locales["th"] = {
     "ROBOT_SEND_DATA_TO_WEB": "เว็บเซิร์ฟเวอร์ส่งข้อมูล %1 ไปยังไคลเอนต์ %2",
     "ROBOT_TEXT": "ข้อความ",
     "ROBOT_WEBPAGE": "เว็บเพจ",
-    "ROBOT_GET_WEB_DATA": "รับข้อมูลจากเว็บเซิร์ฟเวอร์ %1",
+    "ROBOT_GET_WEB_DATA": "รับค่าจากไคลเอนต์ %1",
     "ROBOT_STRING": "สตริง %1",
     "ROBOT_BREAK": "ออกจากลูปปัจจุบัน",
+    "ROBOT_ASYNC_DELAY": "หน่วงเวลาแบบอะซิงโครนัส %1",
 }
 Blockly.ScratchMsgs.locales["pl"] = {
     "CONTROL_FOREVER": "zawsze",
@@ -5848,9 +5860,10 @@ Blockly.ScratchMsgs.locales["pl"] = {
     "ROBOT_SEND_DATA_TO_WEB": "serwer web wysyła dane %1 do klienta %2",
     "ROBOT_TEXT": "Tekst",
     "ROBOT_WEBPAGE": "Strona internetowa",
-    "ROBOT_GET_WEB_DATA": "Odbierz dane z serwera web %1",
+    "ROBOT_GET_WEB_DATA": "otrzymaj wartość od klienta %1",
     "ROBOT_STRING": "Ciąg znaków %1",
     "ROBOT_BREAK": "Przerwij bieżącą pętlę",
+    "ROBOT_ASYNC_DELAY": "opóźnienie asynchroniczne %1",
 }
 Blockly.ScratchMsgs.locales["pt"] = {
     "CONTROL_FOREVER": "repete para sempre",
@@ -6298,9 +6311,10 @@ Blockly.ScratchMsgs.locales["pt"] = {
     "ROBOT_SEND_DATA_TO_WEB": "servidor web envia dados %1 para o cliente %2",
     "ROBOT_TEXT": "Texto",
     "ROBOT_WEBPAGE": "Página web",
-    "ROBOT_GET_WEB_DATA": "Receber dados do servidor web %1",
+    "ROBOT_GET_WEB_DATA": "receber valor do cliente %1",
     "ROBOT_STRING": "String %1",
     "ROBOT_BREAK": "Interromper loop atual",
+    "ROBOT_ASYNC_DELAY": "atraso assíncrono %1",
 }
 Blockly.ScratchMsgs.locales["ru"] = {
     "CONTROL_FOREVER": "повторять всегда",
@@ -6748,9 +6762,10 @@ Blockly.ScratchMsgs.locales["ru"] = {
     "ROBOT_SEND_DATA_TO_WEB": "веб-сервер отправляет данные %1 клиенту %2",
     "ROBOT_TEXT": "Текст",
     "ROBOT_WEBPAGE": "Веб-страница",
-    "ROBOT_GET_WEB_DATA": "Получить данные от веб-сервера %1",
+    "ROBOT_GET_WEB_DATA": "получить значение от клиента %1",
     "ROBOT_STRING": "Строка %1",
     "ROBOT_BREAK": "Прервать текущий цикл",
+    "ROBOT_ASYNC_DELAY": "асинхронная задержка %1",
 }
 Blockly.ScratchMsgs.locales["tr"] = {
     "CONTROL_FOREVER": "sürekli tekrarla",
@@ -7198,9 +7213,10 @@ Blockly.ScratchMsgs.locales["tr"] = {
     "ROBOT_SEND_DATA_TO_WEB": "web sunucusu %1 verisini istemciye gönderiyor %2",
     "ROBOT_TEXT": "Metin",
     "ROBOT_WEBPAGE": "Web sayfası",
-    "ROBOT_GET_WEB_DATA": "Web sunucusundan veri al %1",
+    "ROBOT_GET_WEB_DATA": "istemciden %1 değeri al",
     "ROBOT_STRING": "Dize %1",
     "ROBOT_BREAK": "Geçerli döngüyü kır",
+    "ROBOT_ASYNC_DELAY": "asenkron gecikme %1",
 }
 Blockly.ScratchMsgs.locales["zh-cn"] = {
     "CONTROL_FOREVER": "重复执行",
@@ -7646,9 +7662,10 @@ Blockly.ScratchMsgs.locales["zh-cn"] = {
     "ROBOT_SEND_DATA_TO_WEB": "web服务器向客户端发送%1数据%2",
     "ROBOT_TEXT": "文本",
     "ROBOT_WEBPAGE": "网页",
-    "ROBOT_GET_WEB_DATA": "接收web服务器%1的数据",
+    "ROBOT_GET_WEB_DATA": "接收客户端%1的值",
     "ROBOT_STRING": "字符%1",
     "ROBOT_BREAK": "跳出当前循环",
+    "ROBOT_ASYNC_DELAY": "异步延时%1",
 }
 Blockly.ScratchMsgs.locales["zh-tw"] = {
     "CONTROL_FOREVER": "重複無限次",
@@ -8096,7 +8113,8 @@ Blockly.ScratchMsgs.locales["zh-tw"] = {
     "ROBOT_SEND_DATA_TO_WEB": "web伺服器向客戶端發送%1數據%2",
     "ROBOT_TEXT": "文本",
     "ROBOT_WEBPAGE": "網頁",
-    "ROBOT_GET_WEB_DATA": "接收web伺服器%1的數據",
+    "ROBOT_GET_WEB_DATA": "接收客戶端%1的值",
     "ROBOT_STRING": "字符%1",
     "ROBOT_BREAK": "跳出當前循環",
+    "ROBOT_ASYNC_DELAY": "異步延遲%1",
 }
