@@ -107,6 +107,11 @@ Blockly.Arduino.INDENT = '  ';
 Blockly.Arduino.firstLoop = true;
 
 /**
+ * 变量列表的长度
+ */
+Blockly.Arduino.variableLength = 0
+
+/**
  * Initialise the database of variable names.
  * @param {!Blockly.Workspace} workspace Workspace to generate code from.
  */
@@ -149,7 +154,11 @@ Blockly.Arduino.init = function(workspace) {
   if (variables.length > 0) {
     Blockly.Arduino.definitions_['variables'] = defvars.join('\n');
   }
-};
+  if(Blockly.Arduino.variableLength !== variables.length){
+    workspace.toolbox_.refreshSelection()
+    Blockly.Arduino.variableLength = variables.length
+  };
+}
 
 /**
  * Prepend the generated code with the variable definitions.
