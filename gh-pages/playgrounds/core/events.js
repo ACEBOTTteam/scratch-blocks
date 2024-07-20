@@ -250,10 +250,18 @@ Blockly.Events.filter = function(queueIn, forward) {
         hash[key] = {event: event, index: 1};
         mergedQueue.push(event);
       }
+    }else if(event.type == "comment_move"){
+      mergedQueue.push(event);
     }
   }
   // Filter out any events that have become null due to merging.
-  queue = mergedQueue.filter(function(e) { return !e.isNull(); });
+  queue = mergedQueue.filter(function(e) {
+      if(e.type == "comment_move"){
+        return true
+      }
+     return !e.isNull(); 
+    });
+
   if (!forward) {
     // Restore undo order.
     queue.reverse();

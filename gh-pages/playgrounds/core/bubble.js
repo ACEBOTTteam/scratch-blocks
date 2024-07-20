@@ -456,6 +456,7 @@ Blockly.Bubble.prototype.positionBubble_ = function() {
   }
   var top = this.relativeTop_ + this.anchorXY_.y;
   this.moveTo(left, top);
+  return {x:left,y:top}
 };
 
 /**

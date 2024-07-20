@@ -32,6 +32,7 @@ goog.require('goog.dom');
 goog.require('goog.math');
 goog.require('goog.math.Coordinate');
 goog.require('goog.userAgent');
+goog.require('Blockly.Events.CommentMove');
 
 
 /**
@@ -53,7 +54,7 @@ goog.require('goog.userAgent');
  * @constructor
  */
 Blockly.ScratchBubble = function(comment, workspace, content, anchorXY,
-    bubbleWidth, bubbleHeight, bubbleX, bubbleY, minimized) {
+    bubbleWidth, bubbleHeight, bubbleX, bubbleY, minimized,setXY) {
 
   // Needed for Events
   /**
@@ -61,6 +62,7 @@ Blockly.ScratchBubble = function(comment, workspace, content, anchorXY,
    * @type {Blockly.ScratchBlockComment}
    * @package
    */
+  this.setXY = setXY
   this.comment = comment;
 
   this.workspace_ = workspace;
@@ -535,8 +537,14 @@ Blockly.ScratchBubble.prototype.registerContextMenuCallback = function(callback)
  */
 Blockly.ScratchBubble.prototype.setAnchorLocation = function(xy) {
   this.anchorXY_ = xy;
+  var event = null;
   if (this.rendered_) {
-    this.positionBubble_();
+    let xy = this.positionBubble_();
+    this.setXY(xy.x,xy.y)
+    //触发注释移动事件
+    event = new Blockly.Events.CommentMove(this.comment);
+    event.recordNew();
+    Blockly.Events.fire(event);
   }
 };
 

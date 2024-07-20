@@ -361,7 +361,7 @@ Blockly.ScratchBlockComment.prototype.setVisible = function(visible) {
     this.bubble_ = new Blockly.ScratchBubble(
         this, /** @type {!Blockly.WorkspaceSvg} */ (this.block_.workspace),
         this.createEditor_(), this.iconXY_, this.width_, this.height_,
-        this.x_, this.y_, this.isMinimized_);
+        this.x_, this.y_, this.isMinimized_,this.setXY);
     this.bubble_.setAutoLayout(false);
     this.bubble_.registerResizeEvent(this.resizeBubble_.bind(this));
     this.bubble_.registerMinimizeToggleEvent(this.toggleMinimize_.bind(this));
@@ -382,6 +382,11 @@ Blockly.ScratchBlockComment.prototype.setVisible = function(visible) {
   if (visible) {
     Blockly.ScratchBlockComment.fireCreateEvent(this);
   }
+};
+
+Blockly.ScratchBlockComment.prototype.setXY = function(x, y) {
+  this.x_ = x;
+  this.y_ = y;
 };
 
 /**
