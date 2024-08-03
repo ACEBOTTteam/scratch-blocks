@@ -1597,6 +1597,15 @@ Blockly.WorkspaceSvg.prototype.updateWorkspaceBlocksDisabledState = function() {
       return item.type === block.type;
     });
 
+    // if('realTime'===Blockly.model){
+    //   if(-1!==block.type.indexOf("carMotor")||
+    //   -1!==block.type.indexOf("fourLeggedBionicSpider")||
+    //   -1!==block.type.indexOf("mechanicalArm")
+    //   ){
+    //     matchedBlock = false
+    //   }
+    // }
+
     // if a block in workspace can not find the same type block in flyout.
     // And it's not include in ignore list, and it's not a shadow block, disable it.
     if (!matchedBlock && !block.isShadow()) {

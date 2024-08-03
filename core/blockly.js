@@ -113,6 +113,17 @@ Blockly.clipboardSource_ = null;
  */
 Blockly.cache3dSupported_ = null;
 
+
+/**
+ * @description: 当前的模式
+ * @private {string}
+ */
+Blockly.model = "realTime"
+
+Blockly.setModel = function(model){
+  Blockly.model = model
+}
+
 /**
  * Convert a hue (HSV model) into an RGB hex triplet.
  * @param {number} hue Hue on a colour wheel (0-360).

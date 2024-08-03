@@ -453,6 +453,11 @@ Blockly.ScratchMsgs.locales["ar"] = {
     "ROBOT_STRING": "سلسلة %1",
     "ROBOT_BREAK": "كسر الحلقة الحالية",
     "ROBOT_ASYNC_DELAY": "تأخير غير متزامن %1",
+    "ROBOT_ROCKER_DATA": "عصا التحكم x%1y%2sw%3قيمة%4",
+    "ROBOT_SERIAL_PORT_BOOLEAN": "ما إذا كان المنفذ التسلسلي يستقبل البيانات",
+    "ROBOT_GET_SERIAL_PORT_DATA": "استقبال بيانات المنفذ التسلسلي",
+    "ROBOT_SERIAL_PORT_NULL": "لا يوجد منهي",
+    "ROBOT_OPERATOR_SPLIT_STRING": "قسّم %2 بـ %1 وخذ العنصر %3",
 }
 Blockly.ScratchMsgs.locales["cs"] = {
     "CONTROL_FOREVER": "opakuj stále",
@@ -904,6 +909,11 @@ Blockly.ScratchMsgs.locales["cs"] = {
     "ROBOT_STRING": "Řetězec %1",
     "ROBOT_BREAK": "Přerušit aktuální smyčku",
     "ROBOT_ASYNC_DELAY": "asynchronní zpoždění %1",
+    "ROBOT_ROCKER_DATA": "joystick x%1y%2sw%3hodnota%4",
+    "ROBOT_SERIAL_PORT_BOOLEAN": "zda sériový port přijímá data",
+    "ROBOT_GET_SERIAL_PORT_DATA": "přijímat data sériového portu",
+    "ROBOT_SERIAL_PORT_NULL": "bez ukončovacího znaku",
+    "ROBOT_OPERATOR_SPLIT_STRING": "rozdělit %2 podle %1 a vzít položku %3",
 }
 Blockly.ScratchMsgs.locales["de"] = {
     "CONTROL_FOREVER": "wiederhole fortlaufend",
@@ -1355,6 +1365,11 @@ Blockly.ScratchMsgs.locales["de"] = {
     "ROBOT_STRING": "Zeichenfolge %1",
     "ROBOT_BREAK": "Aktuelle Schleife abbrechen",
     "ROBOT_ASYNC_DELAY": "asynchrone Verzögerung %1",
+    "ROBOT_ROCKER_DATA": "joystick x%1y%2sw%3wert%4",
+    "ROBOT_SERIAL_PORT_BOOLEAN": "ob der serielle port daten empfängt",
+    "ROBOT_GET_SERIAL_PORT_DATA": "serielle portdaten empfangen",
+    "ROBOT_SERIAL_PORT_NULL": "kein endzeichen",
+    "ROBOT_OPERATOR_SPLIT_STRING": "%2 mit %1 trennen und element %3 nehmen",
 }
 Blockly.ScratchMsgs.locales["en"] = {
     "CONTROL_FOREVER": "forever",
@@ -1806,6 +1821,11 @@ Blockly.ScratchMsgs.locales["en"] = {
     "ROBOT_STRING": "string %1",
     "ROBOT_BREAK": "break current loop",
     "ROBOT_ASYNC_DELAY": "asynchronous delay %1",
+    "ROBOT_ROCKER_DATA": "rocker x%1y%2sw%3value%4",
+    "ROBOT_SERIAL_PORT_BOOLEAN": "whether the serial port receives data",
+    "ROBOT_GET_SERIAL_PORT_DATA": "receive serial port data",
+    "ROBOT_SERIAL_PORT_NULL": "no terminator",
+    "ROBOT_OPERATOR_SPLIT_STRING": "split %2 by %1 and take item %3",
 }
 Blockly.ScratchMsgs.locales["es"] = {
     "CONTROL_FOREVER": "por siempre",
@@ -2257,6 +2277,11 @@ Blockly.ScratchMsgs.locales["es"] = {
     "ROBOT_STRING": "Cadena %1",
     "ROBOT_BREAK": "Salir del ciclo actual",
     "ROBOT_ASYNC_DELAY": "retraso asíncrono %1",
+    "ROBOT_ROCKER_DATA": "joystick x%1y%2sw%3valor%4",
+    "ROBOT_SERIAL_PORT_BOOLEAN": "si el puerto serie recibe datos",
+    "ROBOT_GET_SERIAL_PORT_DATA": "recibir datos del puerto serie",
+    "ROBOT_SERIAL_PORT_NULL": "sin terminador",
+    "ROBOT_OPERATOR_SPLIT_STRING": "dividir %2 por %1 y tomar el elemento %3",
 }
 Blockly.ScratchMsgs.locales["fr"] = {
     "CONTROL_FOREVER": "répéter indéfiniment",
@@ -2708,6 +2733,11 @@ Blockly.ScratchMsgs.locales["fr"] = {
     "ROBOT_STRING": "Chaîne %1",
     "ROBOT_BREAK": "Quitter la boucle actuelle",
     "ROBOT_ASYNC_DELAY": "délai asynchrone %1",
+    "ROBOT_ROCKER_DATA": "manette x%1y%2sw%3valeur%4",
+    "ROBOT_SERIAL_PORT_BOOLEAN": "le port série reçoit-il des données",
+    "ROBOT_GET_SERIAL_PORT_DATA": "recevoir des données de port série",
+    "ROBOT_SERIAL_PORT_NULL": "pas de caractère de fin",
+    "ROBOT_OPERATOR_SPLIT_STRING": "séparer %2 par %1 et prendre l'élément %3",
 }
 Blockly.ScratchMsgs.locales["ko"] = {
     "CONTROL_FOREVER": "무한 반복하기",
@@ -3159,6 +3189,11 @@ Blockly.ScratchMsgs.locales["ko"] = {
     "ROBOT_STRING": "문자열 %1",
     "ROBOT_BREAK": "현재 루프 종료",
     "ROBOT_ASYNC_DELAY": "비동기 지연 %1",
+    "ROBOT_ROCKER_DATA": "조이스틱 x%1y%2sw%3값%4",
+    "ROBOT_SERIAL_PORT_BOOLEAN": "시리얼 포트가 데이터를 수신하는지 여부",
+    "ROBOT_GET_SERIAL_PORT_DATA": "시리얼 포트 데이터 수신",
+    "ROBOT_SERIAL_PORT_NULL": "종료 문자가 없음",
+    "ROBOT_OPERATOR_SPLIT_STRING": "%2를 %1으로 분할하고 항목 %3을 가져옵니다",
 }
 Blockly.ScratchMsgs.locales["hr"] = {
     "CONTROL_FOREVER": "ponavljaj",
@@ -3610,6 +3645,11 @@ Blockly.ScratchMsgs.locales["hr"] = {
     "ROBOT_STRING": "Niz %1",
     "ROBOT_BREAK": "Prekini trenutnu petlju",
     "ROBOT_ASYNC_DELAY": "asinkrona odgoda %1",
+    "ROBOT_ROCKER_DATA": "joystick x%1y%2sw%3vrijednost%4",
+    "ROBOT_SERIAL_PORT_BOOLEAN": "prima li serijski port podatke",
+    "ROBOT_GET_SERIAL_PORT_DATA": "primanje podataka serijskog porta",
+    "ROBOT_SERIAL_PORT_NULL": "bez završnog znaka",
+    "ROBOT_OPERATOR_SPLIT_STRING": "razdvojiti %2 po %1 i uzeti stavku %3",
 }
 Blockly.ScratchMsgs.locales["it"] = {
     "CONTROL_FOREVER": "per sempre",
@@ -4060,6 +4100,11 @@ Blockly.ScratchMsgs.locales["it"] = {
     "ROBOT_STRING": "Stringa %1",
     "ROBOT_BREAK": "Interrompi ciclo corrente",
     "ROBOT_ASYNC_DELAY": "ritardo asincrono %1",
+    "ROBOT_ROCKER_DATA": "joystick x%1y%2sw%3valore%4",
+    "ROBOT_SERIAL_PORT_BOOLEAN": "se la porta seriale riceve dati",
+    "ROBOT_GET_SERIAL_PORT_DATA": "ricevere dati dalla porta seriale",
+    "ROBOT_SERIAL_PORT_NULL": "nessun terminatore",
+    "ROBOT_OPERATOR_SPLIT_STRING": "dividere %2 con %1 e prendere l'elemento %3",
 }
 Blockly.ScratchMsgs.locales["nl"] = {
     "CONTROL_FOREVER": "herhaal",
@@ -4511,6 +4556,11 @@ Blockly.ScratchMsgs.locales["nl"] = {
     "ROBOT_STRING": "Tekenreeks %1",
     "ROBOT_BREAK": "Huidige lus onderbreken",
     "ROBOT_ASYNC_DELAY": "asynchrone vertraging %1",
+    "ROBOT_ROCKER_DATA": "joystick x%1y%2sw%3waarde%4",
+    "ROBOT_SERIAL_PORT_BOOLEAN": "of de seriële poort gegevens ontvangt",
+    "ROBOT_GET_SERIAL_PORT_DATA": "seriële poortgegevens ontvangen",
+    "ROBOT_SERIAL_PORT_NULL": "geen afsluiter",
+    "ROBOT_OPERATOR_SPLIT_STRING": "splits %2 door %1 en neem item %3",
 }
 Blockly.ScratchMsgs.locales["ja"] = {
     "CONTROL_FOREVER": "ずっと",
@@ -4962,6 +5012,11 @@ Blockly.ScratchMsgs.locales["ja"] = {
     "ROBOT_STRING": "文字列%1",
     "ROBOT_BREAK": "現在のループを終了",
     "ROBOT_ASYNC_DELAY": "非同期遅延 %1",
+    "ROBOT_ROCKER_DATA": "ロッカー x%1y%2sw%3値%4",
+    "ROBOT_SERIAL_PORT_BOOLEAN": "シリアルポートがデータを受信しているかどうか",
+    "ROBOT_GET_SERIAL_PORT_DATA": "シリアルポートデータを受信",
+    "ROBOT_SERIAL_PORT_NULL": "終端符なし",
+    "ROBOT_OPERATOR_SPLIT_STRING": "%2を%1で分割して項目%3を取得",
 }
 Blockly.ScratchMsgs.locales["th"] = {
     "CONTROL_FOREVER": "วนซ้ำตลอด",
@@ -5413,6 +5468,11 @@ Blockly.ScratchMsgs.locales["th"] = {
     "ROBOT_STRING": "สตริง %1",
     "ROBOT_BREAK": "ออกจากลูปปัจจุบัน",
     "ROBOT_ASYNC_DELAY": "หน่วงเวลาแบบอะซิงโครนัส %1",
+    "ROBOT_ROCKER_DATA": "จอยสติ๊ก x%1y%2sw%3ค่า%4",
+    "ROBOT_SERIAL_PORT_BOOLEAN": "พอร์ตอนุกรมรับข้อมูลหรือไม่",
+    "ROBOT_GET_SERIAL_PORT_DATA": "รับข้อมูลพอร์ตอนุกรม",
+    "ROBOT_SERIAL_PORT_NULL": "ไม่มีตัวอักษรสิ้นสุด",
+    "ROBOT_OPERATOR_SPLIT_STRING": "แยก %2 ด้วย %1 และนำรายการที่ %3",
 }
 Blockly.ScratchMsgs.locales["pl"] = {
     "CONTROL_FOREVER": "zawsze",
@@ -5864,6 +5924,11 @@ Blockly.ScratchMsgs.locales["pl"] = {
     "ROBOT_STRING": "Ciąg znaków %1",
     "ROBOT_BREAK": "Przerwij bieżącą pętlę",
     "ROBOT_ASYNC_DELAY": "opóźnienie asynchroniczne %1",
+    "ROBOT_ROCKER_DATA": "joystick x%1y%2sw%3wartość%4",
+    "ROBOT_SERIAL_PORT_BOOLEAN": "czy port szeregowy odbiera dane",
+    "ROBOT_GET_SERIAL_PORT_DATA": "odbieranie danych z portu szeregowego",
+    "ROBOT_SERIAL_PORT_NULL": "bez znaku końcowego",
+    "ROBOT_OPERATOR_SPLIT_STRING": "podziel %2 przez %1 i weź element %3",
 }
 Blockly.ScratchMsgs.locales["pt"] = {
     "CONTROL_FOREVER": "repete para sempre",
@@ -6315,6 +6380,11 @@ Blockly.ScratchMsgs.locales["pt"] = {
     "ROBOT_STRING": "String %1",
     "ROBOT_BREAK": "Interromper loop atual",
     "ROBOT_ASYNC_DELAY": "atraso assíncrono %1",
+    "ROBOT_ROCKER_DATA": "joystick x%1y%2sw%3valor%4",
+    "ROBOT_SERIAL_PORT_BOOLEAN": "se a porta serial recebe dados",
+    "ROBOT_GET_SERIAL_PORT_DATA": "receber dados da porta serial",
+    "ROBOT_SERIAL_PORT_NULL": "sem terminador",
+    "ROBOT_OPERATOR_SPLIT_STRING": "dividir %2 por %1 e pegar o item %3",
 }
 Blockly.ScratchMsgs.locales["ru"] = {
     "CONTROL_FOREVER": "повторять всегда",
@@ -6766,6 +6836,11 @@ Blockly.ScratchMsgs.locales["ru"] = {
     "ROBOT_STRING": "Строка %1",
     "ROBOT_BREAK": "Прервать текущий цикл",
     "ROBOT_ASYNC_DELAY": "асинхронная задержка %1",
+    "ROBOT_ROCKER_DATA": "джойстик x%1y%2sw%3значение%4",
+    "ROBOT_SERIAL_PORT_BOOLEAN": "получает ли последовательный порт данные",
+    "ROBOT_GET_SERIAL_PORT_DATA": "получение данных с последовательного порта",
+    "ROBOT_SERIAL_PORT_NULL": "без завершающего символа",
+    "ROBOT_OPERATOR_SPLIT_STRING": "разделить %2 по %1 и взять элемент %3",
 }
 Blockly.ScratchMsgs.locales["tr"] = {
     "CONTROL_FOREVER": "sürekli tekrarla",
@@ -7217,6 +7292,11 @@ Blockly.ScratchMsgs.locales["tr"] = {
     "ROBOT_STRING": "Dize %1",
     "ROBOT_BREAK": "Geçerli döngüyü kır",
     "ROBOT_ASYNC_DELAY": "asenkron gecikme %1",
+    "ROBOT_ROCKER_DATA": "joystick x%1y%2sw%3değer%4",
+    "ROBOT_SERIAL_PORT_BOOLEAN": "seri portun veri alıp almadığı",
+    "ROBOT_GET_SERIAL_PORT_DATA": "seri port verilerini al",
+    "ROBOT_SERIAL_PORT_NULL": "sonlandırıcı yok",
+    "ROBOT_OPERATOR_SPLIT_STRING": "%2'yi %1 ile böl ve %3. öğeyi al",
 }
 Blockly.ScratchMsgs.locales["zh-cn"] = {
     "CONTROL_FOREVER": "重复执行",
@@ -7529,7 +7609,7 @@ Blockly.ScratchMsgs.locales["zh-cn"] = {
     "ROBOT_WHOLE_BEAT": "整",
     "ROBOT_DOUBLE_BEAT": "双",
     "ROBOT_MQ4_GAS_SENSOR": "MQ-4气体传感器%1",
-    "ROBOT_TRACE_SENSOR_SET": "巡线传感器设置管脚 S:%1,M:%2,L:%3",
+    "ROBOT_TRACE_SENSOR_SET": "巡线传感器设置管脚 (R:%1,M:%2,L:%3)",
     "ROBOT_TRACE_SENSOR_GET": "三路巡线%1的取值",
     "ROBOT_POTENTIOMETER": "电位器%1",
     "ROBOT_TOUCH_SENSOR": "触摸传感器%1被触摸",
@@ -7666,6 +7746,11 @@ Blockly.ScratchMsgs.locales["zh-cn"] = {
     "ROBOT_STRING": "字符%1",
     "ROBOT_BREAK": "跳出当前循环",
     "ROBOT_ASYNC_DELAY": "异步延时%1",
+    "ROBOT_ROCKER_DATA": "摇杆 x%1y%2sw%3值%4",
+    "ROBOT_SERIAL_PORT_BOOLEAN": "串口是否接收数据",
+    "ROBOT_GET_SERIAL_PORT_DATA": "串口接收数据",
+    "ROBOT_SERIAL_PORT_NULL": "无结束符",
+    "ROBOT_OPERATOR_SPLIT_STRING": "用%1分割%2的第%3项",
 }
 Blockly.ScratchMsgs.locales["zh-tw"] = {
     "CONTROL_FOREVER": "重複無限次",
@@ -8117,4 +8202,9 @@ Blockly.ScratchMsgs.locales["zh-tw"] = {
     "ROBOT_STRING": "字符%1",
     "ROBOT_BREAK": "跳出當前循環",
     "ROBOT_ASYNC_DELAY": "異步延遲%1",
+    "ROBOT_ROCKER_DATA": "搖桿 x%1y%2sw%3值%4",
+    "ROBOT_SERIAL_PORT_BOOLEAN": "串口是否接收數據",
+    "ROBOT_GET_SERIAL_PORT_DATA": "串口接收數據",
+    "ROBOT_SERIAL_PORT_NULL": "無結束符",
+    "ROBOT_OPERATOR_SPLIT_STRING": "用%1分割%2的第%3項",
 }

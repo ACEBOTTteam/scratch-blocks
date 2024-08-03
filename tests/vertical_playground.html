@@ -309,10 +309,10 @@
         Blockly.Xml.clearWorkspaceAndLoadFromXml(xml, workspace);
         workspace.getFlyout().setRecyclingEnabled(true);
       }
-      let timer = setTimeout(()=>{
-        workspace.addChangeListener(generatPythonCode);
-        console.log('完成')
-      },3000)
+      // let timer = setTimeout(()=>{
+      //   workspace.addChangeListener(generatPythonCode);
+      //   console.log('完成')
+      // },3000)
       const generatPythonCode = () => {
         //当前为上传模式时转换代码
         let code = Blockly['Arduino'].workspaceToCode(workspace)
@@ -342,6 +342,42 @@
                 ],
                 "category": Blockly.Categories.control,
                 "extensions": ["colours_control", "shape_statement"]
+            })
+        }
+    }
+
+    const GasSensor_pin = [
+                          ["1","1"],
+                          ["1","1"],
+                          ["1","1"],
+                          ["1","1"],
+                          ["1","1"],
+                          ["1","1"],
+                        ]
+    //三路巡线传感器
+    Blockly.Blocks['Trace_Sensor_Set'] = {
+        init: function () {
+            this.jsonInit({
+                "message0": Blockly.Msg.ROBOT_TRACE_SENSOR_SET,
+                "args0": [
+                    {
+                        "type": "field_dropdown",
+                        "name": "PIN_LIST_1",
+                        "options": GasSensor_pin
+                    },
+                    {
+                        "type": "field_dropdown",
+                        "name": "PIN_LIST_2",
+                        "options": GasSensor_pin
+                    },
+                    {
+                        "type": "field_dropdown",
+                        "name": "PIN_LIST_3",
+                        "options": GasSensor_pin
+                    },
+                ],
+                "category": Blockly.Categories.robotBlocks,
+                "extensions": ["colours_robot", "shape_statement"]
             })
         }
     }
