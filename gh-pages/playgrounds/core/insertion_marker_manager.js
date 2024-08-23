@@ -642,7 +642,9 @@ Blockly.InsertionMarkerManager.prototype.disconnectMarker_ = function() {
   }
 
   this.markerConnection_ = null;
-  imBlock.getSvgRoot().setAttribute('visibility', 'hidden');
+  if(imBlock.getSvgRoot()){
+    imBlock.getSvgRoot().setAttribute('visibility', 'hidden');
+  }
 };
 
 /**

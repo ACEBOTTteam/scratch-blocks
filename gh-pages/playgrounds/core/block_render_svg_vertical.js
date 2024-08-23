@@ -762,7 +762,7 @@ Blockly.BlockSvg.prototype.renderFields_ = function(fieldList, cursorX,
       translateX += field.renderWidth;
     }
     root.setAttribute('transform',
-        'translate(' + translateX*1.1 + ', ' + translateY*1.1 + ') ' + scale);
+        'translate(' + translateX + ', ' + translateY + ') ' + scale);
 
     // Fields are invisible on insertion marker.
     if (this.isInsertionMarker()) {
@@ -1165,7 +1165,7 @@ Blockly.BlockSvg.prototype.renderDraw_ = function(iconWidth, inputRows) {
 
   var pathString = steps.join(' ');
   var parsedPath = new Svg(pathString)
-  parsedPath.scale(1.1,1.1)
+  // parsedPath.scale(1.1,1.1)
   pathString = parsedPath.asString(4, true)
   this.svgPath_.setAttribute('d', pathString);
 
@@ -1311,7 +1311,7 @@ Blockly.BlockSvg.prototype.renderDrawRight_ = function(steps,
           // Attempt to center the connection vertically.
           var connectionYOffset = row.height / 2;
           connectionY = cursorY + connectionYOffset;
-          input.connection.setOffsetInBlock(connectionX*1.1, connectionY);
+          input.connection.setOffsetInBlock(connectionX, connectionY);
           this.renderInputShape_(input, cursorX, cursorY + connectionYOffset);
           cursorX += input.renderWidth + Blockly.BlockSvg.SEP_SPACE_X;
         }
@@ -1413,7 +1413,7 @@ Blockly.BlockSvg.prototype.renderInputShape_ = function(input, x, y) {
     inputShapeY = y - (Blockly.BlockSvg.INPUT_SHAPE_HEIGHT / 2);
     inputShape.setAttribute('d', inputShapeInfo.path);
     inputShape.setAttribute('transform',
-        'translate(' + inputShapeX*1.1 + ',' + inputShapeY*1.1 + ')');
+        'translate(' + inputShapeX + ',' + inputShapeY + ')');
     inputShape.setAttribute('data-argument-type', inputShapeInfo.argType);
     inputShape.setAttribute('style', 'visibility: visible');
   }

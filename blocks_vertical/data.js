@@ -393,7 +393,7 @@ Blockly.Blocks['data_setlisttype'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": '设置%1数据类型为%2',
+      "message0": Blockly.Msg.ROBOT_LIST_SET_TYPE,
       "args0": [
         {
           "type": "field_variable",

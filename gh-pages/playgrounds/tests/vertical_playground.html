@@ -27,7 +27,7 @@
     <script src="../blocks_vertical/data.js"></script>
     <script src="../blocks_vertical/extensions.js"></script>
     <script src="../blocks_vertical/default_toolbox.js"></script>
-    <script src="../arduino_compressed.js"></script>
+    <!-- <script src="../arduino_compressed.js"></script> -->
 
     <script>
       'use strict';
@@ -85,7 +85,7 @@
           zoom: {
             controls: true,
             wheel: true,
-            startScale: 0.675,
+            startScale: 0.743,
             maxScale: 4,
             minScale: 0.25,
             scaleSpeed: 1.1
@@ -313,11 +313,11 @@
       //   workspace.addChangeListener(generatPythonCode);
       //   console.log('完成')
       // },3000)
-      const generatPythonCode = () => {
-        //当前为上传模式时转换代码
-        let code = Blockly['Arduino'].workspaceToCode(workspace)
-        console.log(code)
-      }
+      // const generatPythonCode = () => {
+      //   //当前为上传模式时转换代码
+      //   let code = Blockly['Arduino'].workspaceToCode(workspace)
+      //   console.log(code)
+      // }
 
       Blockly.Blocks['homochromyLED'] = {
         init: function () {

@@ -112,6 +112,13 @@ Blockly.Arduino.firstLoop = true;
 Blockly.Arduino.variableLength = 0
 
 /**
+ * 函数列表的长度
+ */
+Blockly.Arduino.funLength = 0
+
+let mainWorkspace = null
+
+/**
  * Initialise the database of variable names.
  * @param {!Blockly.Workspace} workspace Workspace to generate code from.
  */
@@ -158,6 +165,7 @@ Blockly.Arduino.init = function(workspace) {
     workspace.toolbox_.refreshSelection()
     Blockly.Arduino.variableLength = variables.length
   };
+  mainWorkspace = workspace
 }
 
 /**
@@ -204,6 +212,10 @@ Blockly.Arduino.finish = function(code) {
   // custom function definitions
   if (customFunctions.length != 0) {
     ret += customFunctions.join('\n') + "\n";
+    if(customFunctions.length!==Blockly.Arduino.variableLength){
+      mainWorkspace.toolbox_.refreshSelection()
+      Blockly.Arduino.variableLength = customFunctions.length
+    }
   }
 
   // setup()
@@ -291,6 +303,7 @@ Blockly.Arduino.scrub_ = function(block, code) {
     // Add indent at start except custom function
     if (block.type !== 'procedures_definition'
       && block.type !== 'carMotor_carMode'
+      && block.type !== 'bipedRobot_bipedRobotCreatAction'
       && block.type !== 'procedures_prototype'
       && block.type !== 'spider_callback') {
       codeWithIndent = Blockly.Arduino.INDENT + codeWithIndent;
