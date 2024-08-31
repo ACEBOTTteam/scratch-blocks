@@ -625,6 +625,16 @@ Blockly.Toolbox.CategoryMenu.prototype.populate = function(domTree) {
     var child = categories[i];
     var row = goog.dom.createDom('div', 'scratchCategoryMenuRow');
     this.table.appendChild(row);
+    //类别为拓展时，添加删除按钮
+    if(-1===child.getAttribute('name').indexOf('%')){
+      var rowChild = goog.dom.createDom('div', 'deleteScratchCategory');
+      rowChild.setAttribute("data-id",child.getAttribute('id'))
+      //绑定删除事件
+      rowChild.addEventListener('click',(ev)=>{
+        Blockly.handleDeviceExtensionRemoved(ev.target.dataset.id)
+      })
+      row.appendChild(rowChild)
+    }
     if (child) {
       this.categories_.push(new Blockly.Toolbox.Category(this, row,
           child));
