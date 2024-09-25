@@ -212,10 +212,10 @@ Blockly.Arduino.finish = function(code) {
   // custom function definitions
   if (customFunctions.length != 0) {
     ret += customFunctions.join('\n') + "\n";
-    if(customFunctions.length!==Blockly.Arduino.variableLength){
-      mainWorkspace.toolbox_.refreshSelection()
-      Blockly.Arduino.variableLength = customFunctions.length
-    }
+  }
+  if(customFunctions.length!==Blockly.Arduino.funLength){
+    mainWorkspace.toolbox_.refreshSelection()
+    Blockly.Arduino.funLength = customFunctions.length
   }
 
   // setup()

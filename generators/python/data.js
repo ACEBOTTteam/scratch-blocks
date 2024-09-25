@@ -45,6 +45,10 @@ Blockly.Python['data_setvariableto'] = function(block) {
   return varName + ' = ' + arg0 + '\n';
 };
 
+Blockly.Python['data_settype'] = function() {
+  return '';
+};
+
 Blockly.Python['data_changevariableby'] = function(block) {
   var arg0 = Blockly.Python.valueToCode(block, 'VALUE',
       Blockly.Python.ORDER_ADDITIVE) || '0';
@@ -81,6 +85,10 @@ Blockly.Python['data_addtolist'] = function(block) {
   }
 
   return varName + '.append(' + item + ')\n';
+};
+
+Blockly.Python['data_setlisttype'] = function() {
+  return ''
 };
 
 Blockly.Python['data_deleteoflist'] = function(block) {

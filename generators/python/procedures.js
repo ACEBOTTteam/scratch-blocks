@@ -49,6 +49,17 @@ Blockly.Python['procedures_definition'] = function(block) {
   return null;
 };
 
+Blockly.Python['procedures_callback'] = function(block) {
+  var funcName = block.getProcCode();
+  funcName = funcName.replace(/ /g, '_');
+  funcName = funcName.replace(/%n/g, 'N');
+  funcName = funcName.replace(/%s/g, 'S');
+  funcName = funcName.replace(/%b/g, 'B');
+  funcName = Blockly.Python.variableDB_.getName(funcName, Blockly.Procedures.NAME_TYPE);
+
+  return [funcName, Blockly.Arduino.ORDER_ATOMIC];
+};
+
 Blockly.Python['procedures_call'] = function(block) {
   // Generators can not automatic handle indefinite parameters. We should get
   // block.inputList and handle
