@@ -475,6 +475,8 @@ Blockly.ScratchMsgs.locales["ar"] = {
     "ROBOT_LEFT_ROCKER": "عصا التحكم اليسرى",
     "ROBOT_RIGHT_ROCKER": "عصا التحكم اليمنى",
     "ROBOT_ROCKER_SPEED": "%1 x%2y%3sw%4القيمة%5",
+    "ROBOT_WIND_CUP_DATA": "القيمة",
+    "ROBOT_WIND_CUP_LEVEL": "المستوى",
 }
 Blockly.ScratchMsgs.locales["cs"] = {
     "CONTROL_FOREVER": "opakuj stále",
@@ -948,6 +950,8 @@ Blockly.ScratchMsgs.locales["cs"] = {
     "ROBOT_LEFT_ROCKER": "levý joystick",
     "ROBOT_RIGHT_ROCKER": "pravý joystick",
     "ROBOT_ROCKER_SPEED": "%1 x%2y%3sw%4hodnota%5",
+    "ROBOT_WIND_CUP_DATA": "hodnota",
+    "ROBOT_WIND_CUP_LEVEL": "úroveň",
 }
 Blockly.ScratchMsgs.locales["de"] = {
     "CONTROL_FOREVER": "wiederhole fortlaufend",
@@ -1421,6 +1425,8 @@ Blockly.ScratchMsgs.locales["de"] = {
     "ROBOT_LEFT_ROCKER": "linker joystick",
     "ROBOT_RIGHT_ROCKER": "rechter joystick",
     "ROBOT_ROCKER_SPEED": "%1 x%2y%3sw%4wert%5",
+    "ROBOT_WIND_CUP_DATA": "wert",
+    "ROBOT_WIND_CUP_LEVEL": "stufe",
 }
 Blockly.ScratchMsgs.locales["en"] = {
     "CONTROL_FOREVER": "forever",
@@ -1893,7 +1899,9 @@ Blockly.ScratchMsgs.locales["en"] = {
     "ROBOT_CHAR": "char %1",
     "ROBOT_LEFT_ROCKER": "left rocker",
     "ROBOT_RIGHT_ROCKER": "right rocker",
-    "ROBOT_ROCKER_SPEED": "%1x%2y%3sw%4value%5",
+    "ROBOT_ROCKER_SPEED": "%1 x%2y%3sw%4value%5",
+    "ROBOT_WIND_CUP_DATA": "value",
+    "ROBOT_WIND_CUP_LEVEL": "level",
 }
 Blockly.ScratchMsgs.locales["es"] = {
     "CONTROL_FOREVER": "por siempre",
@@ -2367,6 +2375,8 @@ Blockly.ScratchMsgs.locales["es"] = {
     "ROBOT_LEFT_ROCKER": "joystick izquierdo",
     "ROBOT_RIGHT_ROCKER": "joystick derecho",
     "ROBOT_ROCKER_SPEED": "%1 x%2y%3sw%4valor%5",
+    "ROBOT_WIND_CUP_DATA": "valor",
+    "ROBOT_WIND_CUP_LEVEL": "nivel",
 }
 Blockly.ScratchMsgs.locales["fr"] = {
     "CONTROL_FOREVER": "répéter indéfiniment",
@@ -2840,6 +2850,8 @@ Blockly.ScratchMsgs.locales["fr"] = {
     "ROBOT_LEFT_ROCKER": "joystick gauche",
     "ROBOT_RIGHT_ROCKER": "joystick droit",
     "ROBOT_ROCKER_SPEED": "%1 x%2y%3sw%4valeur%5",
+    "ROBOT_WIND_CUP_DATA": "valeur",
+    "ROBOT_WIND_CUP_LEVEL": "niveau",
 }
 Blockly.ScratchMsgs.locales["ko"] = {
     "CONTROL_FOREVER": "무한 반복하기",
@@ -3313,6 +3325,8 @@ Blockly.ScratchMsgs.locales["ko"] = {
     "ROBOT_LEFT_ROCKER": "왼쪽 조이스틱",
     "ROBOT_RIGHT_ROCKER": "오른쪽 조이스틱",
     "ROBOT_ROCKER_SPEED": "%1 x%2y%3sw%4값%5",
+    "ROBOT_WIND_CUP_DATA": "값",
+    "ROBOT_WIND_CUP_LEVEL": "레벨",
 }
 Blockly.ScratchMsgs.locales["hr"] = {
     "CONTROL_FOREVER": "ponavljaj",
@@ -3786,6 +3800,8 @@ Blockly.ScratchMsgs.locales["hr"] = {
     "ROBOT_LEFT_ROCKER": "lijevi joystick",
     "ROBOT_RIGHT_ROCKER": "desni joystick",
     "ROBOT_ROCKER_SPEED": "%1 x%2y%3sw%4vrijednost%5",
+    "ROBOT_WIND_CUP_DATA": "vrijednost",
+    "ROBOT_WIND_CUP_LEVEL": "razina",
 }
 Blockly.ScratchMsgs.locales["it"] = {
     "CONTROL_FOREVER": "per sempre",
@@ -4258,6 +4274,8 @@ Blockly.ScratchMsgs.locales["it"] = {
     "ROBOT_LEFT_ROCKER": "joystick sinistro",
     "ROBOT_RIGHT_ROCKER": "joystick destro",
     "ROBOT_ROCKER_SPEED": "%1 x%2y%3sw%4valore%5",
+    "ROBOT_WIND_CUP_DATA": "valore",
+    "ROBOT_WIND_CUP_LEVEL": "livello",
 }
 Blockly.ScratchMsgs.locales["nl"] = {
     "CONTROL_FOREVER": "herhaal",
@@ -4731,6 +4749,8 @@ Blockly.ScratchMsgs.locales["nl"] = {
     "ROBOT_LEFT_ROCKER": "linker joystick",
     "ROBOT_RIGHT_ROCKER": "rechter joystick",
     "ROBOT_ROCKER_SPEED": "%1 x%2y%3sw%4waarde%5",
+    "ROBOT_WIND_CUP_DATA": "waarde",
+    "ROBOT_WIND_CUP_LEVEL": "niveau",
 }
 Blockly.ScratchMsgs.locales["ja"] = {
     "CONTROL_FOREVER": "ずっと",
@@ -5204,6 +5224,8 @@ Blockly.ScratchMsgs.locales["ja"] = {
     "ROBOT_LEFT_ROCKER": "左ジョイスティック",
     "ROBOT_RIGHT_ROCKER": "右ジョイスティック",
     "ROBOT_ROCKER_SPEED": "%1 x%2y%3sw%4値%5",
+    "ROBOT_WIND_CUP_DATA": "値",
+    "ROBOT_WIND_CUP_LEVEL": "レベル",
 }
 Blockly.ScratchMsgs.locales["th"] = {
     "CONTROL_FOREVER": "วนซ้ำตลอด",
@@ -5677,6 +5699,8 @@ Blockly.ScratchMsgs.locales["th"] = {
     "ROBOT_LEFT_ROCKER": "จอยสติ๊กซ้าย",
     "ROBOT_RIGHT_ROCKER": "จอยสติ๊กขวา",
     "ROBOT_ROCKER_SPEED": "%1 x%2y%3sw%4ค่า%5",
+    "ROBOT_WIND_CUP_DATA": "ค่า",
+    "ROBOT_WIND_CUP_LEVEL": "ระดับ",
 }
 Blockly.ScratchMsgs.locales["pl"] = {
     "CONTROL_FOREVER": "zawsze",
@@ -6150,6 +6174,8 @@ Blockly.ScratchMsgs.locales["pl"] = {
     "ROBOT_LEFT_ROCKER": "lewy joystick",
     "ROBOT_RIGHT_ROCKER": "prawy joystick",
     "ROBOT_ROCKER_SPEED": "%1 x%2y%3sw%4wartość%5",
+    "ROBOT_WIND_CUP_DATA": "wartość",
+    "ROBOT_WIND_CUP_LEVEL": "poziom",
 }
 Blockly.ScratchMsgs.locales["pt"] = {
     "CONTROL_FOREVER": "repete para sempre",
@@ -6623,6 +6649,8 @@ Blockly.ScratchMsgs.locales["pt"] = {
     "ROBOT_LEFT_ROCKER": "joystick esquerdo",
     "ROBOT_RIGHT_ROCKER": "joystick direito",
     "ROBOT_ROCKER_SPEED": "%1 x%2y%3sw%4valor%5",
+    "ROBOT_WIND_CUP_DATA": "valor",
+    "ROBOT_WIND_CUP_LEVEL": "nível",
 }
 Blockly.ScratchMsgs.locales["ru"] = {
     "CONTROL_FOREVER": "повторять всегда",
@@ -7096,6 +7124,8 @@ Blockly.ScratchMsgs.locales["ru"] = {
     "ROBOT_LEFT_ROCKER": "левый джойстик",
     "ROBOT_RIGHT_ROCKER": "правый джойстик",
     "ROBOT_ROCKER_SPEED": "%1 x%2y%3sw%4значение%5",
+    "ROBOT_WIND_CUP_DATA": "значение",
+    "ROBOT_WIND_CUP_LEVEL": "уровень",
 }
 Blockly.ScratchMsgs.locales["tr"] = {
     "CONTROL_FOREVER": "sürekli tekrarla",
@@ -7569,6 +7599,8 @@ Blockly.ScratchMsgs.locales["tr"] = {
     "ROBOT_LEFT_ROCKER": "sol joystick",
     "ROBOT_RIGHT_ROCKER": "sağ joystick",
     "ROBOT_ROCKER_SPEED": "%1 x%2y%3sw%4değer%5",
+    "ROBOT_WIND_CUP_DATA": "değer",
+    "ROBOT_WIND_CUP_LEVEL": "seviye",
 }
 Blockly.ScratchMsgs.locales["zh-cn"] = {
     "CONTROL_FOREVER": "重复执行",
@@ -8040,6 +8072,8 @@ Blockly.ScratchMsgs.locales["zh-cn"] = {
     "ROBOT_LEFT_ROCKER": "左摇杆",
     "ROBOT_RIGHT_ROCKER": "右摇杆",
     "ROBOT_ROCKER_SPEED": "%1 x%2y%3sw%4值%5",
+    "ROBOT_WIND_CUP_DATA": "值",
+    "ROBOT_WIND_CUP_LEVEL": "等级",
 }
 Blockly.ScratchMsgs.locales["zh-tw"] = {
     "CONTROL_FOREVER": "重複無限次",
@@ -8513,4 +8547,6 @@ Blockly.ScratchMsgs.locales["zh-tw"] = {
     "ROBOT_LEFT_ROCKER": "左搖桿",
     "ROBOT_RIGHT_ROCKER": "右搖桿",
     "ROBOT_ROCKER_SPEED": "%1 x%2y%3sw%4值%5",
+    "ROBOT_WIND_CUP_DATA": "值",
+    "ROBOT_WIND_CUP_LEVEL": "等級",
 }
