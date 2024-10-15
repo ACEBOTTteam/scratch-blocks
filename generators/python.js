@@ -319,13 +319,14 @@ Blockly.Python.scrub_ = function(block, code) {
         commentCode = Blockly.Arduino.INDENT + commentCode;
       }
     }
-    if(block.type!=="WEB_SERVER_DISPOSE"){
+    if(block.type!=="WEB_SERVER_DISPOSE"&&block.type!=="control_if_else"){
       codeWithIndent = codeWithIndent.replace(/\n/g, "\n" + Blockly.Arduino.INDENT);
-    }else{
-      codeWithIndent = codeWithIndent.replace(/\n/g, "\n");
     }
     // Delet final indent
-    codeWithIndent = codeWithIndent.slice(0, codeWithIndent.length - 2);
+    if(block.type!=="control_if_else"){
+      codeWithIndent = codeWithIndent.slice(0, codeWithIndent.length - 2);
+    }
+    
   }
 
   var nextBlock = block.nextConnection && block.nextConnection.targetBlock();
