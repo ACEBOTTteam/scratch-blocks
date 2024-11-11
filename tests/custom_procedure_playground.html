@@ -20,7 +20,8 @@
     <script src="../blocks_vertical/sound.js"></script>
     <script src="../blocks_vertical/sensing.js"></script>
     <script src="../blocks_vertical/data.js"></script>
-    <script src="../arduino_compressed.js"></script>
+    <!-- <script src="../arduino_compressed.js"></script> -->
+    <script src="../python_compressed.js"></script>
   <style>
     body {
       background-color: #fff;
@@ -242,11 +243,11 @@
     let timer = setTimeout(()=>{
       definitionWorkspace.addChangeListener(generatPythonCode);
         console.log('完成')
-      },3000)
+      },1000)
       const generatPythonCode = () => {
         //当前为上传模式时转换代码
-        let code = Blockly['Arduino'].workspaceToCode(definitionWorkspace)
-        // console.log(code,'11111')
+        let code = Blockly['Python'].workspaceToCode(definitionWorkspace)
+        console.log(code,'11111')
       }
 </script>
 

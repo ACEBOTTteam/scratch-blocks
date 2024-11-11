@@ -157,6 +157,16 @@ Blockly.Css.CONTENT = [
     'touch-action: none',
   '}',
 
+  '.screenshotImg {',
+    'width: 32px;',
+    'height: 32px;',
+    'background-image: url(<<<PATH>>>/screenshot.png);',
+    'position: absolute;',
+    'top: 10px;',
+    'right: 10px;',
+    'z-index: 10;',
+    'cursor: pointer;',
+  '}',
   '.blocklyNonSelectable {',
     'user-select: none;',
     '-moz-user-select: none;',
@@ -1021,6 +1031,60 @@ Blockly.Css.CONTENT = [
     'font-size: 0.75rem;',
     'fill: $colour_textFieldText;',
     'pointer-events: none;',
+  '}',
+
+  /* 显示、隐藏 flyout 的按钮 */
+  '.blocklyToolboxTrigger {',
+    'display: flex;',
+    'justify-content: center;',
+    'align-items: center;',
+
+    'position: absolute;',
+    'top: 0;',
+    'left: 0;',
+    'z-index: 20;',
+
+    'width: 0;',
+    'height: 100%;',
+  '}',
+
+  '.blocklyToolboxTriggerIcon {',
+    'display: block;',
+    'position: absolute;',
+
+    'width: 26px;',
+    'height: 54px;',
+
+    'cursor: pointer;',
+  '}',
+
+  /* 可删除区域显示垃圾桶标识 */
+  '.mxcTrash {',
+    'display: none;',
+
+    'position: absolute;',
+    'top: 0;',
+    'left: 0;',
+    'z-index: 50;',
+
+    'width: 310px;',
+    'height: 100%;',
+
+    'background-image: url(<<<PATH>>>/trash.png);',
+    'background-repeat: no-repeat !important;',
+    'background-position: 50% 50%;',
+    'background-size: 34px;',
+
+    'background-color: rgba(0, 0, 0, .3);',
+  '}',
+  
+  '.minToolBoX {',
+    'width: 60px;',
+  '}',
+
+  '.mxcTrash.mxcTrashOpen {',
+    'background-image: url(<<<PATH>>>/trash-open.png);',
+    'background-color: rgba(0, 0, 0, .3);',
   '}',
 
   /* Copied from: goog/css/menu.css */

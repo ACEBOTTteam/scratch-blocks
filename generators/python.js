@@ -310,11 +310,11 @@ Blockly.Python.scrub_ = function(block, code) {
   // mean's it is in a function or it is custom function, add indent
   // at start of every line.
   if (block.getSurroundParent() === null && code !== "" && block.previousConnection !== null
-    && block.getTopStackBlock().type !== 'event_whenmicrobitbegin') {
+    && block.getTopStackBlock().type !== 'event_whenarduinobegin') {
     // Add indent at start except custom function
     if (block.type !== 'procedures_definition'
       && block.type !== 'procedures_prototype') {
-      // codeWithIndent = Blockly.Arduino.INDENT + codeWithIndent;
+      codeWithIndent = Blockly.Arduino.INDENT + codeWithIndent;
       if (commentCode !== '') {
         commentCode = Blockly.Arduino.INDENT + commentCode;
       }

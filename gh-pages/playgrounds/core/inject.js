@@ -56,6 +56,10 @@ Blockly.inject = function(container, opt_options) {
   }
   var options = new Blockly.Options(opt_options || {});
   var subContainer = goog.dom.createDom('div', 'injectionDiv');
+  //截图图标
+  var screenshotContainer = goog.dom.createDom('div','screenshotImg')
+
+  subContainer.appendChild(screenshotContainer);
   container.appendChild(subContainer);
 
   // Open the Field text cache and leave it open. See this issue for more information
