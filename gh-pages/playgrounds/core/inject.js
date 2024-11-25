@@ -58,7 +58,6 @@ Blockly.inject = function(container, opt_options) {
   var subContainer = goog.dom.createDom('div', 'injectionDiv');
   //截图图标
   var screenshotContainer = goog.dom.createDom('div','screenshotImg')
-
   subContainer.appendChild(screenshotContainer);
   container.appendChild(subContainer);
 

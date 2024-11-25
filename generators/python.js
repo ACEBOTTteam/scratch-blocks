@@ -314,13 +314,13 @@ Blockly.Python.scrub_ = function(block, code) {
     // Add indent at start except custom function
     if (block.type !== 'procedures_definition'
       && block.type !== 'procedures_prototype') {
-      codeWithIndent = Blockly.Arduino.INDENT + codeWithIndent;
+      codeWithIndent = Blockly.Python.INDENT + codeWithIndent;
       if (commentCode !== '') {
-        commentCode = Blockly.Arduino.INDENT + commentCode;
+        commentCode = Blockly.Python.INDENT + commentCode;
       }
     }
-    if(block.type!=="WEB_SERVER_DISPOSE"&&block.type!=="control_if_else"){
-      codeWithIndent = codeWithIndent.replace(/\n/g, "\n" + Blockly.Arduino.INDENT);
+    if(block.type!=="WEB_SERVER_DISPOSE"){
+      codeWithIndent = codeWithIndent.replace(/\n/g, "\n" + Blockly.Python.INDENT);
     }
     // Delet final indent
     if(block.type!=="control_if_else"){

@@ -572,5 +572,6 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
   '<category name="机器人" id="robotBlocks" colour="#FF6680" secondaryColour="#FF4D6A">'+
       '<block type="homochromyLED"></block>'+
       '<block type="Trace_Sensor_Set"></block>'+
+      '<block type="carMotor_carMode"></block>'+
   '</category>'+
   '</xml>';
