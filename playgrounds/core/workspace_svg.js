@@ -585,13 +585,13 @@ Blockly.WorkspaceSvg.prototype.addTrashcan_ = function(bottom) {
  * @return {number} Distance from workspace bottom to the top of controls.
  * @private
  */
-Blockly.WorkspaceSvg.prototype.addZoomControls_ = function(bottom) {
-  /** @type {Blockly.ZoomControls} */
-  this.zoomControls_ = new Blockly.ZoomControls(this);
-  var svgZoomControls = this.zoomControls_.createDom();
-  this.svgGroup_.appendChild(svgZoomControls);
-  return this.zoomControls_.init(bottom);
-};
+// Blockly.WorkspaceSvg.prototype.addZoomControls_ = function(bottom) {
+//   /** @type {Blockly.ZoomControls} */
+//   this.zoomControls_ = new Blockly.ZoomControls(this);
+//   var svgZoomControls = this.zoomControls_.createDom();
+//   this.svgGroup_.appendChild(svgZoomControls);
+//   return this.zoomControls_.init(bottom);
+// };
 
 /**
  * Add a flyout element in an element with the given tag name.
@@ -2227,27 +2227,27 @@ Blockly.WorkspaceSvg.prototype.removeToolboxCategoryCallback = function(key) {
  * @package
  */
 Blockly.WorkspaceSvg.prototype.getGesture = function(e) {
-  var isStart = (e.type == 'mousedown' || e.type == 'touchstart');
+  // var isStart = (e.type == 'mousedown' || e.type == 'touchstart');
 
-  var gesture = this.currentGesture_;
-  if (gesture) {
-    if (isStart && gesture.hasStarted()) {
-      // That's funny.  We must have missed a mouse up.
-      // Cancel it, rather than try to retrieve all of the state we need.
-      gesture.cancel();
-      return null;
-    }
-    return gesture;
-  }
+  // var gesture = this.currentGesture_;
+  // if (gesture) {
+  //   if (isStart && gesture.hasStarted()) {
+  //     // That's funny.  We must have missed a mouse up.
+  //     // Cancel it, rather than try to retrieve all of the state we need.
+  //     gesture.cancel();
+  //     return null;
+  //   }
+  //   return gesture;
+  // }
 
-  // No gesture existed on this workspace, but this looks like the start of a
-  // new gesture.
-  if (isStart) {
-    this.currentGesture_ = new Blockly.Gesture(e, this);
-    return this.currentGesture_;
-  }
-  // No gesture existed and this event couldn't be the start of a new gesture.
-  return null;
+  // // No gesture existed on this workspace, but this looks like the start of a
+  // // new gesture.
+  // if (isStart) {
+  //   this.currentGesture_ = new Blockly.Gesture(e, this);
+  //   return this.currentGesture_;
+  // }
+  // // No gesture existed and this event couldn't be the start of a new gesture.
+  // return null;
 };
 
 /**

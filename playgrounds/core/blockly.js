@@ -610,6 +610,20 @@ Blockly.unbindEvent_ = function(bindData) {
   return func;
 };
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Is the given string a number (includes negative and decimals).
  * @param {string} str Input string.
@@ -632,3 +646,7 @@ if (!goog.global['Blockly']) {
   goog.global['Blockly'] = {};
 }
 goog.global['Blockly']['getMainWorkspace'] = Blockly.getMainWorkspace;
+
+
+
+

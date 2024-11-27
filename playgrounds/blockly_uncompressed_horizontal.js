@@ -138,7 +138,7 @@ goog.addDependency("../../../" + dir + "/core/workspace_drag_surface_svg.js", ['
 goog.addDependency("../../../" + dir + "/core/workspace_dragger.js", ['Blockly.WorkspaceDragger'], ['goog.math.Coordinate', 'goog.asserts']);
 goog.addDependency("../../../" + dir + "/core/workspace_svg.js", ['Blockly.WorkspaceSvg'], ['Blockly.Colours', 'Blockly.ConnectionDB', 'Blockly.constants', 'Blockly.DataCategory', 'Blockly.DropDownDiv', 'Blockly.Events.BlockCreate', 'Blockly.Gesture', 'Blockly.Grid', 'Blockly.Options', 'Blockly.scratchBlocksUtils', 'Blockly.ScrollbarPair', 'Blockly.Touch', 'Blockly.Trashcan', 'Blockly.Workspace', 'Blockly.WorkspaceAudio', 'Blockly.WorkspaceComment', 'Blockly.WorkspaceCommentSvg', 'Blockly.WorkspaceCommentSvg.render', 'Blockly.WorkspaceDragSurfaceSvg', 'Blockly.Xml', 'Blockly.ZoomControls', 'goog.array', 'goog.dom', 'goog.math.Coordinate', 'goog.userAgent', 'goog.math.Rect']);
 goog.addDependency("../../../" + dir + "/core/xml.js", ['Blockly.Xml'], ['Blockly.Events.BlockCreate', 'Blockly.Events.VarCreate', 'goog.asserts', 'goog.dom']);
-goog.addDependency("../../../" + dir + "/core/zoom_controls.js", ['Blockly.ZoomControls'], ['Blockly.Touch', 'goog.dom']);
+goog.addDependency("../../../" + dir + "/core/zoom_controls.js", [], []);
 goog.addDependency("../../third_party/closure/goog/base.js", [], []);
 goog.addDependency("../../third_party/closure/goog/deps.js", [], []);
 goog.addDependency("../../third_party/closure/goog/dojo/dom/query.js", ['goog.dom.query'], ['goog.array', 'goog.dom', 'goog.functions', 'goog.string', 'goog.userAgent']);
@@ -1190,7 +1190,6 @@ goog.require('Blockly.WorkspaceDragSurfaceSvg');
 goog.require('Blockly.WorkspaceDragger');
 goog.require('Blockly.WorkspaceSvg');
 goog.require('Blockly.Xml');
-goog.require('Blockly.ZoomControls');
 goog.require('Blockly.constants');
 goog.require('Blockly.inject');
 goog.require('Blockly.scratchBlocksUtils');

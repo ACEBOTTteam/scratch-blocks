@@ -226,7 +226,7 @@ Blockly.Touch.splitEventByTouches = function(e) {
 };
 
 
-Blockly.TouchGesture.prototype.handleTouchMove = function(e) {
+Blockly.Touch.handleTouchMove = function(e) {
   // 处理双指触控缩放逻辑
   if (e.touches.length === 2) {
 

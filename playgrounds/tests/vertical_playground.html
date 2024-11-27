@@ -97,53 +97,11 @@
           dragShadowOpacity: 0.6
         }
       });
-      let startDistance = 0; // 记录双指触摸开始时的距离
-let initialScale = 1; // 记录初始缩放比例
-
-const blocklyDiv = document.getElementById('blocklyDiv');
-
-// 监听双指触摸开始
-blocklyDiv.addEventListener('touchstart', (event) => {
-    if (event.touches.length === 2) {
-        // 计算两点之间的初始距离
-        const dx = event.touches[0].clientX - event.touches[1].clientX;
-        const dy = event.touches[0].clientY - event.touches[1].clientY;
-        startDistance = Math.sqrt(dx * dx + dy * dy);
-        initialScale = workspace.getScale(); // 获取当前工作区缩放比例
-    }
-});
-
-// 监听触摸移动（双指缩放）
-blocklyDiv.addEventListener('touchmove', (event) => {
-    if (event.touches.length === 2) {
-        event.preventDefault(); // 阻止默认的页面缩放行为
-
-        // 计算当前两点之间的距离
-        const dx = event.touches[0].clientX - event.touches[1].clientX;
-        const dy = event.touches[0].clientY - event.touches[1].clientY;
-        const currentDistance = Math.sqrt(dx * dx + dy * dy);
-
-        // 计算缩放比例的变化
-        const scaleChange = currentDistance / startDistance;
-        const newScale = initialScale * scaleChange;
-
-        // 限制缩放范围
-        const minScale = 0.25;
-        const maxScale = 4;
-        workspace.setScale(Math.min(maxScale, Math.max(minScale, newScale)));
-    }
-});
-
-// 监听触摸结束（重置状态）
-blocklyDiv.addEventListener('touchend', (event) => {
-    if (event.touches.length < 2) {
-        startDistance = 0;
-    }
-});
-
-       
 
 
+
+
+      
 
       if (sessionStorage) {
         // Restore previously displayed text.
