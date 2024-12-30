@@ -314,19 +314,14 @@ Blockly.Python.scrub_ = function(block, code) {
     // Add indent at start except custom function
     if (block.type !== 'procedures_definition'
       && block.type !== 'procedures_prototype') {
-      codeWithIndent = Blockly.Python.INDENT + codeWithIndent;
+      codeWithIndent = Blockly.Arduino.INDENT + codeWithIndent;
       if (commentCode !== '') {
-        commentCode = Blockly.Python.INDENT + commentCode;
+        commentCode = Blockly.Arduino.INDENT + commentCode;
       }
     }
-    if(block.type!=="WEB_SERVER_DISPOSE"){
-      codeWithIndent = codeWithIndent.replace(/\n/g, "\n" + Blockly.Python.INDENT);
-    }
+    codeWithIndent = codeWithIndent.replace(/\n/g, "\n" + Blockly.Arduino.INDENT);
     // Delet final indent
-    if(block.type!=="control_if_else"){
-      codeWithIndent = codeWithIndent.slice(0, codeWithIndent.length - 2);
-    }
-    
+    codeWithIndent = codeWithIndent.slice(0, codeWithIndent.length - 2);
   }
 
   var nextBlock = block.nextConnection && block.nextConnection.targetBlock();
@@ -354,7 +349,7 @@ Blockly.Python.quote_ = function(string) {
   // Can't use goog.string.quote since % must also be escaped.
   string = string.replace(/\\/g, '\\\\')
       .replace(/\n/g, '\\\n')
-      .replace(/%/g, '\\%')
+      .replace(/%/g, '\%')
       .replace(/'/g, '\\\'');
   return '\'' + string + '\'';
 };

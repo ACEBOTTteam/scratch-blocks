@@ -39,7 +39,7 @@ Blockly.Python['procedures_definition'] = function(block) {
       variablesName.push(Blockly.Python.variables_[x].slice(0, Blockly.Python.variables_[x].indexOf('=') - 1));
     }
     if (variablesName.length !== 0) {
-      code += Blockly.Python.INDENT + "global " + variablesName.join(', ') + "\n";
+      code += Blockly.Python.INDENT + "global " + variablesName.join(', ')+'\n\n';
     }
 
     code = Blockly.Python.scrub_(block, code);

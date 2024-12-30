@@ -102,7 +102,7 @@ Blockly.Python['control_wait_until'] = function(block) {
   var argument = Blockly.Python.valueToCode(block, 'CONDITION',
       Blockly.Python.ORDER_UNARY_POSTFIX) || 'False';
   var code = "while not " + argument + ":\n";
-  code += Blockly.Python.INDENT + "repeat()\n";
+  code+='  pass\n'
   return code;
 };
 
@@ -114,7 +114,10 @@ Blockly.Python['control_repeat_until'] = function(block) {
   branch = Blockly.Python.addLoopTrap(branch, block.id);
 
   var code = "while not " + argument + ":\n";
-  code += branch;
-  code += Blockly.Python.INDENT + "repeat()\n";
+  if (branch) {
+    code += branch;
+  } else {
+    code += "  pass\n";
+  }
   return code;
 };

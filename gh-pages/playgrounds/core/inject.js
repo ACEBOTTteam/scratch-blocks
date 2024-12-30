@@ -34,6 +34,7 @@ goog.require('Blockly.Grid');
 goog.require('Blockly.Options');
 goog.require('Blockly.WorkspaceSvg');
 goog.require('Blockly.WorkspaceDragSurfaceSvg');
+// goog.require('Blockly.BackpackAdapter');
 goog.require('goog.dom');
 goog.require('goog.ui.Component');
 goog.require('goog.userAgent');
@@ -78,6 +79,9 @@ Blockly.inject = function(container, opt_options) {
   Blockly.mainWorkspace = workspace;
 
   Blockly.svgResize(workspace);
+
+  Blockly.BackpackAdapter(workspace)
+
   return workspace;
 };
 

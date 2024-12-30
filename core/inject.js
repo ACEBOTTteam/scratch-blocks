@@ -78,6 +78,9 @@ Blockly.inject = function(container, opt_options) {
   Blockly.mainWorkspace = workspace;
 
   Blockly.svgResize(workspace);
+
+  Blockly.BackpackAdapter(workspace)
+
   return workspace;
 };
 

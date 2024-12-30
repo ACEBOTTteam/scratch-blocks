@@ -210,6 +210,11 @@
     "@babel/helper-validator-identifier" "^7.22.20"
     to-fast-properties "^2.0.0"
 
+"@blockly/workspace-backpack@^6.0.9":
+  version "6.0.9"
+  resolved "https://registry.npmmirror.com/@blockly/workspace-backpack/-/workspace-backpack-6.0.9.tgz#121df4b96c3035b47fd74873bdb2c0131481f190"
+  integrity sha512-ZWy01XH0Vgo/DGE5SorhFT0iuY1WbPQH1nn6hycQU30QJohpYiulD79AMBsGcNCp9Gbg60Atf02Wk7Y3FjXKww==
+
 "@jridgewell/gen-mapping@^0.3.0", "@jridgewell/gen-mapping@^0.3.2":
   version "0.3.3"
   resolved "https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.3.tgz"
