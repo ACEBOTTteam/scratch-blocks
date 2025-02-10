@@ -42,8 +42,6 @@ window.BLOCKLY_BOOT = function() {
       dir = window.BLOCKLY_DIR.match(/[^\/]+$/)[0];
     }
   }
-goog.addDependency("../../../" + dir + "/core/backpack_adapter.js", [], []);
-goog.addDependency("../../../" + dir + "/core/backpack_init.js", ['Blockly.BackpackAdapter'], []);
 goog.addDependency("../../../" + dir + "/core/block.js", ['Blockly.Block'], ['Blockly.Blocks', 'Blockly.Colours', 'Blockly.Comment', 'Blockly.ScratchBlockComment', 'Blockly.Connection', 'Blockly.Events.BlockChange', 'Blockly.Events.BlockCreate', 'Blockly.Events.BlockDelete', 'Blockly.Events.BlockMove', 'Blockly.Extensions', 'Blockly.FieldLabelSerializable', 'Blockly.FieldVariableGetter', 'Blockly.Input', 'Blockly.Mutator', 'Blockly.Warning', 'Blockly.Workspace', 'Blockly.Xml', 'goog.array', 'goog.asserts', 'goog.math.Coordinate', 'goog.string']);
 goog.addDependency("../../../" + dir + "/core/block_animations.js", ['Blockly.BlockAnimations'], []);
 goog.addDependency("../../../" + dir + "/core/block_drag_surface.js", ['Blockly.BlockDragSurfaceSvg'], ['Blockly.utils', 'goog.asserts', 'goog.math.Coordinate']);
@@ -51,7 +49,7 @@ goog.addDependency("../../../" + dir + "/core/block_dragger.js", ['Blockly.Block
 goog.addDependency("../../../" + dir + "/core/block_events.js", ['Blockly.Events.BlockBase', 'Blockly.Events.BlockChange', 'Blockly.Events.BlockCreate', 'Blockly.Events.BlockDelete', 'Blockly.Events.BlockMove', 'Blockly.Events.Change', 'Blockly.Events.Create', 'Blockly.Events.Delete', 'Blockly.Events.Move'], ['Blockly.Events', 'Blockly.Events.Abstract', 'goog.array', 'goog.math.Coordinate']);
 goog.addDependency("../../../" + dir + "/core/block_render_svg_vertical.js", ['Blockly.BlockSvg.render'], ['Blockly.BlockSvg', 'Blockly.scratchBlocksUtils', 'Blockly.utils', 'Svg']);
 goog.addDependency("../../../" + dir + "/core/block_svg.js", ['Blockly.BlockSvg'], ['Blockly.Block', 'Blockly.BlockAnimations', 'Blockly.ContextMenu', 'Blockly.Events.Ui', 'Blockly.Events.BlockMove', 'Blockly.Grid', 'Blockly.RenderedConnection', 'Blockly.scratchBlocksUtils', 'Blockly.Tooltip', 'Blockly.Touch', 'Blockly.utils', 'goog.Timer', 'goog.asserts', 'goog.dom', 'goog.math.Coordinate']);
-goog.addDependency("../../../" + dir + "/core/blockly.js", ['Blockly'], ['Blockly.BackpackAdapter', 'Blockly.BlockSvg.render', 'Blockly.DropDownDiv', 'Blockly.Events', 'Blockly.FieldAngle', 'Blockly.FieldCheckbox', 'Blockly.FieldColour', 'Blockly.FieldColourSlider', 'Blockly.FieldDropdown', 'Blockly.FieldIconMenu', 'Blockly.FieldImage', 'Blockly.FieldNote', 'Blockly.FieldTextInput', 'Blockly.FieldTextInputRemovable', 'Blockly.FieldTextDropdown', 'Blockly.FieldNumber', 'Blockly.FieldSlider', 'Blockly.FieldNumberDropdown', 'Blockly.FieldMatrix', 'Blockly.FieldVariable', 'Blockly.FieldVerticalSeparator', 'Blockly.Generator', 'Blockly.Msg', 'Blockly.Procedures', 'Blockly.ScratchMsgs', 'Blockly.Toolbox', 'Blockly.Touch', 'Blockly.WidgetDiv', 'Blockly.WorkspaceSvg', 'Blockly.constants', 'Blockly.inject', 'Blockly.utils', 'goog.color']);
+goog.addDependency("../../../" + dir + "/core/blockly.js", ['Blockly'], ['Blockly.BlockSvg.render', 'Blockly.DropDownDiv', 'Blockly.Events', 'Blockly.FieldAngle', 'Blockly.FieldCheckbox', 'Blockly.FieldColour', 'Blockly.FieldColourSlider', 'Blockly.FieldDropdown', 'Blockly.FieldIconMenu', 'Blockly.FieldImage', 'Blockly.FieldNote', 'Blockly.FieldTextInput', 'Blockly.FieldTextInputRemovable', 'Blockly.FieldTextDropdown', 'Blockly.FieldNumber', 'Blockly.FieldSlider', 'Blockly.FieldNumberDropdown', 'Blockly.FieldMatrix', 'Blockly.FieldVariable', 'Blockly.FieldVerticalSeparator', 'Blockly.Generator', 'Blockly.Msg', 'Blockly.Procedures', 'Blockly.ScratchMsgs', 'Blockly.Toolbox', 'Blockly.Touch', 'Blockly.WidgetDiv', 'Blockly.WorkspaceSvg', 'Blockly.constants', 'Blockly.inject', 'Blockly.utils', 'goog.color']);
 goog.addDependency("../../../" + dir + "/core/blocks.js", ['Blockly.Blocks'], []);
 goog.addDependency("../../../" + dir + "/core/bubble.js", ['Blockly.Bubble'], ['Blockly.Touch', 'Blockly.Workspace', 'goog.dom', 'goog.math.Coordinate', 'goog.userAgent']);
 goog.addDependency("../../../" + dir + "/core/bubble_dragger.js", ['Blockly.BubbleDragger'], ['Blockly.Bubble', 'Blockly.Events.CommentMove', 'Blockly.WorkspaceCommentSvg', 'goog.math.Coordinate', 'goog.asserts']);
@@ -1087,7 +1085,6 @@ goog.addDependency("window/window.js", ['goog.window'], ['goog.dom.TagName', 'go
 
 // Load Blockly.
 goog.require('Blockly');
-goog.require('Blockly.BackpackAdapter');
 goog.require('Blockly.Block');
 goog.require('Blockly.BlockAnimations');
 goog.require('Blockly.BlockDragSurfaceSvg');

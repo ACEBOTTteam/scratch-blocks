@@ -131,7 +131,7 @@ Blockly.Python['argument_reporter_number'] = function(block) {
   return [safeArgName, Blockly.Python.ORDER_ATOMIC];
 };
 
-Blockly.Python['argument_reporter_string'] = function(block) {
+Blockly.Python['argument_reporter_string_number'] = function(block) {
   var argName = block.getFieldValue('VALUE');
   var safeArgName = Blockly.Python.customFunctionsArgName_[argName];
   return [safeArgName, Blockly.Python.ORDER_ATOMIC];

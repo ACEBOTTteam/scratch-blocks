@@ -30,7 +30,6 @@
  **/
 goog.provide('Blockly');
 
-goog.require('Blockly.BackpackAdapter')
 goog.require('Blockly.BlockSvg.render');
 goog.require('Blockly.DropDownDiv');
 goog.require('Blockly.Events');
