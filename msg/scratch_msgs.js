@@ -3976,7 +3976,7 @@ Blockly.ScratchMsgs.locales["hi"] = {
     "ROBOT_SERIAL_PORT_BOOLEAN": "क्या सीरियल पोर्ट डेटा प्राप्त कर रहा है",
     "ROBOT_GET_SERIAL_PORT_DATA": "सीरियल पोर्ट प्राप्त करें %1",
     "ROBOT_SERIAL_PORT_NULL": "कोई अंतिम चिह्न नहीं",
-    "ROBOT_OPERATOR_SPLIT_STRING": "%2 को %1 से विभाजित करें और第%3项 प्राप्त करें",
+    "ROBOT_OPERATOR_SPLIT_STRING": "%2 को %1 से विभाजित करके इसका %3 वां भाग प्राप्त करें",
     "ROBOT_LIST_SET_TYPE": "%1 का डेटा प्रकार %2 के रूप में सेट करें",
     "ROBOT_ULTRAVIOLET_RAY": "अल्ट्रावायलेट सेंसर %1",
     "ROBOT_WIND_CUP": "विंड स्पीड मीटर %1",
