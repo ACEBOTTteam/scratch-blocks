@@ -139,6 +139,9 @@ Blockly.Arduino.init = function(workspace) {
   // printed in loop().
   Blockly.Arduino.loops_ = Object.create(null);
 
+  //Create a dictionary of custom variables
+  Blockly.Arduino.custom_variable_ = Object.create(null);
+
   if (!Blockly.Arduino.variableDB_) {
     Blockly.Arduino.variableDB_ =
       new Blockly.Names(Blockly.Arduino.RESERVED_WORDS_);
@@ -179,6 +182,11 @@ Blockly.Arduino.finish = function(code) {
   for (var name in Blockly.Arduino.includes_) {
     including.push(Blockly.Arduino.includes_[name]);
   }
+  //Convert the dictionary defined by the custom variable to an list
+  var customVariables = [];
+  for (var name in Blockly.Arduino.custom_variable_) {
+    customVariables.push(Blockly.Arduino.custom_variable_[name]);
+  }
   // Convert the definitions dictionary into a list.
   var definitions = [];
   for (var name in Blockly.Arduino.definitions_) {
@@ -204,6 +212,10 @@ Blockly.Arduino.finish = function(code) {
   // include
   if (including.length != 0) {
     ret += including.join('\n') + "\n\n";
+  }
+  // customVariables
+  if (customVariables.length != 0) {
+    ret += customVariables.join('\n') + "\n\n";
   }
   // definitions
   if (definitions.length != 0) {
