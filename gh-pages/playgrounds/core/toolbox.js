@@ -191,6 +191,7 @@ Blockly.Toolbox.prototype.init = function() {
 
   triggerIcon.setAttribute('src', Blockly.mainWorkspace.options.pathToMedia + 'hide.svg');
   triggerIcon.style.right = '-337px';
+  
   trigger.appendChild(triggerIcon);
   this.HtmlDiv.parentNode.insertBefore(trigger, this.HtmlDiv);
 

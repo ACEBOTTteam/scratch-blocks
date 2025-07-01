@@ -57,6 +57,7 @@ Blockly.Python['operator_compare'] = function(block) {
   var oplist = {
     "operator_gt": " > ",
     "operator_equals": " == ",
+    "operator_not_equal": " != ",
     "operator_lt": " < ",
     "operator_gte": " >= ",
     "operator_le": " <= "
@@ -83,6 +84,7 @@ Blockly.Python['operator_compare'] = function(block) {
 
 Blockly.Python['operator_gt'] = Blockly.Python['operator_compare'];
 Blockly.Python['operator_equals'] = Blockly.Python['operator_compare'];
+Blockly.Python['operator_not_equal'] = Blockly.Python['operator_compare'];
 Blockly.Python['operator_lt'] = Blockly.Python['operator_compare'];
 Blockly.Python['operator_gte'] = Blockly.Python['operator_compare'];
 Blockly.Python['operator_le'] = Blockly.Python['operator_compare'];

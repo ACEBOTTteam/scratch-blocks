@@ -165,6 +165,18 @@ Blockly.Css.CONTENT = [
     'z-index: 10;',
     'cursor: pointer;',
   '}',
+
+  '[dir="rtl"] .screenshotImg {',
+    'width: 32px;',
+    'height: 32px;',
+    'background-image: url(<<<PATH>>>/screenshot.png);',
+    'position: absolute;',
+    'top: 10px;',
+    'left: 10px;',
+    'z-index: 10;',
+    'cursor: pointer;',
+  '}',
+
   '.blocklyNonSelectable {',
     'user-select: none;',
     '-moz-user-select: none;',
@@ -1046,6 +1058,22 @@ Blockly.Css.CONTENT = [
     'height: 100%;',
   '}',
 
+  /* 显示、隐藏 flyout 的按钮 */
+  '[dir="rtl"] .blocklyToolboxTrigger {',
+    'display: flex;',
+    'justify-content: center;',
+    'align-items: center;',
+
+    'position: absolute;',
+    'top: 0;',
+    'left: 100%;',
+    'z-index: 20;',
+
+    'width: 0;',
+    'height: 100%;',
+    'transform: rotate(180deg);',
+  '}',
+
   '.blocklyToolboxTriggerIcon {',
     'display: block;',
     'position: absolute;',
@@ -1063,6 +1091,26 @@ Blockly.Css.CONTENT = [
     'position: absolute;',
     'top: 0;',
     'left: 0;',
+    'z-index: 50;',
+
+    'width: 310px;',
+    'height: 100%;',
+
+    'background-image: url(<<<PATH>>>/trash.png);',
+    'background-repeat: no-repeat !important;',
+    'background-position: 50% 50%;',
+    'background-size: 34px;',
+
+    'background-color: rgba(0, 0, 0, .3);',
+  '}',
+
+  '[dir="rtl"] .mxcTrash {',
+    'display: none;',
+
+    'position: absolute;',
+    'top: 0;',
+    'left: 100%;',
+    'transform: translate(-100%, 0);',
     'z-index: 50;',
 
     'width: 310px;',
