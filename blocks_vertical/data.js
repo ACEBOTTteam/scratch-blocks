@@ -167,6 +167,7 @@ Blockly.Blocks['data_settype'] = {
             ["char*","char*"],
             ["char","char"],
             ["String","String"],
+            ["boolean","bool"],
           ]
         }
       ],
