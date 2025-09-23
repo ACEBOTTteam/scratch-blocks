@@ -139,6 +139,7 @@ Blockly.Arduino.init = function(workspace) {
   // printed in loop().
   Blockly.Arduino.loops_ = Object.create(null);
 
+  Blockly.Arduino.html_ = Object.create(null);
   //Create a dictionary of custom variables
   Blockly.Arduino.custom_variable_ = Object.create(null);
 

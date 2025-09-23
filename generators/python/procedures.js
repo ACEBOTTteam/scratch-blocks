@@ -29,8 +29,9 @@ Blockly.Python['procedures_definition'] = function(block) {
   // Delet first indent.
   func = func.slice(2);
   var code = func + ':\n';
-
+  console.log(block,'block')
   var nextBlock = block.nextConnection && block.nextConnection.targetBlock();
+  console.log(nextBlock,'nextBlock')
   if (!nextBlock) {
     code += Blockly.Python.INDENT + "pass\n";
   } else {
