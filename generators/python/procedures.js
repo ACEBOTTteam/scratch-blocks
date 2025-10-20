@@ -22,27 +22,72 @@ goog.provide('Blockly.Python.procedures');
 
 goog.require('Blockly.Python');
 
+/**
+ * 递归收集给定积木及其子积木中使用到的变量
+ * @param {Blockly.Block} block - 要扫描的积木
+ * @param {Set<string>} vars - 用于收集变量名的集合
+ * @returns {Set<string>} 返回包含所有变量名的集合
+ */
+function collectVariablesFromBlock(block, vars = new Set()) {
+  if (!block) return vars;
+  // 检测变量积木类型
+  if (block.type === 'data_setvariableto' || block.type === 'data_changevariableby' || block.type === 'data_variable') {
+      const varID = block.getFieldValue('VARIABLE');
+      if (varID) {
+          const variable = block.workspace.getVariableById(varID);
+          if (variable){
+              const varName = variable.name;
+              if (varName) vars.add(varName);
+          }
+      }
+  }
 
-Blockly.Python['procedures_definition'] = function(block) {
+  // 遍历所有输入槽（如 if 条件、数学表达式、参数等）
+  for (const input of block.inputList) {
+      const target = input.connection && input.connection.targetBlock();
+      if (target) collectVariablesFromBlock(target, vars);
+  }
+
+  // 遍历嵌套语句块（如 if 的 DO、while 的 BODY）
+  if (block.getFirstStatementConnection) {
+      const firstStatementConn = block.getFirstStatementConnection();
+      if (firstStatementConn && firstStatementConn.targetBlock()) {
+          collectVariablesFromBlock(firstStatementConn.targetBlock(), vars);
+      }
+  }
+
+  // 遍历下一个连接块（顺序执行）
+  const next = block.getNextBlock();
+  if (next) collectVariablesFromBlock(next, vars);
+
+  return vars;
+}
+
+
+Blockly.Python['procedures_definition'] = function (block) {
   var func = Blockly.Python.statementToCode(block, 'custom_block');
 
   // Delet first indent.
   func = func.slice(2);
   var code = func + ':\n';
-  console.log(block,'block')
+
   var nextBlock = block.nextConnection && block.nextConnection.targetBlock();
-  console.log(nextBlock,'nextBlock')
+  const next = block.getNextBlock();
+  // 收集变量名（递归遍历整个语句链）
+  const vars = Array.from(collectVariablesFromBlock(next));
+
+  // 如果有变量，生成 global 声明
+  let globals = '';
+  if (vars.length > 0) {
+    globals = 'global ' + vars.join(', ') + '\n';
+  }
+
   if (!nextBlock) {
     code += Blockly.Python.INDENT + "pass\n";
   } else {
-    var variablesName = [];
-    for (var x in Blockly.Python.variables_) {
-      variablesName.push(Blockly.Python.variables_[x].slice(0, Blockly.Python.variables_[x].indexOf('=') - 1));
+    if(globals){
+      code += Blockly.Python.INDENT + globals;
     }
-    if (variablesName.length !== 0) {
-      code += Blockly.Python.INDENT + "global " + variablesName.join(', ')+'\n\n';
-    }
-
     code = Blockly.Python.scrub_(block, code);
   }
 
@@ -50,7 +95,7 @@ Blockly.Python['procedures_definition'] = function(block) {
   return null;
 };
 
-Blockly.Python['procedures_callback'] = function(block) {
+Blockly.Python['procedures_callback'] = function (block) {
   var funcName = block.getProcCode();
   funcName = funcName.replace(/ /g, '_');
   funcName = funcName.replace(/%n/g, 'N');
@@ -61,7 +106,7 @@ Blockly.Python['procedures_callback'] = function(block) {
   return [funcName, Blockly.Arduino.ORDER_ATOMIC];
 };
 
-Blockly.Python['procedures_call'] = function(block) {
+Blockly.Python['procedures_call'] = function (block) {
   // Generators can not automatic handle indefinite parameters. We should get
   // block.inputList and handle
   var funcName = block.getProcCode();
@@ -90,12 +135,12 @@ Blockly.Python['procedures_call'] = function(block) {
   return code;
 };
 
-Blockly.Python['procedures_prototype'] = function(block) {
+Blockly.Python['procedures_prototype'] = function (block) {
   var funcName = block.getProcCode();
   var argName = block.displayNames_;
   var argCode = [];
 
-  funcName = funcName.replace(/ /g,'_');
+  funcName = funcName.replace(/ /g, '_');
   for (var i = 0; i < argName.length; i++) {
     var ch = funcName.charAt(funcName.indexOf('%') + 1);
     var safeArgName = Blockly.Python.variableDB_.getName(argName[i], Blockly.Procedures.NAME_TYPE);
@@ -120,19 +165,19 @@ Blockly.Python['procedures_prototype'] = function(block) {
   return code;
 };
 
-Blockly.Python['argument_reporter_boolean'] = function(block) {
+Blockly.Python['argument_reporter_boolean'] = function (block) {
   var argName = block.getFieldValue('VALUE');
   var safeArgName = Blockly.Python.customFunctionsArgName_[argName];
   return [safeArgName, Blockly.Python.ORDER_ATOMIC];
 };
 
-Blockly.Python['argument_reporter_number'] = function(block) {
+Blockly.Python['argument_reporter_number'] = function (block) {
   var argName = block.getFieldValue('VALUE');
   var safeArgName = Blockly.Python.customFunctionsArgName_[argName];
   return [safeArgName, Blockly.Python.ORDER_ATOMIC];
 };
 
-Blockly.Python['argument_reporter_string_number'] = function(block) {
+Blockly.Python['argument_reporter_string_number'] = function (block) {
   var argName = block.getFieldValue('VALUE');
   var safeArgName = Blockly.Python.customFunctionsArgName_[argName];
   return [safeArgName, Blockly.Python.ORDER_ATOMIC];

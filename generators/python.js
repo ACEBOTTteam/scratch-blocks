@@ -251,6 +251,10 @@ Blockly.Python.finish = function(code) {
     ret = ret.replace(/ *repeat\(\)\n/g, '');
   }
 
+  if(Blockly.Python.firstLoop === true){
+    ret+='while True:\n  pass\n'
+  }
+
   // Clean up temporary data.
   delete Blockly.Python.imports_;
   delete Blockly.Python.libraries_;
