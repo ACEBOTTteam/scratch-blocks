@@ -34,10 +34,10 @@ function collectVariablesFromBlock(block, vars = new Set()) {
   if (block.type === 'data_setvariableto' || block.type === 'data_changevariableby' || block.type === 'data_variable') {
       const varID = block.getFieldValue('VARIABLE');
       if (varID) {
-          const variable = block.workspace.getVariableById(varID);
-          if (variable){
-              const varName = variable.name;
-              if (varName) vars.add(varName);
+          const name = Blockly.Python.variableDB_.getName(varID,
+            Blockly.Variables.NAME_TYPE)
+          if (name){
+              vars.add(name);
           }
       }
   }

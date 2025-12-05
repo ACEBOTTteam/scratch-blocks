@@ -568,6 +568,10 @@ Blockly.ScratchMsgs.locales["ar"] = {
     "ROBOT_html_height": "ارتفاع",
     "CATEGORY_ROBOTS_HTML": "تصميم المواقع",
     "ROBOT_operator_astrict": "تقييد القيمة القصوى لـ %1 إلى %2 والحد الأدنى إلى %3",
+    "ROBOT_HUMIDIFIER_V2": "مرطب الهواء V2%1%2",
+    "ROBOT_ULTRAVIOLET_RAY_V2": "مستشعر الأشعة فوق البنفسجية V2%1%2",
+    "ROBOT_ULTRASONIC_SENSOR_SEND": "قياس المسافة بالموجات فوق الصوتية (سم) دبوس Trig: %1 دبوس Echo: %2 إرسال",
+    "ROBOT_ULTRASONIC_SENSOR_TIME": "قياس المسافة بالموجات فوق الصوتية (سم) دبوس Trig: %1 دبوس Echo: %2 وقت الانتشار",
 }
 Blockly.ScratchMsgs.locales["cs"] = {
     "CONTROL_FOREVER": "opakuj stále",
@@ -1134,6 +1138,10 @@ Blockly.ScratchMsgs.locales["cs"] = {
     "ROBOT_html_height": "výška",
     "CATEGORY_ROBOTS_HTML": "webový design",
     "ROBOT_operator_astrict": "omezit maximální hodnotu %1 na %2 a minimální hodnotu na %3",
+    "ROBOT_HUMIDIFIER_V2": "zvlhčovač V2%1%2",
+    "ROBOT_ULTRAVIOLET_RAY_V2": "ultrafialový senzor V2%1%2",
+    "ROBOT_ULTRASONIC_SENSOR_SEND": "ultrazvukové měření vzdálenosti (cm) pin Trig: %1 pin Echo: %2 odeslat",
+    "ROBOT_ULTRASONIC_SENSOR_TIME": "ultrazvukové měření vzdálenosti (cm) pin Trig: %1 pin Echo: %2 doba šíření",
 }
 Blockly.ScratchMsgs.locales["de"] = {
     "CONTROL_FOREVER": "wiederhole fortlaufend",
@@ -1700,6 +1708,10 @@ Blockly.ScratchMsgs.locales["de"] = {
     "ROBOT_html_height": "höhe",
     "CATEGORY_ROBOTS_HTML": "webdesign",
     "ROBOT_operator_astrict": "begrenze den maximalwert von %1 auf %2 und den minimalwert auf %3",
+    "ROBOT_HUMIDIFIER_V2": "luftbefeuchter V2%1%2",
+    "ROBOT_ULTRAVIOLET_RAY_V2": "ultraviolettsensor V2%1%2",
+    "ROBOT_ULTRASONIC_SENSOR_SEND": "ultraschall abstandsmessung (cm) Trig-pin: %1 Echo-pin: %2 senden",
+    "ROBOT_ULTRASONIC_SENSOR_TIME": "ultraschall abstandsmessung (cm) Trig-pin: %1 Echo-pin: %2 ausbreitungszeit",
 }
 Blockly.ScratchMsgs.locales["en"] = {
     "CONTROL_FOREVER": "forever",
@@ -2266,6 +2278,10 @@ Blockly.ScratchMsgs.locales["en"] = {
     "ROBOT_html_height": "height",
     "CATEGORY_ROBOTS_HTML": "web design",
     "ROBOT_operator_astrict": "limit the maximum value of %1 to %2 and the minimum value to %3",
+    "ROBOT_HUMIDIFIER_V2": "humidifier V2%1%2",
+    "ROBOT_ULTRAVIOLET_RAY_V2": "ultraviolet sensor V2%1%2",
+    "ROBOT_ULTRASONIC_SENSOR_SEND": "ultrasonic distance measurement (cm) Trig pin: %1 Echo pin: %2 launch",
+    "ROBOT_ULTRASONIC_SENSOR_TIME": "ultrasonic distance measurement (cm) Trig pin: %1 Echo pin: %2 propagation time",
 }
 Blockly.ScratchMsgs.locales["es"] = {
     "CONTROL_FOREVER": "por siempre",
@@ -2832,6 +2848,10 @@ Blockly.ScratchMsgs.locales["es"] = {
     "ROBOT_html_height": "alto",
     "CATEGORY_ROBOTS_HTML": "diseño web",
     "ROBOT_operator_astrict": "limitar el valor máximo de %1 a %2 y el valor mínimo a %3",
+    "ROBOT_HUMIDIFIER_V2": "humidificador V2%1%2",
+    "ROBOT_ULTRAVIOLET_RAY_V2": "sensor ultravioleta V2%1%2",
+    "ROBOT_ULTRASONIC_SENSOR_SEND": "medición de distancia ultrasónica (cm) pin Trig: %1 pin Echo: %2 enviar",
+    "ROBOT_ULTRASONIC_SENSOR_TIME": "medición de distancia ultrasónica (cm) pin Trig: %1 pin Echo: %2 tiempo de propagación",
 }
 Blockly.ScratchMsgs.locales["fr"] = {
     "CONTROL_FOREVER": "répéter indéfiniment",
@@ -3398,6 +3418,10 @@ Blockly.ScratchMsgs.locales["fr"] = {
     "ROBOT_html_height": "hauteur",
     "CATEGORY_ROBOTS_HTML": "conception de site web",
     "ROBOT_operator_astrict": "limiter la valeur maximale de %1 à %2 et la valeur minimale à %3",
+    "ROBOT_HUMIDIFIER_V2": "humidificateur V2%1%2",
+    "ROBOT_ULTRAVIOLET_RAY_V2": "capteur ultraviolet V2%1%2",
+    "ROBOT_ULTRASONIC_SENSOR_SEND": "mesure de distance ultrasonique (cm) broche Trig: %1 broche Echo: %2 envoyer",
+    "ROBOT_ULTRASONIC_SENSOR_TIME": "mesure de distance ultrasonique (cm) broche Trig: %1 broche Echo: %2 temps de propagation",
 }
 Blockly.ScratchMsgs.locales["ko"] = {
     "CONTROL_FOREVER": "무한 반복하기",
@@ -3964,6 +3988,10 @@ Blockly.ScratchMsgs.locales["ko"] = {
     "ROBOT_html_height": "높이",
     "CATEGORY_ROBOTS_HTML": "웹 디자인",
     "ROBOT_operator_astrict": "%1의 최대값을 %2로, 최소값을 %3로 제한",
+    "ROBOT_HUMIDIFIER_V2": "가습기 V2%1%2",
+    "ROBOT_ULTRAVIOLET_RAY_V2": "자외선 센서 V2%1%2",
+    "ROBOT_ULTRASONIC_SENSOR_SEND": "초음파 거리 측정(cm) Trig 핀: %1 Echo 핀: %2 전송",
+    "ROBOT_ULTRASONIC_SENSOR_TIME": "초음파 거리 측정(cm) Trig 핀: %1 Echo 핀: %2 전파 시간",
 }
 Blockly.ScratchMsgs.locales["he"] = {
     "CONTROL_FOREVER": "לעולמים",
@@ -4528,6 +4556,10 @@ Blockly.ScratchMsgs.locales["he"] = {
     "ROBOT_html_height": "גובה",
     "CATEGORY_ROBOTS_HTML": "עיצוב אתרים",
     "ROBOT_operator_astrict": "הגבל את הערך המרבי של %1 ל-%2 ואת הערך המזערי ל-%3",
+    "ROBOT_HUMIDIFIER_V2": "מכשיר אדים V2%1%2",
+    "ROBOT_ULTRAVIOLET_RAY_V2": "חיישן קרינה אולטרה סגול V2%1%2",
+    "ROBOT_ULTRASONIC_SENSOR_SEND": "מדידת מרחק אולטרסוניקי (ס\"מ) פין Trig: %1 פין Echo: %2 שלח",
+    "ROBOT_ULTRASONIC_SENSOR_TIME": "מדידת מרחק אולטרסוניקי (ס\"מ) פין Trig: %1 פין Echo: %2 זמן הפצה"
 }
 Blockly.ScratchMsgs.locales["hi"] = {
     "CONTROL_FOREVER": "सदैव",
@@ -5092,6 +5124,10 @@ Blockly.ScratchMsgs.locales["hi"] = {
     "ROBOT_html_height": "ऊंचाई",
     "CATEGORY_ROBOTS_HTML": "वेब डिज़ाइन",
     "ROBOT_operator_astrict": "%1 का अधिकतम मान %2 और न्यूनतम मान %3 तक सीमित करें",
+    "ROBOT_HUMIDIFIER_V2": "ह्यूमिडिफायर V2%1%2",
+    "ROBOT_ULTRAVIOLET_RAY_V2": "पराबैंगनी सेंसर V2%1%2",
+    "ROBOT_ULTRASONIC_SENSOR_SEND": "अल्ट्रासोनिक दूरी मापन (सेमी) Trig पिन: %1 Echo पिन: %2 भेजें",
+    "ROBOT_ULTRASONIC_SENSOR_TIME": "अल्ट्रासोनिक दूरी मापन (सेमी) Trig पिन: %1 Echo पिन: %2 प्रसार समय",
 }
 Blockly.ScratchMsgs.locales["hr"] = {
     "CONTROL_FOREVER": "ponavljaj",
@@ -5658,6 +5694,10 @@ Blockly.ScratchMsgs.locales["hr"] = {
     "ROBOT_html_height": "visina",
     "CATEGORY_ROBOTS_HTML": "web dizajn",
     "ROBOT_operator_astrict": "ograniči maksimalnu vrijednost %1 na %2 i minimalnu vrijednost na %3",
+    "ROBOT_HUMIDIFIER_V2": "ovlaživač V2%1%2",
+    "ROBOT_ULTRAVIOLET_RAY_V2": "ultraljubičasti senzor V2%1%2",
+    "ROBOT_ULTRASONIC_SENSOR_SEND": "ultrazvučno mjerenje udaljenosti (cm) Trig pin: %1 Echo pin: %2 pošalji",
+    "ROBOT_ULTRASONIC_SENSOR_TIME": "ultrazvučno mjerenje udaljenosti (cm) Trig pin: %1 Echo pin: %2 vrijeme širenja",
 }
 Blockly.ScratchMsgs.locales["it"] = {
     "CONTROL_FOREVER": "per sempre",
@@ -6224,6 +6264,10 @@ Blockly.ScratchMsgs.locales["it"] = {
     "ROBOT_html_height": "altezza",
     "CATEGORY_ROBOTS_HTML": "progettazione web",
     "ROBOT_operator_astrict": "limitare il valore massimo di %1 a %2 e il valore minimo a %3",
+    "ROBOT_HUMIDIFIER_V2": "umidificatore V2%1%2",
+    "ROBOT_ULTRAVIOLET_RAY_V2": "sensore ultravioletti V2%1%2",
+    "ROBOT_ULTRASONIC_SENSOR_SEND": "misurazione distanza a ultrasuoni (cm) pin Trig: %1 pin Echo: %2 invia",
+    "ROBOT_ULTRASONIC_SENSOR_TIME": "misurazione distanza a ultrasuoni (cm) pin Trig: %1 pin Echo: %2 tempo di propagazione",
 }
 Blockly.ScratchMsgs.locales["nl"] = {
     "CONTROL_FOREVER": "herhaal",
@@ -6790,6 +6834,10 @@ Blockly.ScratchMsgs.locales["nl"] = {
     "ROBOT_html_height": "hoogte",
     "CATEGORY_ROBOTS_HTML": "webdesign",
     "ROBOT_operator_astrict": "beperk de maximale waarde van %1 tot %2 en de minimale waarde tot %3",
+    "ROBOT_HUMIDIFIER_V2": "luchtbevochtiger V2%1%2",
+    "ROBOT_ULTRAVIOLET_RAY_V2": "ultraviolet sensor V2%1%2",
+    "ROBOT_ULTRASONIC_SENSOR_SEND": "ultrasone afstandsmeting (cm) Trig pin: %1 Echo pin: %2 verzenden",
+    "ROBOT_ULTRASONIC_SENSOR_TIME": "ultrasone afstandsmeting (cm) Trig pin: %1 Echo pin: %2 propagatietijd",
 }
 Blockly.ScratchMsgs.locales["ja"] = {
     "CONTROL_FOREVER": "ずっと",
@@ -7356,6 +7404,10 @@ Blockly.ScratchMsgs.locales["ja"] = {
     "ROBOT_html_height": "高さ",
     "CATEGORY_ROBOTS_HTML": "ウェブデザイン",
     "ROBOT_operator_astrict": "%1の最大値を%2、最小値を%3に制限",
+    "ROBOT_HUMIDIFIER_V2": "加湿器V2%1%2",
+    "ROBOT_ULTRAVIOLET_RAY_V2": "紫外線センサーV2%1%2",
+    "ROBOT_ULTRASONIC_SENSOR_SEND": "超音波測距(cm) Trigピン: %1 Echoピン: %2 送信",
+    "ROBOT_ULTRASONIC_SENSOR_TIME": "超音波測距(cm) Trigピン: %1 Echoピン: %2 伝播時間",
 }
 Blockly.ScratchMsgs.locales["th"] = {
     "CONTROL_FOREVER": "วนซ้ำตลอด",
@@ -7922,6 +7974,10 @@ Blockly.ScratchMsgs.locales["th"] = {
     "ROBOT_html_height": "ความสูง",
     "CATEGORY_ROBOTS_HTML": "การออกแบบเว็บ",
     "ROBOT_operator_astrict": "จำกัดค่ามากสุดของ %1 เป็น %2 และค่าน้อยสุดเป็น %3",
+    "ROBOT_HUMIDIFIER_V2": "เครื่องเพิ่มความชื้น V2%1%2",
+    "ROBOT_ULTRAVIOLET_RAY_V2": "เซ็นเซอร์รังสีอัลตราไวโอเลต V2%1%2",
+    "ROBOT_ULTRASONIC_SENSOR_SEND": "วัดระยะด้วยอัลตราโซนิก (ซม.) Trig ขา: %1 Echo ขา: %2 ส่ง",
+    "ROBOT_ULTRASONIC_SENSOR_TIME": "วัดระยะด้วยอัลตราโซนิก (ซม.) Trig ขา: %1 Echo ขา: %2 เวลาแพร่กระจาย",
 }
 Blockly.ScratchMsgs.locales["pl"] = {
     "CONTROL_FOREVER": "zawsze",
@@ -8488,6 +8544,10 @@ Blockly.ScratchMsgs.locales["pl"] = {
     "ROBOT_html_height": "wysokość",
     "CATEGORY_ROBOTS_HTML": "projektowanie stron",
     "ROBOT_operator_astrict": "ogranicz maksymalną wartość %1 do %2 i minimalną wartość do %3",
+    "ROBOT_HUMIDIFIER_V2": "nawilżacz V2%1%2",
+    "ROBOT_ULTRAVIOLET_RAY_V2": "czujnik ultrafioletu V2%1%2",
+    "ROBOT_ULTRASONIC_SENSOR_SEND": "pomiary odległości ultradźwiękowej (cm) pin Trig: %1 pin Echo: %2 wyślij",
+    "ROBOT_ULTRASONIC_SENSOR_TIME": "pomiary odległości ultradźwiękowej (cm) pin Trig: %1 pin Echo: %2 czas propagacji",
 }
 Blockly.ScratchMsgs.locales["pt"] = {
     "CONTROL_FOREVER": "repete para sempre",
@@ -9054,6 +9114,10 @@ Blockly.ScratchMsgs.locales["pt"] = {
     "ROBOT_html_height": "altura",
     "CATEGORY_ROBOTS_HTML": "design de sites",
     "ROBOT_operator_astrict": "limitar o valor máximo de %1 a %2 e o valor mínimo a %3",
+    "ROBOT_HUMIDIFIER_V2": "umidificador V2%1%2",
+    "ROBOT_ULTRAVIOLET_RAY_V2": "sensor ultravioleta V2%1%2",
+    "ROBOT_ULTRASONIC_SENSOR_SEND": "medição de distância ultrassônica (cm) pino Trig: %1 pino Echo: %2 enviar",
+    "ROBOT_ULTRASONIC_SENSOR_TIME": "medição de distância ultrassônica (cm) pino Trig: %1 pino Echo: %2 tempo de propagação",
 }
 Blockly.ScratchMsgs.locales["ru"] = {
     "CONTROL_FOREVER": "повторять всегда",
@@ -9620,6 +9684,10 @@ Blockly.ScratchMsgs.locales["ru"] = {
     "ROBOT_html_height": "высота",
     "CATEGORY_ROBOTS_HTML": "веб-дизайн",
     "ROBOT_operator_astrict": "ограничить максимальное значение %1 до %2 и минимальное значение до %3",
+    "ROBOT_HUMIDIFIER_V2": "увлажнитель V2%1%2",
+    "ROBOT_ULTRAVIOLET_RAY_V2": "датчик ультрафиолета V2%1%2",
+    "ROBOT_ULTRASONIC_SENSOR_SEND": "ультразвуковое измерение расстояния (см) пин Trig: %1 пин Echo: %2 отправить",
+    "ROBOT_ULTRASONIC_SENSOR_TIME": "ультразвуковое измерение расстояния (см) пин Trig: %1 пин Echo: %2 время распространения",
 }
 Blockly.ScratchMsgs.locales["vi"] = {
     "CONTROL_FOREVER": "liên tục",
@@ -10184,6 +10252,10 @@ Blockly.ScratchMsgs.locales["vi"] = {
     "ROBOT_html_height": "chiều cao",
     "CATEGORY_ROBOTS_HTML": "thiết kế web",
     "ROBOT_operator_astrict": "giới hạn giá trị tối đa của %1 là %2 và giá trị tối thiểu là %3",
+    "ROBOT_HUMIDIFIER_V2": "máy tạo ẩm V2%1%2",
+    "ROBOT_ULTRAVIOLET_RAY_V2": "cảm biến tia cực tím V2%1%2",
+    "ROBOT_ULTRASONIC_SENSOR_SEND": "đo khoảng cách siêu âm (cm) chân Trig: %1 chân Echo: %2 gửi",
+    "ROBOT_ULTRASONIC_SENSOR_TIME": "đo khoảng cách siêu âm (cm) chân Trig: %1 chân Echo: %2 thời gian truyền",
 }
 Blockly.ScratchMsgs.locales["tr"] = {
     "CONTROL_FOREVER": "sürekli tekrarla",
@@ -10750,6 +10822,10 @@ Blockly.ScratchMsgs.locales["tr"] = {
     "ROBOT_html_height": "yükseklik",
     "CATEGORY_ROBOTS_HTML": "web tasarımı",
     "ROBOT_operator_astrict": "%1'in maksimum değerini %2, minimum değerini %3 ile sınırla",
+    "ROBOT_HUMIDIFIER_V2": "nemlendirici V2%1%2",
+    "ROBOT_ULTRAVIOLET_RAY_V2": "ultraviyole sensörü V2%1%2",
+    "ROBOT_ULTRASONIC_SENSOR_SEND": "ultrasonik mesafe ölçümü (cm) Trig pini: %1 Echo pini: %2 gönder",
+    "ROBOT_ULTRASONIC_SENSOR_TIME": "ultrasonik mesafe ölçümü (cm) Trig pini: %1 Echo pini: %2 yayılma süresi",
 }
 Blockly.ScratchMsgs.locales["zh-cn"] = {
     "CONTROL_FOREVER": "重复执行",
@@ -11314,6 +11390,10 @@ Blockly.ScratchMsgs.locales["zh-cn"] = {
     "ROBOT_html_height": "高",
     "CATEGORY_ROBOTS_HTML": "网页设计",
     "ROBOT_operator_astrict": "限制%1的最大值为%2,最小值为%3",
+    "ROBOT_HUMIDIFIER_V2": "加湿器V2%1%2",
+    "ROBOT_ULTRAVIOLET_RAY_V2": "紫外线传感器V2%1%2",
+    "ROBOT_ULTRASONIC_SENSOR_SEND": "超声波发射测距(cm)Trig管脚: %1 Echo管脚: %2 发射",
+    "ROBOT_ULTRASONIC_SENSOR_TIME": "超声波发射测距(cm)Trig管脚: %1 Echo管脚: %2 传播时间",
 }
 Blockly.ScratchMsgs.locales["zh-tw"] = {
     "CONTROL_FOREVER": "重複無限次",
@@ -11880,4 +11960,8 @@ Blockly.ScratchMsgs.locales["zh-tw"] = {
     "ROBOT_html_height": "高",
     "CATEGORY_ROBOTS_HTML": "網頁設計",
     "ROBOT_operator_astrict": "限制%1的最大值為%2,最小值為%3",
+    "ROBOT_HUMIDIFIER_V2": "加濕器V2%1%2",
+    "ROBOT_ULTRAVIOLET_RAY_V2": "紫外線感測器V2%1%2",
+    "ROBOT_ULTRASONIC_SENSOR_SEND": "超聲波發射測距(cm)Trig腳位: %1 Echo腳位: %2 發射",
+    "ROBOT_ULTRASONIC_SENSOR_TIME": "超聲波發射測距(cm)Trig腳位: %1 Echo腳位: %2 傳播時間",
 }
