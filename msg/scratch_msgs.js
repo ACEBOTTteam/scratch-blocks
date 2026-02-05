@@ -573,7 +573,7 @@ Blockly.ScratchMsgs.locales["ar"] = {
     "ROBOT_ULTRASONIC_SENSOR_SEND": "قياس المسافة بالموجات فوق الصوتية (سم) دبوس Trig: %1 دبوس Echo: %2 إرسال",
     "ROBOT_ULTRASONIC_SENSOR_TIME": "قياس المسافة بالموجات فوق الصوتية (سم) دبوس Trig: %1 دبوس Echo: %2 وقت الانتشار",
     "operator_take_inverse": "عكس قيمة %1",
-    "joystick_i2c": "قيمة عصا التحكم %1",
+    "joystick_i2c": "عنوان عصا التحكم I2C %1 الحصول على القيمة %2",
     "tilt_sensor": "مستشعر الميل %1",
     "hall_magnetic_sensor": "مستشعر هول %1",
     "ds1307_clock_module_init": "تهيئة وقت الساعة",
@@ -586,7 +586,9 @@ Blockly.ScratchMsgs.locales["ar"] = {
     "ds1307_clock_module_isRun": "هل وحدة الساعة تعمل",
     "ds1307_clock_module_isConnect": "هل وحدة الساعة متصلة",
     "html_setFontColor": "تعيين لون خط %1 إلى %2",
-    "P_Buzzer_frequency_time": "الجرس %1 التردد %2 المدة %3 s",
+    "P_Buzzer_frequency_time": "الطنّان %1 التردد %2 المدة %3 ms",
+    "Lattice_Screen_Show_Led": "عرض led%1",
+    "Lattice_Screen_show_img": "عرض صورة %1",
 }
 Blockly.ScratchMsgs.locales["cs"] = {
     "CONTROL_FOREVER": "opakuj stále",
@@ -1158,7 +1160,7 @@ Blockly.ScratchMsgs.locales["cs"] = {
     "ROBOT_ULTRASONIC_SENSOR_SEND": "ultrazvukové měření vzdálenosti (cm) pin Trig: %1 pin Echo: %2 odeslat",
     "ROBOT_ULTRASONIC_SENSOR_TIME": "ultrazvukové měření vzdálenosti (cm) pin Trig: %1 pin Echo: %2 doba šíření",
     "operator_take_inverse": "invertovat hodnotu %1",
-    "joystick_i2c": "hodnota joysticku %1",
+    "joystick_i2c": "adresa I2C joysticku %1 získat hodnotu %2",
     "tilt_sensor": "snímač náklonu %1",
     "hall_magnetic_sensor": "hallův snímač %1",
     "ds1307_clock_module_init": "inicializace času hodin",
@@ -1171,7 +1173,9 @@ Blockly.ScratchMsgs.locales["cs"] = {
     "ds1307_clock_module_isRun": "běží hodinový modul",
     "ds1307_clock_module_isConnect": "je hodinový modul připojen",
     "html_setFontColor": "nastavit barvu písma %1 na %2",
-    "P_Buzzer_frequency_time": "bzučák %1 frekvence %2 doba %3 s",
+    "P_Buzzer_frequency_time": "bzučák %1 frekvence %2 doba %3 ms",
+    "Lattice_Screen_Show_Led": "zobrazit led%1",
+    "Lattice_Screen_show_img": "zobrazit obrázek %1",
 }
 Blockly.ScratchMsgs.locales["de"] = {
     "CONTROL_FOREVER": "wiederhole fortlaufend",
@@ -1743,7 +1747,7 @@ Blockly.ScratchMsgs.locales["de"] = {
     "ROBOT_ULTRASONIC_SENSOR_SEND": "ultraschall abstandsmessung (cm) Trig-pin: %1 Echo-pin: %2 senden",
     "ROBOT_ULTRASONIC_SENSOR_TIME": "ultraschall abstandsmessung (cm) Trig-pin: %1 Echo-pin: %2 ausbreitungszeit",
     "operator_take_inverse": "wert von %1 invertieren",
-    "joystick_i2c": "joystick-wert %1",
+    "joystick_i2c": "I2C-joystick-adresse %1 wert %2 abrufen",
     "tilt_sensor": "neigungssensor %1",
     "hall_magnetic_sensor": "hall-sensor %1",
     "ds1307_clock_module_init": "uhrzeit initialisieren",
@@ -1756,7 +1760,9 @@ Blockly.ScratchMsgs.locales["de"] = {
     "ds1307_clock_module_isRun": "läuft das uhrenmodul",
     "ds1307_clock_module_isConnect": "ist das uhrenmodul verbunden",
     "html_setFontColor": "schriftfarbe von %1 auf %2 setzen",
-    "P_Buzzer_frequency_time": "summer %1 frequenz %2 dauer %3 s",
+    "P_Buzzer_frequency_time": "summer %1 frequenz %2 dauer %3 ms",
+    "Lattice_Screen_Show_Led": "led%1 anzeigen",
+    "Lattice_Screen_show_img": "bild %1 anzeigen",
 }
 Blockly.ScratchMsgs.locales["en"] = {
     "CONTROL_FOREVER": "forever",
@@ -2328,7 +2334,7 @@ Blockly.ScratchMsgs.locales["en"] = {
     "ROBOT_ULTRASONIC_SENSOR_SEND": "ultrasonic distance measurement (cm) Trig pin: %1 Echo pin: %2 send",
     "ROBOT_ULTRASONIC_SENSOR_TIME": "ultrasonic distance measurement (cm) Trig pin: %1 Echo pin: %2 propagation time",
     "operator_take_inverse": "invert the value of %1",
-    "joystick_i2c": "joystick %1 value",
+    "joystick_i2c": "I2C joystick address %1 get %2 value",
     "tilt_sensor": "tilt sensor %1",
     "hall_magnetic_sensor": "hall sensor %1",
     "ds1307_clock_module_init": "initialize clock time",
@@ -2341,7 +2347,9 @@ Blockly.ScratchMsgs.locales["en"] = {
     "ds1307_clock_module_isRun": "is the clock module running",
     "ds1307_clock_module_isConnect": "is the clock module connected",
     "html_setFontColor": "set %1 font color to %2",
-    "P_Buzzer_frequency_time": "buzzer %1 frequency %2 duration %3 s",
+    "P_Buzzer_frequency_time": "buzzer %1 frequency %2 duration %3 ms",
+    "Lattice_Screen_Show_Led": "display led%1",
+    "Lattice_Screen_show_img": "display image %1",
 }
 Blockly.ScratchMsgs.locales["es"] = {
     "CONTROL_FOREVER": "por siempre",
@@ -2913,7 +2921,7 @@ Blockly.ScratchMsgs.locales["es"] = {
     "ROBOT_ULTRASONIC_SENSOR_SEND": "medición de distancia ultrasónica (cm) pin Trig: %1 pin Echo: %2 enviar",
     "ROBOT_ULTRASONIC_SENSOR_TIME": "medición de distancia ultrasónica (cm) pin Trig: %1 pin Echo: %2 tiempo de propagación",
     "operator_take_inverse": "invertir el valor de %1",
-    "joystick_i2c": "valor del joystick %1",
+    "joystick_i2c": "dirección del joystick I2C %1 obtener valor %2",
     "tilt_sensor": "sensor de inclinación %1",
     "hall_magnetic_sensor": "sensor hall %1",
     "ds1307_clock_module_init": "inicializar hora del reloj",
@@ -2926,7 +2934,9 @@ Blockly.ScratchMsgs.locales["es"] = {
     "ds1307_clock_module_isRun": "el módulo de reloj está en funcionamiento",
     "ds1307_clock_module_isConnect": "el módulo de reloj está conectado",
     "html_setFontColor": "establecer el color de fuente de %1 en %2",
-    "P_Buzzer_frequency_time": "zumbador %1 frecuencia %2 duración %3 s",
+    "P_Buzzer_frequency_time": "zumbador %1 frecuencia %2 duración %3 ms",
+    "Lattice_Screen_Show_Led": "mostrar led%1",
+    "Lattice_Screen_show_img": "mostrar imagen %1",
 }
 Blockly.ScratchMsgs.locales["fr"] = {
     "CONTROL_FOREVER": "répéter indéfiniment",
@@ -3498,7 +3508,7 @@ Blockly.ScratchMsgs.locales["fr"] = {
     "ROBOT_ULTRASONIC_SENSOR_SEND": "mesure de distance ultrasonique (cm) broche Trig: %1 broche Echo: %2 envoyer",
     "ROBOT_ULTRASONIC_SENSOR_TIME": "mesure de distance ultrasonique (cm) broche Trig: %1 broche Echo: %2 temps de propagation",
     "operator_take_inverse": "inverser la valeur de %1",
-    "joystick_i2c": "valeur du joystick %1",
+    "joystick_i2c": "adresse du joystick I2C %1 obtenir la valeur %2",
     "tilt_sensor": "capteur d'inclinaison %1",
     "hall_magnetic_sensor": "capteur à effet hall %1",
     "ds1307_clock_module_init": "initialiser l'heure de l'horloge",
@@ -3511,7 +3521,9 @@ Blockly.ScratchMsgs.locales["fr"] = {
     "ds1307_clock_module_isRun": "le module d'horloge fonctionne-t-il",
     "ds1307_clock_module_isConnect": "le module d'horloge est-il connecté",
     "html_setFontColor": "définir la couleur de police de %1 sur %2",
-    "P_Buzzer_frequency_time": "buzzer %1 fréquence %2 durée %3 s",
+    "P_Buzzer_frequency_time": "buzzer %1 fréquence %2 durée %3 ms",
+    "Lattice_Screen_Show_Led": "afficher led%1",
+    "Lattice_Screen_show_img": "afficher l'image %1",
 }
 Blockly.ScratchMsgs.locales["ko"] = {
     "CONTROL_FOREVER": "무한 반복하기",
@@ -4083,7 +4095,7 @@ Blockly.ScratchMsgs.locales["ko"] = {
     "ROBOT_ULTRASONIC_SENSOR_SEND": "초음파 거리 측정(cm) Trig 핀: %1 Echo 핀: %2 전송",
     "ROBOT_ULTRASONIC_SENSOR_TIME": "초음파 거리 측정(cm) Trig 핀: %1 Echo 핀: %2 전파 시간",
     "operator_take_inverse": "%1 값을 반전",
-    "joystick_i2c": "조이스틱 %1 값",
+    "joystick_i2c": "I2C 조이스틱 주소 %1 %2 값 가져오기",
     "tilt_sensor": "기울기 센서 %1",
     "hall_magnetic_sensor": "홀 센서 %1",
     "ds1307_clock_module_init": "시계 시간 초기화",
@@ -4096,7 +4108,9 @@ Blockly.ScratchMsgs.locales["ko"] = {
     "ds1307_clock_module_isRun": "시계 모듈이 실행 중인가",
     "ds1307_clock_module_isConnect": "시계 모듈이 연결되었는가",
     "html_setFontColor": "%1 글꼴 색상을 %2로 설정",
-    "P_Buzzer_frequency_time": "부저 %1 주파수 %2 지속 시간 %3 s",
+    "P_Buzzer_frequency_time": "버저 %1 주파수 %2 지속 시간 %3 ms",
+    "Lattice_Screen_Show_Led": "led%1 표시",
+    "Lattice_Screen_show_img": "이미지 %1 표시",
 }
 Blockly.ScratchMsgs.locales["he"] = {
     "CONTROL_FOREVER": "לעולמים",
@@ -4666,7 +4680,7 @@ Blockly.ScratchMsgs.locales["he"] = {
     "ROBOT_ULTRASONIC_SENSOR_SEND": "מדידת מרחק אולטרסוניקי (ס\"מ) פין trig: %1 פין echo: %2 שלח",
     "ROBOT_ULTRASONIC_SENSOR_TIME": "מדידת מרחק אולטרסוניקי (ס\"מ) פין trig: %1 פין echo: %2 זמן הפצה",
     "operator_take_inverse": "הפוך את הערך של %1",
-    "joystick_i2c": "ערך ג'ויסטיק %1",
+    "joystick_i2c": "כתובת ג'ויסטיק I2C %1 קבלת ערך %2",
     "tilt_sensor": "חיישן הטיה %1",
     "hall_magnetic_sensor": "חיישן הול %1",
     "ds1307_clock_module_init": "אתחול זמן שעון",
@@ -4679,7 +4693,9 @@ Blockly.ScratchMsgs.locales["he"] = {
     "ds1307_clock_module_isRun": "האם מודול השעון פועל",
     "ds1307_clock_module_isConnect": "האם מודול השעון מחובר",
     "html_setFontColor": "הגדר צבע גופן של %1 ל־%2",
-    "P_Buzzer_frequency_time": "זמזם %1 תדר %2 משך %3 s",
+    "P_Buzzer_frequency_time": "באזר %1 תדר %2 משך %3 ms",
+    "Lattice_Screen_Show_Led": "הצג led%1",
+    "Lattice_Screen_show_img": "הצג תמונה %1",
 }
 Blockly.ScratchMsgs.locales["hi"] = {
     "CONTROL_FOREVER": "सदैव",
@@ -5249,7 +5265,7 @@ Blockly.ScratchMsgs.locales["hi"] = {
     "ROBOT_ULTRASONIC_SENSOR_SEND": "अल्ट्रासोनिक दूरी मापन (सेमी) Trig पिन: %1 Echo पिन: %2 भेजें",
     "ROBOT_ULTRASONIC_SENSOR_TIME": "अल्ट्रासोनिक दूरी मापन (सेमी) Trig पिन: %1 Echo पिन: %2 प्रसार समय",
     "operator_take_inverse": "%1 मान को उल्टा करें",
-    "joystick_i2c": "जॉयस्टिक %1 मान",
+    "joystick_i2c": "I2C जॉयस्टिक पता %1 %2 मान प्राप्त करें",
     "tilt_sensor": "झुकाव सेंसर %1",
     "hall_magnetic_sensor": "हॉल सेंसर %1",
     "ds1307_clock_module_init": "घड़ी समय प्रारंभ करें",
@@ -5262,7 +5278,9 @@ Blockly.ScratchMsgs.locales["hi"] = {
     "ds1307_clock_module_isRun": "क्या घड़ी मॉड्यूल चल रहा है",
     "ds1307_clock_module_isConnect": "क्या घड़ी मॉड्यूल जुड़ा है",
     "html_setFontColor": "%1 फ़ॉन्ट रंग को %2 पर सेट करें",
-    "P_Buzzer_frequency_time": "बज़र %1 आवृत्ति %2 अवधि %3 s",
+    "P_Buzzer_frequency_time": "बज़र %1 आवृत्ति %2 अवधि %3 ms",
+    "Lattice_Screen_Show_Led": "led%1 दिखाएं",
+    "Lattice_Screen_show_img": "छवि %1 दिखाएं",
 }
 Blockly.ScratchMsgs.locales["hr"] = {
     "CONTROL_FOREVER": "ponavljaj",
@@ -5834,7 +5852,7 @@ Blockly.ScratchMsgs.locales["hr"] = {
     "ROBOT_ULTRASONIC_SENSOR_SEND": "ultrazvučno mjerenje udaljenosti (cm) Trig pin: %1 Echo pin: %2 pošalji",
     "ROBOT_ULTRASONIC_SENSOR_TIME": "ultrazvučno mjerenje udaljenosti (cm) Trig pin: %1 Echo pin: %2 vrijeme širenja",
     "operator_take_inverse": "invertiraj vrijednost %1",
-    "joystick_i2c": "vrijednost joysticka %1",
+    "joystick_i2c": "adresa I2C joysticka %1 dohvati vrijednost %2",
     "tilt_sensor": "senzor nagiba %1",
     "hall_magnetic_sensor": "hall senzor %1",
     "ds1307_clock_module_init": "inicijalizacija vremena sata",
@@ -5847,7 +5865,9 @@ Blockly.ScratchMsgs.locales["hr"] = {
     "ds1307_clock_module_isRun": "radi li modul sata",
     "ds1307_clock_module_isConnect": "je li modul sata spojen",
     "html_setFontColor": "postavi boju fonta %1 na %2",
-    "P_Buzzer_frequency_time": "zujalica %1 frekvencija %2 trajanje %3 s",
+    "P_Buzzer_frequency_time": "zujalica %1 frekvencija %2 trajanje %3 ms",
+    "Lattice_Screen_Show_Led": "prikaži led%1",
+    "Lattice_Screen_show_img": "prikaži sliku %1",
 }
 Blockly.ScratchMsgs.locales["it"] = {
     "CONTROL_FOREVER": "per sempre",
@@ -6419,7 +6439,7 @@ Blockly.ScratchMsgs.locales["it"] = {
     "ROBOT_ULTRASONIC_SENSOR_SEND": "misurazione distanza a ultrasuoni (cm) pin Trig: %1 pin Echo: %2 invia",
     "ROBOT_ULTRASONIC_SENSOR_TIME": "misurazione distanza a ultrasuoni (cm) pin Trig: %1 pin Echo: %2 tempo di propagazione",
     "operator_take_inverse": "invertire il valore di %1",
-    "joystick_i2c": "valore joystick %1",
+    "joystick_i2c": "indirizzo joystick I2C %1 ottenere valore %2",
     "tilt_sensor": "sensore di inclinazione %1",
     "hall_magnetic_sensor": "sensore hall %1",
     "ds1307_clock_module_init": "inizializzare l'orario",
@@ -6432,7 +6452,9 @@ Blockly.ScratchMsgs.locales["it"] = {
     "ds1307_clock_module_isRun": "il modulo orologio è in esecuzione",
     "ds1307_clock_module_isConnect": "il modulo orologio è collegato",
     "html_setFontColor": "impostare il colore del carattere di %1 su %2",
-    "P_Buzzer_frequency_time": "cicalino %1 frequenza %2 durata %3 s",
+    "P_Buzzer_frequency_time": "buzzer %1 frequenza %2 durata %3 ms",
+    "Lattice_Screen_Show_Led": "mostra led%1",
+    "Lattice_Screen_show_img": "mostra immagine %1",
 }
 Blockly.ScratchMsgs.locales["nl"] = {
     "CONTROL_FOREVER": "herhaal",
@@ -7004,7 +7026,7 @@ Blockly.ScratchMsgs.locales["nl"] = {
     "ROBOT_ULTRASONIC_SENSOR_SEND": "ultrasone afstandsmeting (cm) Trig pin: %1 Echo pin: %2 verzenden",
     "ROBOT_ULTRASONIC_SENSOR_TIME": "ultrasone afstandsmeting (cm) Trig pin: %1 Echo pin: %2 propagatietijd",
     "operator_take_inverse": "waarde van %1 omkeren",
-    "joystick_i2c": "joystickwaarde %1",
+    "joystick_i2c": "I2C-joystickadres %1 waarde %2 ophalen",
     "tilt_sensor": "kantelsensor %1",
     "hall_magnetic_sensor": "hall-sensor %1",
     "ds1307_clock_module_init": "kloktijd initialiseren",
@@ -7017,7 +7039,9 @@ Blockly.ScratchMsgs.locales["nl"] = {
     "ds1307_clock_module_isRun": "is de klokmodule actief",
     "ds1307_clock_module_isConnect": "is de klokmodule verbonden",
     "html_setFontColor": "stel de letterkleur van %1 in op %2",
-    "P_Buzzer_frequency_time": "zoemer %1 frequentie %2 duur %3 s",
+    "P_Buzzer_frequency_time": "zoemer %1 frequentie %2 duur %3 ms",
+    "Lattice_Screen_Show_Led": "led%1 weergeven",
+    "Lattice_Screen_show_img": "afbeelding %1 weergeven",
 }
 Blockly.ScratchMsgs.locales["ja"] = {
     "CONTROL_FOREVER": "ずっと",
@@ -7589,7 +7613,7 @@ Blockly.ScratchMsgs.locales["ja"] = {
     "ROBOT_ULTRASONIC_SENSOR_SEND": "超音波測距(cm) Trigピン: %1 Echoピン: %2 送信",
     "ROBOT_ULTRASONIC_SENSOR_TIME": "超音波測距(cm) Trigピン: %1 Echoピン: %2 伝播時間",
     "operator_take_inverse": "%1の値を反転する",
-    "joystick_i2c": "ジョイスティック%1の値",
+    "joystick_i2c": "I2C ジョイスティックアドレス %1 の %2 値を取得",
     "tilt_sensor": "傾斜センサー%1",
     "hall_magnetic_sensor": "ホールセンサー%1",
     "ds1307_clock_module_init": "時計の初期化時間",
@@ -7602,7 +7626,9 @@ Blockly.ScratchMsgs.locales["ja"] = {
     "ds1307_clock_module_isRun": "時計モジュールは動作していますか",
     "ds1307_clock_module_isConnect": "時計モジュールは接続されていますか",
     "html_setFontColor": "%1 のフォント色を %2 に設定する",
-    "P_Buzzer_frequency_time": "ブザー %1 周波数 %2 持続時間 %3 s",
+    "P_Buzzer_frequency_time": "ブザー %1 周波数 %2 持続時間 %3 ms",
+    "Lattice_Screen_Show_Led": "led%1 を表示",
+    "Lattice_Screen_show_img": "画像 %1 を表示",
 }
 Blockly.ScratchMsgs.locales["th"] = {
     "CONTROL_FOREVER": "วนซ้ำตลอด",
@@ -8174,7 +8200,7 @@ Blockly.ScratchMsgs.locales["th"] = {
     "ROBOT_ULTRASONIC_SENSOR_SEND": "วัดระยะด้วยอัลตราโซนิก (ซม.) Trig ขา: %1 Echo ขา: %2 ส่ง",
     "ROBOT_ULTRASONIC_SENSOR_TIME": "วัดระยะด้วยอัลตราโซนิก (ซม.) Trig ขา: %1 Echo ขา: %2 เวลาแพร่กระจาย",
     "operator_take_inverse": "กลับค่าของ %1",
-    "joystick_i2c": "ค่าจอยสติ๊ก %1",
+    "joystick_i2c": "ที่อยู่จอยสติ๊ก I2C %1 รับค่า %2",
     "tilt_sensor": "เซ็นเซอร์เอียง %1",
     "hall_magnetic_sensor": "เซ็นเซอร์ฮอลล์ %1",
     "ds1307_clock_module_init": "เริ่มต้นเวลา นาฬิกา",
@@ -8187,7 +8213,9 @@ Blockly.ScratchMsgs.locales["th"] = {
     "ds1307_clock_module_isRun": "โมดูลนาฬิกากำลังทำงานหรือไม่",
     "ds1307_clock_module_isConnect": "โมดูลนาฬิกาเชื่อมต่อหรือไม่",
     "html_setFontColor": "ตั้งค่าสีตัวอักษรของ %1 เป็น %2",
-    "P_Buzzer_frequency_time": "บัซเซอร์ %1 ความถี่ %2 ระยะเวลา %3 s",
+    "P_Buzzer_frequency_time": "บัซเซอร์ %1 ความถี่ %2 ระยะเวลา %3 ms",
+    "Lattice_Screen_Show_Led": "แสดง led%1",
+    "Lattice_Screen_show_img": "แสดงรูปภาพ %1",
 }
 Blockly.ScratchMsgs.locales["pl"] = {
     "CONTROL_FOREVER": "zawsze",
@@ -8759,7 +8787,7 @@ Blockly.ScratchMsgs.locales["pl"] = {
     "ROBOT_ULTRASONIC_SENSOR_SEND": "pomiary odległości ultradźwiękowej (cm) pin Trig: %1 pin Echo: %2 wyślij",
     "ROBOT_ULTRASONIC_SENSOR_TIME": "pomiary odległości ultradźwiękowej (cm) pin Trig: %1 pin Echo: %2 czas propagacji",
     "operator_take_inverse": "odwróć wartość %1",
-    "joystick_i2c": "wartość joysticka %1",
+    "joystick_i2c": "adres joysticka I2C %1 pobierz wartość %2",
     "tilt_sensor": "czujnik nachylenia %1",
     "hall_magnetic_sensor": "czujnik halla %1",
     "ds1307_clock_module_init": "inicjalizacja czasu zegara",
@@ -8772,7 +8800,9 @@ Blockly.ScratchMsgs.locales["pl"] = {
     "ds1307_clock_module_isRun": "czy moduł zegara działa",
     "ds1307_clock_module_isConnect": "czy moduł zegara jest podłączony",
     "html_setFontColor": "ustaw kolor czcionki %1 na %2",
-    "P_Buzzer_frequency_time": "brzęczyk %1 częstotliwość %2 czas trwania %3 s",
+    "P_Buzzer_frequency_time": "brzęczyk %1 częstotliwość %2 czas trwania %3 ms",
+    "Lattice_Screen_Show_Led": "wyświetl led%1",
+    "Lattice_Screen_show_img": "wyświetl obraz %1",
 }
 Blockly.ScratchMsgs.locales["pt"] = {
     "CONTROL_FOREVER": "repete para sempre",
@@ -9344,7 +9374,7 @@ Blockly.ScratchMsgs.locales["pt"] = {
     "ROBOT_ULTRASONIC_SENSOR_SEND": "medição de distância ultrassônica (cm) pino Trig: %1 pino Echo: %2 enviar",
     "ROBOT_ULTRASONIC_SENSOR_TIME": "medição de distância ultrassônica (cm) pino Trig: %1 pino Echo: %2 tempo de propagação",
     "operator_take_inverse": "inverter o valor de %1",
-    "joystick_i2c": "valor do joystick %1",
+    "joystick_i2c": "endereço do joystick I2C %1 obter valor %2",
     "tilt_sensor": "sensor de inclinação %1",
     "hall_magnetic_sensor": "sensor hall %1",
     "ds1307_clock_module_init": "inicializar hora do relógio",
@@ -9357,7 +9387,9 @@ Blockly.ScratchMsgs.locales["pt"] = {
     "ds1307_clock_module_isRun": "o módulo do relógio está em execução",
     "ds1307_clock_module_isConnect": "o módulo do relógio está conectado",
     "html_setFontColor": "definir a cor da fonte de %1 para %2",
-    "P_Buzzer_frequency_time": "buzzer %1 frequência %2 duração %3 s",
+    "P_Buzzer_frequency_time": "buzzer %1 frequência %2 duração %3 ms",
+    "Lattice_Screen_Show_Led": "mostrar led%1",
+    "Lattice_Screen_show_img": "mostrar imagem %1",
 }
 Blockly.ScratchMsgs.locales["ru"] = {
     "CONTROL_FOREVER": "повторять всегда",
@@ -9929,7 +9961,7 @@ Blockly.ScratchMsgs.locales["ru"] = {
     "ROBOT_ULTRASONIC_SENSOR_SEND": "ультразвуковое измерение расстояния (см) пин Trig: %1 пин Echo: %2 отправить",
     "ROBOT_ULTRASONIC_SENSOR_TIME": "ультразвуковое измерение расстояния (см) пин Trig: %1 пин Echo: %2 время распространения",
     "operator_take_inverse": "инвертировать значение %1",
-    "joystick_i2c": "значение джойстика %1",
+    "joystick_i2c": "адрес I2C джойстика %1 получить значение %2",
     "tilt_sensor": "датчик наклона %1",
     "hall_magnetic_sensor": "датчик холла %1",
     "ds1307_clock_module_init": "инициализация времени часов",
@@ -9942,7 +9974,9 @@ Blockly.ScratchMsgs.locales["ru"] = {
     "ds1307_clock_module_isRun": "работает ли модуль часов",
     "ds1307_clock_module_isConnect": "подключен ли модуль часов",
     "html_setFontColor": "установить цвет шрифта %1 на %2",
-    "P_Buzzer_frequency_time": "зуммер %1 частота %2 длительность %3 s",
+    "P_Buzzer_frequency_time": "зуммер %1 частота %2 длительность %3 мс",
+    "Lattice_Screen_Show_Led": "показать led%1",
+    "Lattice_Screen_show_img": "показать изображение %1",
 }
 Blockly.ScratchMsgs.locales["vi"] = {
     "CONTROL_FOREVER": "liên tục",
@@ -10512,7 +10546,7 @@ Blockly.ScratchMsgs.locales["vi"] = {
     "ROBOT_ULTRASONIC_SENSOR_SEND": "đo khoảng cách siêu âm (cm) chân Trig: %1 chân Echo: %2 gửi",
     "ROBOT_ULTRASONIC_SENSOR_TIME": "đo khoảng cách siêu âm (cm) chân Trig: %1 chân Echo: %2 thời gian truyền",
     "operator_take_inverse": "đảo giá trị %1",
-    "joystick_i2c": "giá trị joystick %1",
+    "joystick_i2c": "địa chỉ joystick I2C %1 lấy giá trị %2",
     "tilt_sensor": "cảm biến nghiêng %1",
     "hall_magnetic_sensor": "cảm biến hall %1",
     "ds1307_clock_module_init": "khởi tạo thời gian đồng hồ",
@@ -10525,7 +10559,9 @@ Blockly.ScratchMsgs.locales["vi"] = {
     "ds1307_clock_module_isRun": "mô-đun đồng hồ có đang chạy không",
     "ds1307_clock_module_isConnect": "mô-đun đồng hồ có được kết nối không",
     "html_setFontColor": "đặt màu phông chữ của %1 thành %2",
-    "P_Buzzer_frequency_time": "còi %1 tần số %2 thời gian %3 s",
+    "P_Buzzer_frequency_time": "còi %1 tần số %2 thời lượng %3 ms",
+    "Lattice_Screen_Show_Led": "hiển thị led%1",
+    "Lattice_Screen_show_img": "hiển thị hình ảnh %1",
 }
 Blockly.ScratchMsgs.locales["tr"] = {
     "CONTROL_FOREVER": "sürekli tekrarla",
@@ -11097,7 +11133,7 @@ Blockly.ScratchMsgs.locales["tr"] = {
     "ROBOT_ULTRASONIC_SENSOR_SEND": "ultrasonik mesafe ölçümü (cm) Trig pini: %1 Echo pini: %2 gönder",
     "ROBOT_ULTRASONIC_SENSOR_TIME": "ultrasonik mesafe ölçümü (cm) Trig pini: %1 Echo pini: %2 yayılma süresi",
     "operator_take_inverse": "%1 değerini tersine çevir",
-    "joystick_i2c": "joystick %1 değeri",
+    "joystick_i2c": "I2C joystick adresi %1 %2 değerini al",
     "tilt_sensor": "eğim sensörü %1",
     "hall_magnetic_sensor": "hall sensörü %1",
     "ds1307_clock_module_init": "saat zamanını başlat",
@@ -11110,7 +11146,9 @@ Blockly.ScratchMsgs.locales["tr"] = {
     "ds1307_clock_module_isRun": "saat modülü çalışıyor mu",
     "ds1307_clock_module_isConnect": "saat modülü bağlı mı",
     "html_setFontColor": "%1 yazı tipi rengini %2 olarak ayarla",
-    "P_Buzzer_frequency_time": "buzzer %1 frekans %2 süre %3 s",
+    "P_Buzzer_frequency_time": "buzzer %1 frekans %2 süre %3 ms",
+    "Lattice_Screen_Show_Led": "led%1 göster",
+    "Lattice_Screen_show_img": "görüntü %1 göster",
 }
 Blockly.ScratchMsgs.locales["zh-cn"] = {
     "CONTROL_FOREVER": "重复执行",
@@ -11680,7 +11718,7 @@ Blockly.ScratchMsgs.locales["zh-cn"] = {
     "ROBOT_ULTRASONIC_SENSOR_SEND": "超声波发射测距(cm)Trig管脚: %1 Echo管脚: %2 发射",
     "ROBOT_ULTRASONIC_SENSOR_TIME": "超声波发射测距(cm)Trig管脚: %1 Echo管脚: %2 传播时间",
     "operator_take_inverse": "将%1值取反",
-    "joystick_i2c": "摇杆%1值",
+    "joystick_i2c": "I2C摇杆地址%1 获取%2值",
     "tilt_sensor": "倾斜传感器%1",
     "hall_magnetic_sensor": "霍尔传感器%1",
     "ds1307_clock_module_init": "时钟初始化时间",
@@ -11693,7 +11731,9 @@ Blockly.ScratchMsgs.locales["zh-cn"] = {
     "ds1307_clock_module_isRun": "时钟模块是否运行",
     "ds1307_clock_module_isConnect": "时钟模块是否连接",
     "html_setFontColor": "设置 %1 字体颜色为 %2",
-    "P_Buzzer_frequency_time": "蜂鸣器 %1 频率 %2 持续时间 %3 s",
+    "P_Buzzer_frequency_time": "蜂鸣器 %1 频率 %2 持续时间 %3 ms",
+    "Lattice_Screen_Show_Led": "显示 LED%1",
+    "Lattice_Screen_show_img": "显示图片 %1",
 }
 Blockly.ScratchMsgs.locales["zh-tw"] = {
     "CONTROL_FOREVER": "重複無限次",
@@ -12265,7 +12305,7 @@ Blockly.ScratchMsgs.locales["zh-tw"] = {
     "ROBOT_ULTRASONIC_SENSOR_SEND": "超聲波發射測距(cm)Trig腳位: %1 Echo腳位: %2 發射",
     "ROBOT_ULTRASONIC_SENSOR_TIME": "超聲波發射測距(cm)Trig腳位: %1 Echo腳位: %2 傳播時間",
     "operator_take_inverse": "將%1值取反",
-    "joystick_i2c": "搖桿%1值",
+    "joystick_i2c": "I2C 搖桿位址 %1 獲取 %2 值",
     "tilt_sensor": "傾斜感測器%1",
     "hall_magnetic_sensor": "霍爾感測器%1",
     "ds1307_clock_module_init": "時鐘初始化時間",
@@ -12278,5 +12318,7 @@ Blockly.ScratchMsgs.locales["zh-tw"] = {
     "ds1307_clock_module_isRun": "時鐘模組是否運行",
     "ds1307_clock_module_isConnect": "時鐘模組是否連接",
     "html_setFontColor": "設定 %1 字體顏色為 %2",
-    "P_Buzzer_frequency_time": "蜂鳴器 %1 頻率 %2 持續時間 %3 s",
+    "P_Buzzer_frequency_time": "蜂鳴器 %1 頻率 %2 持續時間 %3 ms",
+    "Lattice_Screen_Show_Led": "顯示 led%1",
+    "Lattice_Screen_show_img": "顯示圖片 %1",
 }
