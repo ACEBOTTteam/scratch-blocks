@@ -3950,7 +3950,7 @@ Blockly.ScratchMsgs.locales["ko"] = {
     "ROBOT_SECODE": "초",
     "ROBOT_WEEK": "요일",
     "ROBOT_TRAFFIC_LIGHT": "신호등 녹색%1%2 황색%3%4 빨간색%5%6",
-    "ROBOT_INFRARA_PROXIMITY": "赤外線 방해 감지 모듈 %1 장애물 감지 여부",
+    "ROBOT_INFRARA_PROXIMITY": "적외선 장애물 감지 모듈 %1이(가) 장애물을 감지했는지 여부",
     "ROBOT_OLED_SHOW": "OLED 디스플레이 화면",
     "ROBOT_OLED_INIT": "OLED 초기화",
     "ROBOT_GET_WEATHER_DATA": "%1 날씨 데이터 획득",
