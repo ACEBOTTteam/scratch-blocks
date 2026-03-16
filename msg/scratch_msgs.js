@@ -589,6 +589,10 @@ Blockly.ScratchMsgs.locales["ar"] = {
     "P_Buzzer_frequency_time": "الطنّان %1 التردد %2 المدة %3 ms",
     "Lattice_Screen_Show_Led": "عرض led%1",
     "Lattice_Screen_show_img": "عرض صورة %1",
+    "ESPNOW8266_INIT_MAC": "تهيئة ESP NOW",
+    "ESPNOW8266_SEND": "ESP NOW إرسال البيانات %2 إلى عنوان mac %1",
+    "ESPNOW8266_IS_GETDATA": "هل استلم ESP NOW البيانات",
+    "ESPNOW_SET_CHANNEL": "ESP NOW تعيين القناة %1",
 }
 Blockly.ScratchMsgs.locales["cs"] = {
     "CONTROL_FOREVER": "opakuj stále",
@@ -1176,6 +1180,10 @@ Blockly.ScratchMsgs.locales["cs"] = {
     "P_Buzzer_frequency_time": "bzučák %1 frekvence %2 doba %3 ms",
     "Lattice_Screen_Show_Led": "zobrazit led%1",
     "Lattice_Screen_show_img": "zobrazit obrázek %1",
+    "ESPNOW8266_INIT_MAC": "inicializace ESP NOW",
+    "ESPNOW8266_SEND": "ESP NOW odeslat data %2 na mac adresu %1",
+    "ESPNOW8266_IS_GETDATA": "obdržel ESP NOW data",
+    "ESPNOW_SET_CHANNEL": "ESP NOW nastavit kanál %1",
 }
 Blockly.ScratchMsgs.locales["de"] = {
     "CONTROL_FOREVER": "wiederhole fortlaufend",
@@ -1763,6 +1771,10 @@ Blockly.ScratchMsgs.locales["de"] = {
     "P_Buzzer_frequency_time": "summer %1 frequenz %2 dauer %3 ms",
     "Lattice_Screen_Show_Led": "led%1 anzeigen",
     "Lattice_Screen_show_img": "bild %1 anzeigen",
+    "ESPNOW8266_INIT_MAC": "ESP NOW initialisierung",
+    "ESPNOW8266_SEND": "ESP NOW daten %2 an mac-adresse %1 senden",
+    "ESPNOW8266_IS_GETDATA": "hat ESP NOW daten empfangen",
+    "ESPNOW_SET_CHANNEL": "ESP NOW kanal %1 festlegen",
 }
 Blockly.ScratchMsgs.locales["en"] = {
     "CONTROL_FOREVER": "forever",
@@ -2350,6 +2362,10 @@ Blockly.ScratchMsgs.locales["en"] = {
     "P_Buzzer_frequency_time": "buzzer %1 frequency %2 duration %3 ms",
     "Lattice_Screen_Show_Led": "display led%1",
     "Lattice_Screen_show_img": "display image %1",
+    "ESPNOW8266_INIT_MAC": "ESP NOW initialization",
+    "ESPNOW8266_SEND": "ESP NOW send data %2 to mac address %1",
+    "ESPNOW8266_IS_GETDATA": "has ESP NOW received data",
+    "ESPNOW_SET_CHANNEL": "ESP NOW set channel %1",
 }
 Blockly.ScratchMsgs.locales["es"] = {
     "CONTROL_FOREVER": "por siempre",
@@ -2937,6 +2953,10 @@ Blockly.ScratchMsgs.locales["es"] = {
     "P_Buzzer_frequency_time": "zumbador %1 frecuencia %2 duración %3 ms",
     "Lattice_Screen_Show_Led": "mostrar led%1",
     "Lattice_Screen_show_img": "mostrar imagen %1",
+    "ESPNOW8266_INIT_MAC": "inicialización ESP NOW",
+    "ESPNOW8266_SEND": "ESP NOW enviar datos %2 a la dirección mac %1",
+    "ESPNOW8266_IS_GETDATA": "ESP NOW ha recibido datos",
+    "ESPNOW_SET_CHANNEL": "ESP NOW establecer canal %1",
 }
 Blockly.ScratchMsgs.locales["fr"] = {
     "CONTROL_FOREVER": "répéter indéfiniment",
@@ -3524,6 +3544,10 @@ Blockly.ScratchMsgs.locales["fr"] = {
     "P_Buzzer_frequency_time": "buzzer %1 fréquence %2 durée %3 ms",
     "Lattice_Screen_Show_Led": "afficher led%1",
     "Lattice_Screen_show_img": "afficher l'image %1",
+    "ESPNOW8266_INIT_MAC": "initialisation ESP NOW",
+    "ESPNOW8266_SEND": "ESP NOW envoyer les données %2 à l'adresse mac %1",
+    "ESPNOW8266_IS_GETDATA": "ESP NOW a-t-il reçu des données",
+    "ESPNOW_SET_CHANNEL": "ESP NOW définir le canal %1",
 }
 Blockly.ScratchMsgs.locales["ko"] = {
     "CONTROL_FOREVER": "무한 반복하기",
@@ -4111,6 +4135,10 @@ Blockly.ScratchMsgs.locales["ko"] = {
     "P_Buzzer_frequency_time": "버저 %1 주파수 %2 지속 시간 %3 ms",
     "Lattice_Screen_Show_Led": "led%1 표시",
     "Lattice_Screen_show_img": "이미지 %1 표시",
+    "ESPNOW8266_INIT_MAC": "ESP NOW 초기화",
+    "ESPNOW8266_SEND": "ESP NOW mac 주소 %1로 데이터 %2 전송",
+    "ESPNOW8266_IS_GETDATA": "ESP NOW 데이터 수신 여부",
+    "ESPNOW_SET_CHANNEL": "ESP NOW 채널 %1 설정",
 }
 Blockly.ScratchMsgs.locales["he"] = {
     "CONTROL_FOREVER": "לעולמים",
@@ -4696,6 +4724,10 @@ Blockly.ScratchMsgs.locales["he"] = {
     "P_Buzzer_frequency_time": "באזר %1 תדר %2 משך %3 ms",
     "Lattice_Screen_Show_Led": "הצג led%1",
     "Lattice_Screen_show_img": "הצג תמונה %1",
+    "ESPNOW8266_INIT_MAC": "אתחול ESP NOW",
+    "ESPNOW8266_SEND": "ESP NOW שלח נתונים %2 לכתובת mac %1",
+    "ESPNOW8266_IS_GETDATA": "האם ESP NOW קיבל נתונים",
+    "ESPNOW_SET_CHANNEL": "ESP NOW הגדר ערוץ %1",
 }
 Blockly.ScratchMsgs.locales["hi"] = {
     "CONTROL_FOREVER": "सदैव",
@@ -5281,6 +5313,10 @@ Blockly.ScratchMsgs.locales["hi"] = {
     "P_Buzzer_frequency_time": "बज़र %1 आवृत्ति %2 अवधि %3 ms",
     "Lattice_Screen_Show_Led": "led%1 दिखाएं",
     "Lattice_Screen_show_img": "छवि %1 दिखाएं",
+    "ESPNOW8266_INIT_MAC": "ESP NOW आरंभ",
+    "ESPNOW8266_SEND": "ESP NOW mac पता %1 पर डेटा %2 भेजें",
+    "ESPNOW8266_IS_GETDATA": "क्या ESP NOW ने डेटा प्राप्त किया",
+    "ESPNOW_SET_CHANNEL": "ESP NOW चैनल %1 सेट करें",
 }
 Blockly.ScratchMsgs.locales["hr"] = {
     "CONTROL_FOREVER": "ponavljaj",
@@ -5868,6 +5904,10 @@ Blockly.ScratchMsgs.locales["hr"] = {
     "P_Buzzer_frequency_time": "zujalica %1 frekvencija %2 trajanje %3 ms",
     "Lattice_Screen_Show_Led": "prikaži led%1",
     "Lattice_Screen_show_img": "prikaži sliku %1",
+    "ESPNOW8266_INIT_MAC": "inicijalizacija ESP NOW",
+    "ESPNOW8266_SEND": "ESP NOW pošalji podatke %2 na mac adresu %1",
+    "ESPNOW8266_IS_GETDATA": "je li ESP NOW primio podatke",
+    "ESPNOW_SET_CHANNEL": "ESP NOW postavi kanal %1",
 }
 Blockly.ScratchMsgs.locales["it"] = {
     "CONTROL_FOREVER": "per sempre",
@@ -6455,6 +6495,10 @@ Blockly.ScratchMsgs.locales["it"] = {
     "P_Buzzer_frequency_time": "buzzer %1 frequenza %2 durata %3 ms",
     "Lattice_Screen_Show_Led": "mostra led%1",
     "Lattice_Screen_show_img": "mostra immagine %1",
+    "ESPNOW8266_INIT_MAC": "inizializzazione ESP NOW",
+    "ESPNOW8266_SEND": "ESP NOW invia dati %2 all'indirizzo mac %1",
+    "ESPNOW8266_IS_GETDATA": "ESP NOW ha ricevuto dati",
+    "ESPNOW_SET_CHANNEL": "ESP NOW imposta canale %1",
 }
 Blockly.ScratchMsgs.locales["nl"] = {
     "CONTROL_FOREVER": "herhaal",
@@ -7042,6 +7086,10 @@ Blockly.ScratchMsgs.locales["nl"] = {
     "P_Buzzer_frequency_time": "zoemer %1 frequentie %2 duur %3 ms",
     "Lattice_Screen_Show_Led": "led%1 weergeven",
     "Lattice_Screen_show_img": "afbeelding %1 weergeven",
+    "ESPNOW8266_INIT_MAC": "ESP NOW initialisatie",
+    "ESPNOW8266_SEND": "ESP NOW gegevens %2 verzenden naar mac-adres %1",
+    "ESPNOW8266_IS_GETDATA": "heeft ESP NOW gegevens ontvangen",
+    "ESPNOW_SET_CHANNEL": "ESP NOW kanaal %1 instellen",
 }
 Blockly.ScratchMsgs.locales["ja"] = {
     "CONTROL_FOREVER": "ずっと",
@@ -7629,6 +7677,10 @@ Blockly.ScratchMsgs.locales["ja"] = {
     "P_Buzzer_frequency_time": "ブザー %1 周波数 %2 持続時間 %3 ms",
     "Lattice_Screen_Show_Led": "led%1 を表示",
     "Lattice_Screen_show_img": "画像 %1 を表示",
+    "ESPNOW8266_INIT_MAC": "ESP NOW 初期化",
+    "ESPNOW8266_SEND": "ESP NOW がmacアドレス%1にデータ%2を送信",
+    "ESPNOW8266_IS_GETDATA": "ESP NOWはデータを受信しましたか",
+    "ESPNOW_SET_CHANNEL": "ESP NOW チャンネル%1を設定",
 }
 Blockly.ScratchMsgs.locales["th"] = {
     "CONTROL_FOREVER": "วนซ้ำตลอด",
@@ -8216,6 +8268,10 @@ Blockly.ScratchMsgs.locales["th"] = {
     "P_Buzzer_frequency_time": "บัซเซอร์ %1 ความถี่ %2 ระยะเวลา %3 ms",
     "Lattice_Screen_Show_Led": "แสดง led%1",
     "Lattice_Screen_show_img": "แสดงรูปภาพ %1",
+    "ESPNOW8266_INIT_MAC": "เริ่มต้น ESP NOW",
+    "ESPNOW8266_SEND": "ESP NOW ส่งข้อมูล %2 ไปยังที่อยู่ mac %1",
+    "ESPNOW8266_IS_GETDATA": "ESP NOW ได้รับข้อมูลหรือไม่",
+    "ESPNOW_SET_CHANNEL": "ESP NOW ตั้งค่าช่องสัญญาณ %1",
 }
 Blockly.ScratchMsgs.locales["pl"] = {
     "CONTROL_FOREVER": "zawsze",
@@ -8803,6 +8859,10 @@ Blockly.ScratchMsgs.locales["pl"] = {
     "P_Buzzer_frequency_time": "brzęczyk %1 częstotliwość %2 czas trwania %3 ms",
     "Lattice_Screen_Show_Led": "wyświetl led%1",
     "Lattice_Screen_show_img": "wyświetl obraz %1",
+    "ESPNOW8266_INIT_MAC": "inicjalizacja ESP NOW",
+    "ESPNOW8266_SEND": "ESP NOW wyślij dane %2 na adres mac %1",
+    "ESPNOW8266_IS_GETDATA": "czy ESP NOW odebrał dane",
+    "ESPNOW_SET_CHANNEL": "ESP NOW ustaw kanał %1",
 }
 Blockly.ScratchMsgs.locales["pt"] = {
     "CONTROL_FOREVER": "repete para sempre",
@@ -9390,6 +9450,10 @@ Blockly.ScratchMsgs.locales["pt"] = {
     "P_Buzzer_frequency_time": "buzzer %1 frequência %2 duração %3 ms",
     "Lattice_Screen_Show_Led": "mostrar led%1",
     "Lattice_Screen_show_img": "mostrar imagem %1",
+    "ESPNOW8266_INIT_MAC": "inicialização ESP NOW",
+    "ESPNOW8266_SEND": "ESP NOW enviar dados %2 para o endereço mac %1",
+    "ESPNOW8266_IS_GETDATA": "o ESP NOW recebeu dados",
+    "ESPNOW_SET_CHANNEL": "ESP NOW definir canal %1",
 }
 Blockly.ScratchMsgs.locales["ru"] = {
     "CONTROL_FOREVER": "повторять всегда",
@@ -9977,6 +10041,10 @@ Blockly.ScratchMsgs.locales["ru"] = {
     "P_Buzzer_frequency_time": "зуммер %1 частота %2 длительность %3 мс",
     "Lattice_Screen_Show_Led": "показать led%1",
     "Lattice_Screen_show_img": "показать изображение %1",
+    "ESPNOW8266_INIT_MAC": "инициализация ESP NOW",
+    "ESPNOW8266_SEND": "ESP NOW отправить данные %2 на mac-адрес %1",
+    "ESPNOW8266_IS_GETDATA": "получил ли ESP NOW данные",
+    "ESPNOW_SET_CHANNEL": "ESP NOW установить канал %1",
 }
 Blockly.ScratchMsgs.locales["vi"] = {
     "CONTROL_FOREVER": "liên tục",
@@ -10562,6 +10630,10 @@ Blockly.ScratchMsgs.locales["vi"] = {
     "P_Buzzer_frequency_time": "còi %1 tần số %2 thời lượng %3 ms",
     "Lattice_Screen_Show_Led": "hiển thị led%1",
     "Lattice_Screen_show_img": "hiển thị hình ảnh %1",
+    "ESPNOW8266_INIT_MAC": "khởi tạo ESP NOW",
+    "ESPNOW8266_SEND": "ESP NOW gửi dữ liệu %2 đến địa chỉ mac %1",
+    "ESPNOW8266_IS_GETDATA": "ESP NOW đã nhận dữ liệu chưa",
+    "ESPNOW_SET_CHANNEL": "ESP NOW đặt kênh %1",
 }
 Blockly.ScratchMsgs.locales["tr"] = {
     "CONTROL_FOREVER": "sürekli tekrarla",
@@ -11149,6 +11221,10 @@ Blockly.ScratchMsgs.locales["tr"] = {
     "P_Buzzer_frequency_time": "buzzer %1 frekans %2 süre %3 ms",
     "Lattice_Screen_Show_Led": "led%1 göster",
     "Lattice_Screen_show_img": "görüntü %1 göster",
+    "ESPNOW8266_INIT_MAC": "ESP NOW başlatma",
+    "ESPNOW8266_SEND": "ESP NOW mac adresi %1'e veri %2 gönder",
+    "ESPNOW8266_IS_GETDATA": "ESP NOW veri aldı mı",
+    "ESPNOW_SET_CHANNEL": "ESP NOW kanal %1 ayarla",
 }
 Blockly.ScratchMsgs.locales["zh-cn"] = {
     "CONTROL_FOREVER": "重复执行",
@@ -11734,6 +11810,10 @@ Blockly.ScratchMsgs.locales["zh-cn"] = {
     "P_Buzzer_frequency_time": "蜂鸣器 %1 频率 %2 持续时间 %3 ms",
     "Lattice_Screen_Show_Led": "显示 LED%1",
     "Lattice_Screen_show_img": "显示图片 %1",
+    "ESPNOW8266_INIT_MAC": "ESP NOW 初始化",
+    "ESPNOW8266_SEND": "ESP NOW 向mac地址%1发送数据%2",
+    "ESPNOW8266_IS_GETDATA": "ESP NOW是否接收到数据",
+    "ESPNOW_SET_CHANNEL": "ESP NOW 设置信道%1",
 }
 Blockly.ScratchMsgs.locales["zh-tw"] = {
     "CONTROL_FOREVER": "重複無限次",
@@ -12321,4 +12401,8 @@ Blockly.ScratchMsgs.locales["zh-tw"] = {
     "P_Buzzer_frequency_time": "蜂鳴器 %1 頻率 %2 持續時間 %3 ms",
     "Lattice_Screen_Show_Led": "顯示 led%1",
     "Lattice_Screen_show_img": "顯示圖片 %1",
+    "ESPNOW8266_INIT_MAC": "ESP NOW 初始化",
+    "ESPNOW8266_SEND": "ESP NOW 向mac地址%1發送數據%2",
+    "ESPNOW8266_IS_GETDATA": "ESP NOW是否接收到數據",
+    "ESPNOW_SET_CHANNEL": "ESP NOW 設置信道%1",
 }
